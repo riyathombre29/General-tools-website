@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | General Tools</title>
+
+  <!-- Immediate theme check to prevent flickering -->
+  <script src="js/theme.js"></script>
+  <!-- Multi-Brand Product Catalogs & Cart Engine -->
+  <script src="js/products-data.js"></script>
+  <script src="js/stanley-data.js"></script>
+  <script src="js/dewalt-data.js"></script>
+  <script src="js/cart-modal.js"></script>
+
+  <!-- Premium Modern Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            tech: ['"Space Grotesk"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              yellow: '#FFDE00',
+              yellowHover: '#E6C800',
+              dark: '#11161E',
+              darker: '#090D14',
+              surface: '#161E29',
+              glassLight: 'rgba(255, 255, 255, 0.70)',
+              glassDark: 'rgba(22, 30, 41, 0.72)',
+              borderLight: 'rgba(255, 255, 255, 0.60)',
+              borderDark: 'rgba(255, 255, 255, 0.08)'
+            }
+          },
+          boxShadow: {
+            'glass': '0 20px 40px -15px rgba(0, 0, 0, 0.05)',
+            'glass-dark': '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
+            'glow-yellow': '0 0 25px -5px rgba(255, 222, 0, 0.35)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Premium Modern Typography & Glassmorphism */
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      letter-spacing: -0.012em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      letter-spacing: -0.03em;
+    }
+
+    .font-tech {
+      font-family: 'Space Grotesk', monospace;
+    }
+
+    .glass-specular {
+      position: relative;
+    }
+
+    .glass-specular::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+      border-radius: 9999px;
+      pointer-events-none;
+    }
+
+    /* Ultra-Modern Apple Glassmorphic Header & Navigation */
+    .glass-header {
+      background: rgba(12, 17, 26, 0.60) !important;
+      backdrop-filter: blur(28px) saturate(190%);
+      -webkit-backdrop-filter: blur(28px) saturate(190%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .glass-capsule {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.22);
+    }
+
+    .glass-cta-btn {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 222, 0, 0.45);
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+    }
+    .glass-cta-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: #FFDE00;
+      box-shadow: 0 0 25px rgba(255, 222, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+
+<body
+  class="bg-slate-50 dark:bg-brand-darker text-slate-800 dark:text-slate-100 min-h-screen flex flex-col antialiased selection:bg-brand-yellow selection:text-black transition-colors duration-300">
+
+  <!-- SIGNATURE YELLOW TOP BAR -->
+  <div
+    class="bg-brand-yellow text-black text-[11px] font-black py-1 sm:py-1.5 px-4 sm:px-6 lg:px-8 uppercase tracking-wider shadow-sm z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <a href="mailto:enquiry@general.tools"
+          class="inline-flex items-center gap-1.5 hover:opacity-80 transition font-bold lowercase tracking-normal">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+          <span>enquiry@general.tools</span>
+        </a>
+      </div>
+      <div>
+        <a href="contact.html"
+          class="hover:opacity-80 transition font-black tracking-widest text-[11px] bg-black/10 hover:bg-black/15 px-3 py-0.5 sm:py-1 rounded-full">
+          CONTACT US &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODERN FROSTED GLASS HEADER (Apple Glassmorphic Style) -->
+  <header class="sticky top-0 z-40 glass-header transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+
+        <!-- Official Logo -->
+        <a href="index.html"
+          class="flex items-center space-x-2.5 group active:scale-95 transition-transform duration-200">
+          <img src="images/gt-logo.svg" alt="General" class="h-6 sm:h-7 w-auto">
+          <span
+            class="text-brand-yellow font-black text-xl sm:text-2xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[10px] sm:text-xs align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+        </a>
+
+        <!-- Desktop Navigation (iOS Segmented Glass Capsule) -->
+        <nav
+          class="hidden lg:flex items-center gap-1 glass-capsule p-1 rounded-full text-xs font-bold tracking-wider">
+          <a href="index.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Home</a>
+          <a href="products.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Products</a>
+          <a href="brands.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Brands</a>
+          <a href="parts.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Part No. Lookup</a>
+          <a href="contact.html"
+            class="bg-brand-yellow text-black px-5 py-2 rounded-full font-black shadow-[0_2px_12px_rgba(255,222,0,0.45)] transition-all inline-flex items-center justify-center leading-none">Contact Us</a>
+        </nav>
+
+        <!-- Right Controls (iOS Glass Icon Buttons) -->
+        <div class="flex items-center space-x-3">
+          <!-- Email Inquiry CTA -->
+          <a href="mailto:enquiry@general.tools"
+            class="hidden sm:inline-flex items-center justify-center gap-2 glass-cta-btn text-brand-yellow text-xs font-black px-4 py-2 rounded-full transition-all duration-300 active:scale-95 lowercase tracking-normal leading-none">
+            <i data-lucide="mail" class="w-3.5 h-3.5 shrink-0"></i>
+            <span>enquiry@general.tools</span>
+          </a>
+
+          <!-- Quote Request Drawer Button with Live Counter Badge -->
+          <button onclick="window.openCartDrawer()" class="relative p-2.5 rounded-full glass-capsule text-brand-yellow hover:bg-brand-yellow/15 transition-all duration-300 active:scale-90 flex items-center justify-center" aria-label="Quote Request">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            <span class="cart-count-badge hidden absolute -top-1 -right-1 bg-brand-yellow text-black text-[10px] font-black w-4 h-4 rounded-full flex items-center justify-center shadow-md">0</span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobile-menu-btn"
+            class="lg:hidden p-2 rounded-full glass-capsule text-slate-200 hover:text-white focus:outline-none active:scale-90 transition-transform"
+            aria-label="Toggle menu">
+            <i data-lucide="menu" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation (Frosted Glass Sheet) -->
+    <div id="mobile-menu"
+      class="hidden lg:hidden glass-header border-b border-white/[0.12] px-4 pt-3 pb-6 space-y-2 shadow-2xl transition-all">
+      <a href="index.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Home</a>
+      <a href="products.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Products</a>
+      <a href="brands.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Brands</a>
+      <a href="parts.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Part
+        No. Lookup</a>
+      <a href="contact.html"
+        class="block px-4 py-3 text-xs font-black text-black bg-brand-yellow rounded-2xl shadow-sm uppercase tracking-wider">Contact
+        Us</a>
+    </div>
+  </header>
+
+  <!-- PAGE HERO STAGE (Frosted Glass Stage) -->
+  <div
+    class="relative overflow-hidden py-10 sm:py-14 px-4 sm:px-6 lg:px-8 border-b border-black/[0.06] dark:border-white/[0.08] bg-slate-100/60 dark:bg-brand-dark/70 backdrop-blur-xl">
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <div
+        class="inline-flex items-center gap-2 backdrop-blur-md bg-brand-yellow/15 border border-brand-yellow/30 text-black dark:text-brand-yellow text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 shadow-sm">
+        <i data-lucide="headphones" class="w-3.5 h-3.5"></i>
+        <span>Direct Application Engineering Desk</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black text-slate-950 dark:text-white uppercase tracking-tight mb-4">
+        Contact General Tools
+      </h1>
+      <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-normal">
+        Looking for technical tool specifications, volume commercial discounts, or NIST traceable calibration
+        certificates? Connect with our US application desk.
+      </p>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- SIGNATURE WHITE SECTION: Main Contact Content   -->
+  <!-- ============================================== -->
+  <div class="bg-white text-slate-900 flex-1 flex flex-col justify-center border-b border-slate-200/80">
+    <!-- MAIN CONTACT CONTENT -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 flex-1 w-full bg-white">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+
+        <!-- Contact Cards Column (Frosted Glass Squircles) -->
+        <div class="space-y-4">
+
+          <!-- General Enquiries -->
+          <div
+            class="glass-specular backdrop-blur-xl bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-7 shadow-xl shadow-slate-200/60">
+            <div
+              class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-4 shadow-sm">
+              <i data-lucide="mail" class="w-6 h-6 text-amber-500"></i>
+            </div>
+            <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest">Direct Email Desk</h3>
+            <a href="mailto:enquiry@general.tools"
+              class="text-xl sm:text-2xl font-black text-slate-950 hover:text-amber-600 hover:underline mt-1 block lowercase tracking-normal">enquiry@general.tools</a>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Direct Customer, Technical & Sales Inquiries
+            </p>
+          </div>
+
+          <!-- Operating Schedule & Response -->
+          <div
+            class="glass-specular backdrop-blur-xl bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-7 shadow-xl shadow-slate-200/60">
+            <div
+              class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-4 shadow-sm">
+              <i data-lucide="clock" class="w-6 h-6 text-amber-500"></i>
+            </div>
+            <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest">Operating Schedule</h3>
+            <p class="text-base font-black text-slate-950 mt-1">Monday – Friday</p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              8:30 AM – 5:00 PM EST<br>
+              Typical response within 4 business hours.
+            </p>
+          </div>
+
+          <!-- Corporate Headquarters -->
+          <div
+            class="glass-specular backdrop-blur-xl bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-7 shadow-xl shadow-slate-200/60">
+            <div
+              class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-4 shadow-sm">
+              <i data-lucide="map-pin" class="w-6 h-6 text-amber-500"></i>
+            </div>
+            <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest">Corporate Headquarters</h3>
+            <p class="text-sm font-black text-slate-950 mt-1">General Tools & Instruments LLC</p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              75 Seaview Drive<br>
+              Secaucus, NJ 07094 USA
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Contact Message Form (Frosted Glass Sheet) -->
+        <div
+          class="lg:col-span-2 glass-specular backdrop-blur-xl bg-white border border-slate-200/90 rounded-3xl p-8 sm:p-12 shadow-xl shadow-slate-200/60">
+          <h2 class="text-2xl sm:text-3xl font-black text-slate-950 uppercase tracking-tight mb-2">Send
+            Direct Inquiry</h2>
+          <p class="text-xs sm:text-sm text-slate-600 mb-8 font-normal">
+            Fill out the details below and our technical applications desk will respond with specifications or a
+            quotation.
+          </p>
+
+          <form id="contact-form" onsubmit="handleContactSubmit(event)" class="space-y-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label
+                  class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Full
+                  Name *</label>
+                <input type="text" required placeholder="John Doe"
+                  class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl px-4 py-3.5 text-sm text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+              </div>
+              <div>
+                <label
+                  class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Work
+                  Email *</label>
+                <input type="email" required placeholder="john@company.com"
+                  class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl px-4 py-3.5 text-sm text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label
+                  class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Phone
+                  Number</label>
+                <input type="tel" placeholder="(555) 000-0000"
+                  class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl px-4 py-3.5 text-sm text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+              </div>
+              <div>
+                <label
+                  class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Part
+                  Number (Optional)</label>
+                <input type="text" id="contact-part-input" placeholder="e.g. MMD4E, DCS660, GT-147"
+                  class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl px-4 py-3.5 text-sm font-mono text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+              </div>
+            </div>
+
+            <div>
+              <label
+                class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Inquiry
+                Type</label>
+              <select
+                class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl px-4 py-3.5 text-sm text-slate-950 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+                <option value="commercial">Commercial / Volume B2B Quote</option>
+                <option value="specs">Technical Tool Specifications</option>
+                <option value="calibration">NIST Calibration Certificate Request</option>
+                <option value="parts">Replacement Parts & Accessories</option>
+                <option value="distributor">Authorized Distributor Inquiry</option>
+              </select>
+            </div>
+
+            <div>
+              <label
+                class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Message
+                Details *</label>
+              <textarea required rows="4"
+                placeholder="Please specify your project requirements, quantities, or technical questions..."
+                class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl p-4 text-sm text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition"></textarea>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+              <button type="submit" id="submit-btn"
+                class="w-full sm:w-auto bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-9 py-4 rounded-full text-sm transition-all duration-300 shadow-glow-yellow flex items-center justify-center gap-2 active:scale-95 leading-none">
+                <span>Submit Inquiry</span>
+                <i data-lucide="send" class="w-4 h-4"></i>
+              </button>
+              <span class="text-[11px] text-slate-500 font-medium text-center sm:text-right">
+                Protected by 256-bit SSL encryption.
+              </span>
+            </div>
+          </form>
+
+          <!-- Dynamic Success Banner -->
+          <div id="contact-success"
+            class="hidden mt-6 p-6 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-slate-950">
+            <div class="flex items-center gap-3">
+              <div
+                class="w-10 h-10 rounded-full bg-brand-yellow text-black flex items-center justify-center font-bold shrink-0">
+                <i data-lucide="check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-black text-sm uppercase tracking-wide">Inquiry Successfully Received</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Thank you! An application engineer will
+                  follow up with you within 4 business hours.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- FOOTER (Apple-Style Minimalist Frosted Glass Footer) -->
+  <footer
+    class="backdrop-blur-xl bg-white/50 dark:bg-brand-dark/90 border-t border-black/[0.06] dark:border-white/[0.08] py-12 text-slate-600 dark:text-slate-400 text-xs mt-auto transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+
+        <div class="flex items-center space-x-2.5">
+          <img src="images/gt-logo.svg" alt="General" class="h-5 sm:h-6 w-auto opacity-95">
+          <span
+            class="text-brand-yellow font-black text-lg sm:text-xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[9px] align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+          <span class="text-slate-400 opacity-40 ml-1">|</span>
+          <span class="text-slate-500 dark:text-slate-400 font-medium tracking-wide">Precision Instruments</span>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-center gap-6 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider text-xs">
+          <a href="index.html" class="hover:text-brand-yellow transition-colors">Home</a>
+          <a href="products.html" class="hover:text-brand-yellow transition-colors">Products</a>
+          <a href="brands.html" class="hover:text-brand-yellow transition-colors">Brands</a>
+          <a href="parts.html" class="hover:text-brand-yellow transition-colors">Part No. Lookup</a>
+          <a href="contact.html" class="hover:text-brand-yellow transition-colors">Contact Us</a>
+        </div>
+
+        <p class="text-slate-400 dark:text-slate-500 font-medium">&copy; 2026 General Tools & Instruments. All rights
+          reserved.</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Pre-fill parameters from URL if present (Cart checkout, Part inquiry, etc.)
+    const urlParams = new URLSearchParams(window.location.search);
+    const order = urlParams.get('order');
+    const part = urlParams.get('part');
+    const name = urlParams.get('name');
+
+    if (order) {
+      const msgInput = document.getElementById('contact-message');
+      if (msgInput) {
+        msgInput.value = `Commercial Quote Request for Selected Products:\n${order}\n\nPlease provide formal quotation, wholesale volume tiers, and delivery schedule.`;
+      }
+    } else if (part) {
+      const partInput = document.getElementById('contact-part-input');
+      if (partInput) partInput.value = part;
+      const msgInput = document.getElementById('contact-message');
+      if (msgInput && name) {
+        msgInput.value = `Requesting official pricing, dimensional specifications, and calibration lead-time for ${name} (Part #${part}).`;
+      }
+    }
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('contact-form');
+      const success = document.getElementById('contact-success');
+      form.classList.add('opacity-50', 'pointer-events-none');
+
+      setTimeout(() => {
+        form.reset();
+        form.classList.remove('opacity-50', 'pointer-events-none');
+        success.classList.remove('hidden');
+        if (window.lucide) lucide.createIcons();
+      }, 600);
+    }
+
+    // Mobile menu toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  </script>
+</body>
+
+</html>

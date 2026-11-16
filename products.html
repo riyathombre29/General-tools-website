@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Catalog | General Tools &amp; Instruments</title>
+
+  <!-- Immediate theme check to prevent flickering -->
+  <script src="js/theme.js"></script>
+  <!-- Multi-Brand Product Catalogs -->
+  <script src="js/products-data.js"></script>
+  <script src="js/stanley-data.js"></script>
+  <script src="js/dewalt-data.js"></script>
+  <!-- Shopping Cart & Modal Engine -->
+  <script src="js/cart-modal.js"></script>
+
+  <!-- Premium Modern Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            tech: ['"Space Grotesk"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              yellow: '#FFDE00',
+              yellowHover: '#E6C800',
+              dark: '#11161E',
+              darker: '#090D14',
+              surface: '#161E29',
+              glassLight: 'rgba(255, 255, 255, 0.70)',
+              glassDark: 'rgba(22, 30, 41, 0.72)',
+              borderLight: 'rgba(255, 255, 255, 0.60)',
+              borderDark: 'rgba(255, 255, 255, 0.08)'
+            }
+          },
+          boxShadow: {
+            'glow-yellow': '0 0 25px rgba(255, 222, 0, 0.35)',
+            'apple': '0 20px 40px -15px rgba(0,0,0,0.07)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* iOS / Apple Frosted Glass Styling */
+    .glass-header {
+      background: rgba(9, 13, 20, 0.82);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .glass-capsule {
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .glass-cta-btn {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .glass-cta-btn:hover {
+      background: rgba(255, 222, 0, 0.15);
+      border-color: rgba(255, 222, 0, 0.4);
+    }
+
+    .cat-pill.active {
+      background-color: #0f172a;
+      color: #ffffff;
+      border-color: #0f172a;
+    }
+
+    .brand-select-card {
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .brand-select-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .brand-select-card.active-brand {
+      border-color: #FFDE00 !important;
+      box-shadow: 0 0 0 2px #FFDE00, 0 20px 40px rgba(0, 0, 0, 0.12);
+    }
+  </style>
+</head>
+
+<body
+  class="bg-slate-50 dark:bg-brand-darker text-slate-800 dark:text-slate-100 min-h-screen flex flex-col antialiased selection:bg-brand-yellow selection:text-black transition-colors duration-300">
+
+  <!-- SIGNATURE YELLOW TOP BAR -->
+  <div
+    class="bg-brand-yellow text-black text-[11px] font-black py-1 sm:py-1.5 px-4 sm:px-6 lg:px-8 uppercase tracking-wider shadow-sm z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <a href="mailto:enquiry@general.tools"
+          class="inline-flex items-center gap-1.5 hover:opacity-80 transition font-bold lowercase tracking-normal">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+          <span>enquiry@general.tools</span>
+        </a>
+      </div>
+      <div>
+        <a href="contact.html"
+          class="hover:opacity-80 transition font-black tracking-widest text-[11px] bg-black/10 hover:bg-black/15 px-3 py-0.5 sm:py-1 rounded-full">
+          CONTACT US &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODERN FROSTED GLASS HEADER (Apple Glassmorphic Style) -->
+  <header class="sticky top-0 z-40 glass-header transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+
+        <!-- Official Logo -->
+        <a href="index.html"
+          class="flex items-center space-x-2.5 group active:scale-95 transition-transform duration-200">
+          <img src="images/gt-logo.svg" alt="General" class="h-6 sm:h-7 w-auto">
+          <span
+            class="text-brand-yellow font-black text-xl sm:text-2xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[10px] sm:text-xs align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+        </a>
+
+        <!-- Desktop Navigation (iOS Segmented Glass Capsule) -->
+        <nav class="hidden lg:flex items-center gap-1 glass-capsule p-1 rounded-full text-xs font-bold tracking-wider">
+          <a href="index.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Home</a>
+          <a href="products.html"
+            class="bg-brand-yellow text-black px-5 py-2 rounded-full font-black shadow-[0_2px_12px_rgba(255,222,0,0.45)] transition-all inline-flex items-center justify-center leading-none">Products</a>
+          <a href="brands.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Brands</a>
+          <a href="parts.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Part
+            No. Lookup</a>
+          <a href="contact.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Contact
+            Us</a>
+        </nav>
+
+        <!-- Right Quick Actions -->
+        <div class="flex items-center gap-2.5 sm:gap-3">
+          <a href="parts.html"
+            class="hidden sm:inline-flex items-center justify-center gap-2 glass-cta-btn text-brand-yellow text-xs font-black px-4 py-2 rounded-full transition-all duration-300 active:scale-95 uppercase tracking-wider leading-none">
+            <i data-lucide="search" class="w-3.5 h-3.5 shrink-0"></i>
+            <span>Part Lookup</span>
+          </a>
+
+          <!-- Quote Request Drawer Button with Live Counter Badge -->
+          <button onclick="window.openCartDrawer()"
+            class="relative p-2.5 rounded-full glass-capsule text-brand-yellow hover:bg-brand-yellow/15 transition-all duration-300 active:scale-90 flex items-center justify-center"
+            aria-label="Quote Request">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            <span
+              class="cart-count-badge hidden absolute -top-1 -right-1 bg-brand-yellow text-black text-[10px] font-black w-4 h-4 rounded-full flex items-center justify-center shadow-md">0</span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobile-menu-btn"
+            class="lg:hidden p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
+            aria-label="Toggle menu">
+            <i data-lucide="menu" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation (Frosted Glass Sheet) -->
+    <div id="mobile-menu"
+      class="hidden lg:hidden glass-header border-b border-white/[0.12] px-4 pt-3 pb-6 space-y-2 shadow-2xl transition-all">
+      <a href="index.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Home</a>
+      <a href="products.html"
+        class="block px-4 py-3 text-xs font-black text-black bg-brand-yellow rounded-2xl shadow-sm uppercase tracking-wider">Products</a>
+      <a href="brands.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Brands</a>
+      <a href="parts.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Part
+        No. Lookup</a>
+      <a href="contact.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Contact
+        Us</a>
+    </div>
+  </header>
+
+  <!-- PAGE HERO HEADER (Frosted Glass Stage) -->
+  <div
+    class="relative overflow-hidden py-8 sm:py-12 px-4 sm:px-6 lg:px-8 border-b border-black/[0.06] dark:border-white/[0.08] bg-slate-100/60 dark:bg-brand-dark/70 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
+      <div>
+        <div
+          class="flex items-center space-x-2 text-xs text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wider font-bold">
+          <a href="index.html" class="hover:text-brand-yellow transition">Home</a>
+          <span>/</span>
+          <span class="text-brand-yellow">Products</span>
+        </div>
+        <div
+          class="inline-flex items-center gap-2 backdrop-blur-md bg-brand-yellow/15 border border-brand-yellow/30 text-black dark:text-brand-yellow text-[11px] font-black uppercase tracking-widest px-3.5 py-1 rounded-full mb-3 shadow-xs">
+          <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow animate-pulse"></span>
+          <span>Authorized Multi-Brand Portfolio</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black text-slate-950 dark:text-white uppercase tracking-tight">
+          Products by Brand
+        </h1>
+        <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base mt-2 max-w-2xl font-normal leading-relaxed">
+          Select an authorized brand below to browse precision instruments, hardware tools, and accessories, view full
+          technical specifications, and add items to your commercial quote.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="brands.html"
+          class="backdrop-blur-xl bg-white/80 dark:bg-white/[0.08] hover:bg-white dark:hover:bg-white/[0.15] text-slate-900 dark:text-brand-yellow border border-black/[0.08] dark:border-brand-yellow/30 text-xs font-black uppercase tracking-wider px-5 py-3 rounded-full transition shadow-sm active:scale-95 flex items-center gap-2 leading-none">
+          <i data-lucide="award" class="w-4 h-4 shrink-0"></i>
+          <span>Brand Directory</span>
+        </a>
+        <button onclick="window.openCartDrawer()"
+          class="bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-5 py-3 rounded-full transition shadow-sm active:scale-95 flex items-center gap-2 leading-none">
+          <i data-lucide="file-text" class="w-4 h-4 shrink-0"></i>
+          <span>Quote Request</span><span
+            class="cart-count-badge hidden ml-1 bg-black text-white text-[10px] font-black px-1.5 py-0.5 rounded-full">0</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- SIGNATURE WHITE SECTION: Catalog Stage         -->
+  <!-- ============================================== -->
+  <div class="bg-white text-slate-900 flex-1 flex flex-col justify-start">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 w-full">
+
+      <!-- ============================================== -->
+      <!-- STEP 1: BRANDS SELECTION (SHOWN FIRST)         -->
+      <!-- ============================================== -->
+      <section id="brands-selection-section" class="scroll-mt-24">
+
+        <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-900 text-xs font-black uppercase tracking-widest mb-3">
+            <i data-lucide="layers" class="w-4 h-4 text-brand-yellow"></i>
+            <span>Select Brand To View Products</span>
+          </div>
+          <h2 class="text-2xl sm:text-4xl font-black text-slate-950 uppercase tracking-tight">
+            Our Authorized Brands
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Click on any brand below to view their complete official catalog, technical specifications, and add to quote.
+          </p>
+        </div>
+
+        <!-- 3 Brand Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 sm:gap-8">
+
+          <!-- 1. General Tools Brand Card -->
+          <div id="brand-card-general-tools" onclick="selectBrand('general-tools')"
+            class="brand-select-card cursor-pointer group bg-white border-2 border-slate-200/90 hover:border-brand-yellow rounded-[2rem] overflow-hidden transition-all duration-300 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(255,222,0,0.22)] flex flex-col justify-between">
+            <div>
+              <div class="h-56 sm:h-60 w-full overflow-hidden bg-slate-950 relative">
+                <img src="images/detection-feature.webp" alt="General Tools"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+                <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                  <span
+                    class="backdrop-blur-xl bg-black/60 border border-white/20 text-brand-yellow text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow animate-pulse"></span>
+                    <span>27 Products Ready</span>
+                  </span>
+                  <span
+                    class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
+                    <i data-lucide="arrow-down-right" class="w-4 h-4"></i>
+                  </span>
+                </div>
+
+                <div class="absolute bottom-5 left-5 right-5">
+                  <span class="text-brand-yellow text-[11px] font-black uppercase tracking-widest block mb-1">Flagship
+                    Metrology</span>
+                  <h3
+                    class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                    GENERAL TOOLS<span class="text-xs align-super ml-1 font-bold text-brand-yellow">&reg;</span>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span
+                    class="bg-amber-50 text-amber-900 border border-brand-yellow/30 text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">Moisture
+                    Meters</span>
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Borescopes</span>
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Calipers</span>
+                </div>
+                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
+                  Pioneering precision instruments for over a century. Industry-standard pin moisture meters, infrared
+                  thermometers, video borescopes, and machinists' calipers.
+                </p>
+                <div
+                  class="bg-amber-50/70 border border-brand-yellow/40 rounded-xl p-3 text-xs text-slate-800 flex items-center justify-between">
+                  <span class="font-bold text-slate-700 uppercase tracking-wider text-[10px]">Catalog Inventory</span>
+                  <span class="font-black text-black">27 Complete Tools</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-6 pt-0">
+              <button type="button"
+                class="w-full py-3.5 px-5 rounded-2xl bg-brand-yellow hover:bg-brand-yellowHover text-black flex items-center justify-between transition-all duration-300 font-black text-xs uppercase tracking-wider shadow-glow-yellow">
+                <span>View General Tools (27) &darr;</span>
+                <i data-lucide="arrow-down" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. Stanley Brand Card -->
+          <div id="brand-card-stanley" onclick="selectBrand('stanley')"
+            class="brand-select-card cursor-pointer group bg-white border-2 border-slate-200/90 hover:border-slate-900 rounded-[2rem] overflow-hidden transition-all duration-300 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+            <div>
+              <div class="h-56 sm:h-60 w-full overflow-hidden bg-slate-950 relative">
+                <img src="images/precision-measuring-feature.webp" alt="Stanley"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+                <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                  <span
+                    class="backdrop-blur-xl bg-black/60 border border-white/20 text-[#FFE000] text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#FFE000]"></span>
+                    <span>1,639 Products Ready</span>
+                  </span>
+                  <span
+                    class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
+                    <i data-lucide="arrow-down-right" class="w-4 h-4"></i>
+                  </span>
+                </div>
+
+                <div class="absolute bottom-5 left-5 right-5">
+                  <span class="text-[#FFE000] text-[11px] font-black uppercase tracking-widest block mb-1">Contractor
+                    Heritage</span>
+                  <h3
+                    class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                    STANLEY<span class="text-xs align-super ml-1 font-bold text-[#FFE000]">&reg;</span>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Tool
+                    Sets</span>
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Spanners</span>
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Storage</span>
+                </div>
+                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
+                  The gold standard in jobsite hand tools, FatMax® standout tapes, spanner sets, roller cabinets, and
+                  commercial hardware.
+                </p>
+                <div
+                  class="bg-slate-50 border border-slate-200/80 rounded-xl p-3 text-xs text-slate-600 flex items-center justify-between">
+                  <span class="font-bold text-slate-500 uppercase tracking-wider text-[10px]">Catalog Inventory</span>
+                  <span class="font-black text-slate-900">1,639 Complete Tools</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-6 pt-0">
+              <button type="button"
+                class="w-full py-3.5 px-5 rounded-2xl bg-slate-950 hover:bg-brand-yellow text-white hover:text-black flex items-center justify-between transition-all duration-300 font-black text-xs uppercase tracking-wider">
+                <span>View Stanley Catalog (1,639) &darr;</span>
+                <i data-lucide="arrow-down" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. DeWalt Brand Card -->
+          <div id="brand-card-dewalt" onclick="selectBrand('dewalt')"
+            class="brand-select-card cursor-pointer group bg-white border-2 border-slate-200/90 hover:border-slate-900 rounded-[2rem] overflow-hidden transition-all duration-300 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+            <div>
+              <div class="h-56 sm:h-60 w-full overflow-hidden bg-slate-950 relative">
+                <img src="images/hobby-woodwork-feature.webp" alt="DeWalt"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+                <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                  <span
+                    class="backdrop-blur-xl bg-black/60 border border-white/20 text-[#FEB827] text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#FEB827]"></span>
+                    <span>286 Products Ready</span>
+                  </span>
+                  <span
+                    class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
+                    <i data-lucide="arrow-down-right" class="w-4 h-4"></i>
+                  </span>
+                </div>
+
+                <div class="absolute bottom-5 left-5 right-5">
+                  <span class="text-[#FEB827] text-[11px] font-black uppercase tracking-widest block mb-1">Guaranteed
+                    Tough&reg;</span>
+                  <h3
+                    class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                    DEWALT<span class="text-xs align-super ml-1 font-bold text-[#FEB827]">&reg;</span>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Socket
+                    Sets</span>
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Lasers
+                    &amp; Levels</span>
+                  <span
+                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Accessories</span>
+                </div>
+                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
+                  Heavy-duty industrial mechanics tool sets, impact sockets, laser distance measures, ToughSystem
+                  storage, and demolition accessories.
+                </p>
+                <div
+                  class="bg-slate-50 border border-slate-200/80 rounded-xl p-3 text-xs text-slate-600 flex items-center justify-between">
+                  <span class="font-bold text-slate-500 uppercase tracking-wider text-[10px]">Catalog Inventory</span>
+                  <span class="font-black text-slate-900">286 Complete Tools</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-6 pt-0">
+              <button type="button"
+                class="w-full py-3.5 px-5 rounded-2xl bg-slate-950 hover:bg-brand-yellow text-white hover:text-black flex items-center justify-between transition-all duration-300 font-black text-xs uppercase tracking-wider">
+                <span>View DeWalt Catalog (286) &darr;</span>
+                <i data-lucide="arrow-down" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======================================================= -->
+      <!-- DYNAMIC BRAND PRODUCTS SECTION (REVEALED ON BRAND CLICK)-->
+      <!-- ======================================================= -->
+      <section id="brand-catalog-stage" class="hidden mt-16 pt-12 border-t border-slate-200 scroll-mt-20">
+
+        <!-- Active Brand Header & Quick Navigation Controls -->
+        <div
+          class="bg-slate-50 border border-slate-200/90 rounded-3xl p-6 sm:p-8 mb-10 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div>
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+              <button onclick="showAllBrands()"
+                class="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-slate-600 hover:text-black bg-white border border-slate-200/90 hover:border-slate-900 px-3.5 py-1.5 rounded-full transition shadow-xs active:scale-95">
+                <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+                <span>Change Brand</span>
+              </button>
+              <span id="active-brand-badge"
+                class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-brand-yellow/40 text-black font-black text-xs uppercase tracking-wider shadow-xs flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-brand-yellow animate-pulse"></span>
+                <span id="active-brand-name-text">Active Brand: General Tools&reg;</span>
+              </span>
+            </div>
+            <h2 id="catalog-main-heading"
+              class="text-2xl sm:text-3xl font-black text-slate-950 uppercase tracking-tight">
+              General Tools&reg; Catalog
+            </h2>
+            <p id="catalog-sub-heading" class="text-slate-600 text-xs sm:text-sm mt-1 max-w-2xl">
+              Click any product title or image to view technical specifications, tolerances, and features, or add items
+              directly to your commercial quote request.
+            </p>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="window.openCartDrawer()"
+              class="bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-5 py-3 rounded-full transition shadow-sm active:scale-95 flex items-center gap-2 leading-none whitespace-nowrap">
+              <i data-lucide="file-text" class="w-4 h-4"></i>
+              <span>View Quote</span><span
+                class="cart-count-badge hidden ml-1 bg-black text-white text-[10px] font-black px-1.5 py-0.5 rounded-full">0</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- FILTER & SEARCH BAR -->
+        <div
+          class="mb-8 flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 pb-6 border-b border-slate-200">
+
+          <!-- Search Input -->
+          <div class="relative w-full lg:max-w-md">
+            <i data-lucide="search"
+              class="w-5 h-5 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+            <input type="text" id="catalog-search" placeholder="Search by tool name, part number, spec..."
+              class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl pl-12 pr-4 py-3.5 text-sm text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+          </div>
+
+          <!-- Quick Brand Switcher Buttons -->
+          <div class="flex items-center gap-2 text-xs">
+            <span class="text-slate-400 font-bold uppercase tracking-wider">Switch Brand:</span>
+            <button onclick="selectBrand('general-tools')" id="quick-btn-gt"
+              class="px-3 py-1 rounded-full border border-slate-200 text-slate-700 font-bold hover:bg-slate-100 transition">General
+              Tools (27)</button>
+            <button onclick="selectBrand('stanley')" id="quick-btn-stanley"
+              class="px-3 py-1 rounded-full border border-slate-200 text-slate-700 font-bold hover:bg-slate-100 transition">Stanley
+              (1,639)</button>
+            <button onclick="selectBrand('dewalt')" id="quick-btn-dewalt"
+              class="px-3 py-1 rounded-full border border-slate-200 text-slate-700 font-bold hover:bg-slate-100 transition">DeWalt
+              (286)</button>
+          </div>
+
+        </div>
+
+        <!-- DYNAMIC CATEGORY TABS -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none" id="catalog-category-tabs">
+          <!-- Dynamically populated based on active brand -->
+        </div>
+
+        <!-- PRODUCTS RESULT SUMMARY & SORT -->
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-6 font-medium">
+          <span id="results-count-text">Showing products...</span>
+          <span id="pagination-indicator" class="font-bold text-slate-800"></span>
+        </div>
+
+        <!-- PRODUCT GRID -->
+        <div id="catalog-products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <!-- PAGINATION CONTROLS -->
+        <div id="pagination-controls" class="mt-12 flex items-center justify-center gap-2">
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <!-- EMPTY SEARCH STATE -->
+        <div id="catalog-empty-state" class="hidden text-center py-16">
+          <div class="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-400">
+            <i data-lucide="package-search" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-lg font-black text-slate-900 uppercase tracking-tight mb-1">No Matching Products</h3>
+          <p class="text-xs text-slate-500 max-w-sm mx-auto mb-6">
+            Try adjusting your search terms or selecting another category filter.
+          </p>
+          <button onclick="resetCatalogFilters()"
+            class="inline-flex items-center gap-2 bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-6 py-2.5 rounded-full text-xs transition shadow-sm">
+            <span>Reset Search &amp; Filters</span>
+          </button>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+
+  <!-- FOOTER (Apple-Style Minimalist Frosted Glass Footer) -->
+  <footer
+    class="backdrop-blur-xl bg-white/50 dark:bg-brand-dark/90 border-t border-black/[0.06] dark:border-white/[0.08] py-12 text-slate-600 dark:text-slate-400 text-xs mt-auto transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+
+        <div class="flex items-center space-x-2.5">
+          <img src="images/gt-logo.svg" alt="General" class="h-5 sm:h-6 w-auto opacity-95">
+          <span
+            class="text-brand-yellow font-black text-lg sm:text-xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[9px] align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+          <span class="text-slate-400 opacity-40 ml-1">|</span>
+          <span class="text-slate-500 dark:text-slate-400 font-medium tracking-wide">Multi-Brand Authorized
+            Supply</span>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-center gap-6 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider text-xs">
+          <a href="index.html" class="hover:text-brand-yellow transition-colors">Home</a>
+          <a href="products.html"
+            class="hover:text-brand-yellow transition-colors text-brand-yellow font-black">Products</a>
+          <a href="brands.html" class="hover:text-brand-yellow transition-colors">Brands</a>
+          <a href="parts.html" class="hover:text-brand-yellow transition-colors">Part No. Lookup</a>
+          <a href="contact.html" class="hover:text-brand-yellow transition-colors">Contact Us</a>
+        </div>
+
+        <p class="text-slate-400 dark:text-slate-500 font-medium">&copy; 2026 General Tools &amp; Instruments. All
+          rights reserved.</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Mobile menu toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    // --- STATE MANAGEMENT ---
+    let currentBrand = null;
+    let activeCategory = 'all';
+    let currentPage = 1;
+    const PAGE_SIZE = 36; // 36 items per page for silky smooth rendering
+
+    function getBrandDataset(brandId) {
+      if (brandId === 'general-tools') return window.GENERAL_TOOLS_PRODUCTS || [];
+      if (brandId === 'stanley') return window.STANLEY_PRODUCTS || [];
+      if (brandId === 'dewalt') return window.DEWALT_PRODUCTS || [];
+      return [];
+    }
+
+    function selectBrand(brandId, shouldScroll = true) {
+      currentBrand = brandId;
+      activeCategory = 'all';
+      currentPage = 1;
+
+      // Update brand card highlighting
+      document.querySelectorAll('.brand-select-card').forEach(c => c.classList.remove('active-brand'));
+      const activeCard = document.getElementById('brand-card-' + brandId);
+      if (activeCard) activeCard.classList.add('active-brand');
+
+      // Update quick switch buttons
+      const quickBtns = {
+        'general-tools': document.getElementById('quick-btn-gt'),
+        'stanley': document.getElementById('quick-btn-stanley'),
+        'dewalt': document.getElementById('quick-btn-dewalt')
+      };
+      Object.keys(quickBtns).forEach(k => {
+        const btn = quickBtns[k];
+        if (btn) {
+          if (k === brandId) {
+            btn.className = 'px-3 py-1 rounded-full bg-slate-950 text-white font-bold transition shadow-xs';
+          } else {
+            btn.className = 'px-3 py-1 rounded-full border border-slate-200 text-slate-700 font-bold hover:bg-slate-100 transition';
+          }
+        }
+      });
+
+      // Update Section Headings
+      const stage = document.getElementById('brand-catalog-stage');
+      const badge = document.getElementById('active-brand-badge');
+      const badgeText = document.getElementById('active-brand-name-text');
+      const mainHead = document.getElementById('catalog-main-heading');
+      const subHead = document.getElementById('catalog-sub-heading');
+
+      if (brandId === 'general-tools') {
+        badgeText.textContent = 'Active Brand: General Tools® (27 Items)';
+        mainHead.textContent = 'General Tools® Precision Instruments';
+        subHead.textContent = 'Explore all 27 authentic precision instruments, electronic inspection meters, and woodworking jigs.';
+      } else if (brandId === 'stanley') {
+        badgeText.textContent = 'Active Brand: Stanley® (1,639 Items)';
+        mainHead.textContent = 'Stanley® Tools & Hardware Catalog';
+        subHead.textContent = 'Browse 1,600+ contractor hand tools, tool sets, spanners, sockets, storage units, and commercial hardware.';
+      } else if (brandId === 'dewalt') {
+        badgeText.textContent = 'Active Brand: DeWalt® (286 Items)';
+        mainHead.textContent = 'DeWalt® Guaranteed Tough® Catalog';
+        subHead.textContent = 'Browse 280+ heavy-duty mechanics tool sets, impact sockets, laser distance measures, and jobsite accessories.';
+      }
+
+      // Populate Category Tabs for this brand
+      renderCategoryTabs();
+
+      // Show stage
+      if (stage) stage.classList.remove('hidden');
+
+      // Clear search
+      const searchInput = document.getElementById('catalog-search');
+      if (searchInput) searchInput.value = '';
+
+      // Render products
+      renderCatalogGrid();
+
+      // Smooth scroll if requested
+      if (shouldScroll && stage) {
+        setTimeout(() => {
+          stage.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 80);
+      }
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function showAllBrands() {
+      currentBrand = null;
+      document.querySelectorAll('.brand-select-card').forEach(c => c.classList.remove('active-brand'));
+      const stage = document.getElementById('brand-catalog-stage');
+      if (stage) stage.classList.add('hidden');
+
+      const brandsSection = document.getElementById('brands-selection-section');
+      if (brandsSection) {
+        brandsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function renderCategoryTabs() {
+      const container = document.getElementById('catalog-category-tabs');
+      if (!container || !currentBrand) return;
+
+      const products = getBrandDataset(currentBrand);
+      const catCounts = {};
+      products.forEach(p => {
+        const cat = p.category || 'General';
+        catCounts[cat] = (catCounts[cat] || 0) + 1;
+      });
+
+      const categories = Object.keys(catCounts).sort();
+
+      container.innerHTML = `
+        <button onclick="filterCatalog('all', this)" class="cat-pill active px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider border border-slate-900 bg-slate-900 text-white transition whitespace-nowrap">
+          All Products (${products.length})
+        </button>
+        ${categories.map(cat => `
+          <button onclick="filterCatalog('${cat.replace(/'/g, "\\'")}', this)" class="cat-pill px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            ${cat} (${catCounts[cat]})
+          </button>
+        `).join('')}
+      `;
+    }
+
+    function filterCatalog(category, btnElement) {
+      activeCategory = category;
+      currentPage = 1;
+
+      document.querySelectorAll('.cat-pill').forEach(b => {
+        b.classList.remove('active', 'bg-slate-900', 'text-white');
+        b.classList.add('bg-slate-50', 'text-slate-700');
+      });
+      if (btnElement) {
+        btnElement.classList.add('active', 'bg-slate-900', 'text-white');
+        btnElement.classList.remove('bg-slate-50', 'text-slate-700');
+      }
+
+      renderCatalogGrid();
+    }
+
+    function resetCatalogFilters() {
+      const search = document.getElementById('catalog-search');
+      if (search) search.value = '';
+      activeCategory = 'all';
+      currentPage = 1;
+      const allBtn = document.querySelector('.cat-pill');
+      filterCatalog('all', allBtn);
+    }
+
+    function goToPage(page) {
+      currentPage = page;
+      renderCatalogGrid();
+      const stage = document.getElementById('brand-catalog-stage');
+      if (stage) stage.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function renderCatalogGrid() {
+      const grid = document.getElementById('catalog-products-grid');
+      const emptyState = document.getElementById('catalog-empty-state');
+      const resultsText = document.getElementById('results-count-text');
+      const paginationIndicator = document.getElementById('pagination-indicator');
+      const paginationContainer = document.getElementById('pagination-controls');
+
+      if (!grid || !currentBrand) return;
+
+      const dataset = getBrandDataset(currentBrand);
+      const query = (document.getElementById('catalog-search')?.value || '').trim().toLowerCase();
+
+      // Filter dataset
+      const filtered = dataset.filter(p => {
+        const matchesCat = activeCategory === 'all' || p.category === activeCategory;
+        const matchesQuery = !query ||
+          p.name.toLowerCase().includes(query) ||
+          (p.model && p.model.toLowerCase().includes(query)) ||
+          (p.category && p.category.toLowerCase().includes(query)) ||
+          (p.group && p.group.toLowerCase().includes(query)) ||
+          (p.features && p.features.some(f => f.toLowerCase().includes(query)));
+        return matchesCat && matchesQuery;
+      });
+
+      const totalItems = filtered.length;
+      const totalPages = Math.ceil(totalItems / PAGE_SIZE) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      const startIndex = (currentPage - 1) * PAGE_SIZE;
+      const endIndex = Math.min(startIndex + PAGE_SIZE, totalItems);
+      const pageItems = filtered.slice(startIndex, endIndex);
+
+      if (totalItems === 0) {
+        grid.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        resultsText.textContent = '0 products found';
+        paginationIndicator.textContent = '';
+        paginationContainer.innerHTML = '';
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+      resultsText.textContent = `Showing ${startIndex + 1}–${endIndex} of ${totalItems.toLocaleString()} products`;
+      paginationIndicator.textContent = totalPages > 1 ? `Page ${currentPage} of ${totalPages}` : '';
+
+      grid.innerHTML = pageItems.map(p => {
+        return `
+          <div class="product-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-3xl overflow-hidden transition-all duration-300 hover:-translate-y-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_45px_rgba(0,0,0,0.12)] flex flex-col justify-between">
+            <!-- Image Area (Clickable to open popup modal) -->
+            <div class="h-56 w-full bg-slate-50 relative p-4 flex items-center justify-center cursor-pointer overflow-hidden border-b border-slate-100" onclick="window.openProductModal(${p.id})">
+              <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy">
+              <div class="absolute top-3 left-3 flex items-center gap-1.5">
+                <span class="bg-brand-yellow text-black text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-xs">
+                  Part: ${p.model || p.id}
+                </span>
+              </div>
+              <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                <span class="w-8 h-8 rounded-full bg-black/80 text-white flex items-center justify-center shadow-md">
+                  <i data-lucide="expand" class="w-4 h-4"></i>
+                </span>
+              </div>
+            </div>
+
+            <!-- Body -->
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="text-[10px] font-black uppercase tracking-widest text-amber-600 mb-1 line-clamp-1">
+                  ${p.category || 'Tools'}
+                </div>
+                <!-- Clickable Product Name (Triggers Modal Popup) -->
+                <h3 class="text-sm font-black text-slate-950 hover:text-amber-600 transition cursor-pointer leading-snug line-clamp-2 mb-2" onclick="window.openProductModal(${p.id})" title="${p.name}">
+                  ${p.name}
+                </h3>
+                <!-- Quick Spec Snippet -->
+                <div class="text-[11px] text-slate-500 space-y-0.5 mb-4 line-clamp-2">
+                  ${p.specifications && p.specifications[0] ? `<span class="font-medium">${p.specifications[0].label}: ${p.specifications[0].value}</span>` : ''}
+                  ${p.size ? `<span class="block text-slate-400">Size: ${p.size}</span>` : ''}
+                </div>
+              </div>
+
+              <!-- Action Controls: Specs & Add to Quote -->
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+                <button onclick="window.openProductModal(${p.id})" class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-slate-900 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition active:scale-95" title="View Specifications & Features">
+                  <i data-lucide="info" class="w-3.5 h-3.5 text-amber-500"></i>
+                  <span>Specs</span>
+                </button>
+                <button onclick="window.addToCart(${p.id}, 1)" class="bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-3.5 py-2 rounded-xl transition shadow-sm active:scale-95 flex items-center gap-1.5 whitespace-nowrap">
+                  <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+                  <span>Add to Quote</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Render Pagination Buttons
+      if (totalPages > 1) {
+        let pagesHtml = '';
+        pagesHtml += `
+          <button onclick="goToPage(${Math.max(1, currentPage - 1)})" ${currentPage === 1 ? 'disabled class="px-3.5 py-2 rounded-xl border border-slate-200 text-slate-300 text-xs font-bold cursor-not-allowed"' : 'class="px-3.5 py-2 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-100 text-xs font-bold transition"'}>
+            &larr; Prev
+          </button>
+        `;
+
+        // Generate smart page window
+        const startP = Math.max(1, currentPage - 2);
+        const endP = Math.min(totalPages, currentPage + 2);
+
+        if (startP > 1) {
+          pagesHtml += `<button onclick="goToPage(1)" class="w-9 h-9 rounded-xl border border-slate-200 text-xs font-bold hover:bg-slate-100">1</button>`;
+          if (startP > 2) pagesHtml += `<span class="px-1 text-slate-400">...</span>`;
+        }
+
+        for (let p = startP; p <= endP; p++) {
+          pagesHtml += `
+            <button onclick="goToPage(${p})" class="w-9 h-9 rounded-xl text-xs font-black transition ${p === currentPage ? 'bg-slate-950 text-white shadow-sm' : 'border border-slate-200 text-slate-700 hover:bg-slate-100'}">
+              ${p}
+            </button>
+          `;
+        }
+
+        if (endP < totalPages) {
+          if (endP < totalPages - 1) pagesHtml += `<span class="px-1 text-slate-400">...</span>`;
+          pagesHtml += `<button onclick="goToPage(${totalPages})" class="w-9 h-9 rounded-xl border border-slate-200 text-xs font-bold hover:bg-slate-100">${totalPages}</button>`;
+        }
+
+        pagesHtml += `
+          <button onclick="goToPage(${Math.min(totalPages, currentPage + 1)})" ${currentPage === totalPages ? 'disabled class="px-3.5 py-2 rounded-xl border border-slate-200 text-slate-300 text-xs font-bold cursor-not-allowed"' : 'class="px-3.5 py-2 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-100 text-xs font-bold transition"'}>
+            Next &rarr;
+          </button>
+        `;
+
+        paginationContainer.innerHTML = pagesHtml;
+      } else {
+        paginationContainer.innerHTML = '';
+      }
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    const searchInput = document.getElementById('catalog-search');
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        currentPage = 1;
+        renderCatalogGrid();
+      });
+    }
+
+    // Auto-select brand if specified in URL (e.g. ?brand=stanley, ?brand=dewalt, ?brand=general-tools)
+    document.addEventListener('DOMContentLoaded', () => {
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const brandParam = urlParams.get('brand');
+        if (brandParam) {
+          selectBrand(brandParam, true);
+        }
+      } catch (e) {
+        // ignore
+      }
+    });
+  </script>
+</body>
+
+</html>

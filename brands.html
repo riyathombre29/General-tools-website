@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Brands | General Tools &amp; Instruments</title>
+
+  <!-- Immediate theme check to prevent flickering -->
+  <script src="js/theme.js"></script>
+  <!-- Multi-Brand Product Catalogs & Cart Engine -->
+  <script src="js/products-data.js"></script>
+  <script src="js/stanley-data.js"></script>
+  <script src="js/dewalt-data.js"></script>
+  <script src="js/cart-modal.js"></script>
+
+  <!-- Premium Modern Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            tech: ['"Space Grotesk"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              yellow: '#FFDE00',
+              yellowHover: '#E6C800',
+              dark: '#11161E',
+              darker: '#090D14',
+              surface: '#161E29',
+              glassLight: 'rgba(255, 255, 255, 0.70)',
+              glassBorder: 'rgba(255, 255, 255, 0.12)',
+            }
+          },
+          boxShadow: {
+            'glow-yellow': '0 0 25px rgba(255, 222, 0, 0.35)',
+            'apple': '0 20px 40px -15px rgba(0,0,0,0.07)',
+            'apple-hover': '0 30px 60px -12px rgba(0,0,0,0.12)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* iOS / Apple Frosted Glass Styling */
+    .glass-header {
+      background: rgba(9, 13, 20, 0.82);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .glass-capsule {
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .glass-cta-btn {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .glass-cta-btn:hover {
+      background: rgba(255, 222, 0, 0.15);
+      border-color: rgba(255, 222, 0, 0.4);
+    }
+
+    .brand-filter-btn.active {
+      background-color: #0f172a;
+      color: #ffffff;
+      border-color: #0f172a;
+    }
+  </style>
+</head>
+
+<body
+  class="bg-slate-50 dark:bg-brand-darker text-slate-800 dark:text-slate-100 min-h-screen flex flex-col antialiased selection:bg-brand-yellow selection:text-black transition-colors duration-300">
+
+  <!-- SIGNATURE YELLOW TOP BAR -->
+  <div
+    class="bg-brand-yellow text-black text-[11px] font-black py-1 sm:py-1.5 px-4 sm:px-6 lg:px-8 uppercase tracking-wider shadow-sm z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <a href="mailto:enquiry@general.tools"
+          class="inline-flex items-center gap-1.5 hover:opacity-80 transition font-bold lowercase tracking-normal">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+          <span>enquiry@general.tools</span>
+        </a>
+      </div>
+      <div>
+        <a href="contact.html"
+          class="hover:opacity-80 transition font-black tracking-widest text-[11px] bg-black/10 hover:bg-black/15 px-3 py-0.5 sm:py-1 rounded-full">
+          CONTACT US &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODERN FROSTED GLASS HEADER (Apple Glassmorphic Style) -->
+  <header class="sticky top-0 z-40 glass-header transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+
+        <!-- Official Logo -->
+        <a href="index.html"
+          class="flex items-center space-x-2.5 group active:scale-95 transition-transform duration-200">
+          <img src="images/gt-logo.svg" alt="General" class="h-6 sm:h-7 w-auto">
+          <span
+            class="text-brand-yellow font-black text-xl sm:text-2xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[10px] sm:text-xs align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+        </a>
+
+        <!-- Desktop Navigation (iOS Segmented Glass Capsule) -->
+        <nav class="hidden lg:flex items-center gap-1 glass-capsule p-1 rounded-full text-xs font-bold tracking-wider">
+          <a href="index.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Home</a>
+          <a href="products.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Products</a>
+          <a href="brands.html"
+            class="bg-brand-yellow text-black px-5 py-2 rounded-full font-black shadow-[0_2px_12px_rgba(255,222,0,0.45)] transition-all inline-flex items-center justify-center leading-none">Brands</a>
+          <a href="parts.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Part
+            No. Lookup</a>
+          <a href="contact.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Contact
+            Us</a>
+        </nav>
+
+        <!-- Right Quick Actions -->
+        <div class="flex items-center gap-2.5 sm:gap-3">
+          <a href="contact.html"
+            class="hidden sm:inline-flex items-center justify-center gap-2 glass-cta-btn text-brand-yellow text-xs font-black px-4 py-2 rounded-full transition-all duration-300 active:scale-95 lowercase tracking-normal leading-none">
+            <i data-lucide="mail" class="w-3.5 h-3.5 shrink-0"></i>
+            <span>enquiry@general.tools</span>
+          </a>
+
+          <!-- Quote Request Drawer Button with Live Counter Badge -->
+          <button onclick="window.openCartDrawer()" class="relative p-2.5 rounded-full glass-capsule text-brand-yellow hover:bg-brand-yellow/15 transition-all duration-300 active:scale-90 flex items-center justify-center" aria-label="Quote Request">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            <span class="cart-count-badge hidden absolute -top-1 -right-1 bg-brand-yellow text-black text-[10px] font-black w-4 h-4 rounded-full flex items-center justify-center shadow-md">0</span>
+          </button>
+
+          <!-- Mobile Hamburger Button -->
+          <button id="mobile-menu-btn"
+            class="lg:hidden p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
+            aria-label="Toggle navigation menu">
+            <i data-lucide="menu" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Menu (Slide-Down Glass Sheet) -->
+    <div id="mobile-menu"
+      class="hidden lg:hidden glass-header border-b border-white/[0.12] px-4 pt-3 pb-6 space-y-2 shadow-2xl transition-all">
+      <a href="index.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Home</a>
+      <a href="products.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Products</a>
+      <a href="brands.html"
+        class="block px-4 py-3 text-xs font-black text-black bg-brand-yellow rounded-2xl shadow-sm uppercase tracking-wider">Brands</a>
+      <a href="parts.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Part
+        No. Lookup</a>
+      <a href="contact.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Contact
+        Us</a>
+    </div>
+  </header>
+
+  <!-- PAGE HERO HEADER (Frosted Glass Stage) -->
+  <div
+    class="relative overflow-hidden py-8 sm:py-12 px-4 sm:px-6 lg:px-8 border-b border-black/[0.06] dark:border-white/[0.08] bg-slate-100/60 dark:bg-brand-dark/70 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
+      <div>
+        <div class="flex items-center space-x-2 text-xs text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wider font-bold">
+          <a href="index.html" class="hover:text-brand-yellow transition">Home</a>
+          <span>/</span>
+          <span class="text-brand-yellow">Brands</span>
+        </div>
+        <div class="inline-flex items-center gap-2 backdrop-blur-md bg-brand-yellow/15 border border-brand-yellow/30 text-black dark:text-brand-yellow text-[11px] font-black uppercase tracking-widest px-3.5 py-1 rounded-full mb-3 shadow-xs">
+          <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow animate-pulse"></span>
+          <span>Global Toolmakers &amp; Distribution</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black text-slate-950 dark:text-white uppercase tracking-tight">
+          Brands You Like
+        </h1>
+        <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base mt-2 max-w-2xl font-normal leading-relaxed">
+          Industry-standard precision tools, measurement metrology, and diagnostic equipment from General Tools, DeWalt, and Stanley.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="#general-tools-catalog-section"
+          class="backdrop-blur-xl bg-white/80 dark:bg-white/[0.08] hover:bg-white dark:hover:bg-white/[0.15] text-slate-900 dark:text-brand-yellow border border-black/[0.08] dark:border-brand-yellow/30 text-xs font-black uppercase tracking-wider px-5 py-3 rounded-full transition shadow-sm active:scale-95 flex items-center gap-2 leading-none">
+          <i data-lucide="package" class="w-4 h-4 shrink-0"></i>
+          <span>27 GT Products</span>
+        </a>
+        <button onclick="window.openCartDrawer()"
+          class="bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-5 py-3 rounded-full transition shadow-sm active:scale-95 flex items-center gap-2 leading-none">
+          <i data-lucide="file-text" class="w-4 h-4 shrink-0"></i>
+          <span>Quote Request</span><span class="cart-count-badge hidden ml-1 bg-black text-white text-[10px] font-black px-1.5 py-0.5 rounded-full">0</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- SIGNATURE WHITE SECTION: Brands Directory      -->
+  <!-- ============================================== -->
+  <div class="bg-white text-slate-900 flex-1 flex flex-col justify-start">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 w-full">
+
+      <!-- FILTER & SEARCH CONTROL BAR -->
+      <div class="mb-10 sm:mb-12 flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 pb-8 border-b border-slate-200">
+        
+        <!-- Search Input -->
+        <div class="relative w-full lg:max-w-md">
+          <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+          <input type="text" id="brand-search-input" placeholder="Search General Tools, DeWalt, or Stanley..."
+            class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl pl-12 pr-4 py-3.5 text-sm text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+        </div>
+
+        <!-- Quick Brand Pills -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 lg:pb-0 scrollbar-none" id="category-filters">
+          <button onclick="filterCategory('all', this)"
+            class="brand-filter-btn active px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider border border-slate-900 bg-slate-900 text-white transition-all whitespace-nowrap">
+            All (3 Brands)
+          </button>
+          <button onclick="filterCategory('general-tools', this)"
+            class="brand-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition-all whitespace-nowrap">
+            General Tools®
+          </button>
+          <button onclick="filterCategory('dewalt', this)"
+            class="brand-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition-all whitespace-nowrap">
+            DeWalt®
+          </button>
+          <button onclick="filterCategory('stanley', this)"
+            class="brand-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition-all whitespace-nowrap">
+            Stanley®
+          </button>
+        </div>
+
+      </div>
+
+      <!-- BRANDS GRID (3 Selected Premium Brands) -->
+      <div id="brands-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 sm:gap-8">
+
+        <!-- 1. General Tools -->
+        <div class="brand-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between"
+             data-name="General Tools" data-categories="general-tools measuring inspection" data-keywords="general tools precision instruments calipers borescopes moisture meters thermometers angles wood gauges">
+          <div>
+            <div class="h-60 sm:h-64 w-full overflow-hidden bg-slate-950 relative">
+              <img src="images/detection-feature.webp" alt="General Tools" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+              
+              <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                <span class="backdrop-blur-xl bg-black/60 border border-white/20 text-brand-yellow text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow"></span>
+                  <span>Est. 1922 • Flagship</span>
+                </span>
+                <span class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </span>
+              </div>
+
+              <div class="absolute bottom-5 left-5 right-5">
+                <span class="text-brand-yellow text-[11px] font-black uppercase tracking-widest block mb-1">Precision Instruments</span>
+                <h3 class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                  GENERAL TOOLS<span class="text-xs align-super ml-1 font-bold text-brand-yellow">&reg;</span>
+                </h3>
+              </div>
+            </div>
+
+            <div class="p-6 sm:p-7">
+              <div class="flex flex-wrap gap-1.5 sm:gap-2 mb-4">
+                <span class="bg-amber-50 text-amber-900 border border-brand-yellow/30 text-[10px] sm:text-[11px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">Moisture Meters</span>
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Borescopes</span>
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Calipers</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Pioneering precision instruments for over a century. Industry-standard pin-type moisture meters, infrared thermometers, flexible video borescopes, and machinists' calipers.
+              </p>
+              <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 text-xs text-slate-600 space-y-1.5">
+                <div class="flex items-center justify-between font-bold">
+                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Key Series</span>
+                  <span class="text-slate-900 font-mono">MMD4E, IRT215, 147, 822</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Compliance</span>
+                  <span class="text-slate-900 font-semibold">ASME &bull; NIST Traceable</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="px-6 sm:px-7 pb-6 sm:pb-7 pt-2">
+            <a href="#general-tools-catalog-section" class="w-full py-3 px-5 rounded-2xl bg-slate-950 hover:bg-brand-yellow text-white hover:text-black border border-slate-950 hover:border-brand-yellow flex items-center justify-between transition-all duration-300 font-black text-xs uppercase tracking-wider">
+              <span>Explore 27 Products Below &darr;</span>
+              <i data-lucide="arrow-down" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Stanley -->
+        <div class="brand-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between"
+             data-name="Stanley" data-categories="stanley measuring handtools" data-keywords="stanley fatmax tape measure hand tools utility knife chisels layout square levels">
+          <div>
+            <div class="h-60 sm:h-64 w-full overflow-hidden bg-slate-950 relative">
+              <img src="images/precision-measuring-feature.webp" alt="Stanley" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+              
+              <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                <span class="backdrop-blur-xl bg-black/60 border border-white/20 text-[#FFE000] text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-[#FFE000]"></span>
+                  <span>Est. 1843 • Heritage</span>
+                </span>
+                <span class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </span>
+              </div>
+
+              <div class="absolute bottom-5 left-5 right-5">
+                <span class="text-[#FFE000] text-[11px] font-black uppercase tracking-widest block mb-1">Contractor Heritage</span>
+                <h3 class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                  STANLEY<span class="text-xs align-super ml-1 font-bold text-[#FFE000]">&reg;</span>
+                </h3>
+              </div>
+            </div>
+
+            <div class="p-6 sm:p-7">
+              <div class="flex flex-wrap gap-1.5 sm:gap-2 mb-4">
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Tape Measures</span>
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Utility Knives</span>
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Layout Tools</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                The gold standard in jobsite measuring tapes and contractor hand tools. Renowned for PowerLock®, FatMax® standout tapes, heavy-duty utility blades, and precision spirit levels.
+              </p>
+              <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 text-xs text-slate-600 space-y-1.5">
+                <div class="flex items-center justify-between font-bold">
+                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Key Series</span>
+                  <span class="text-slate-900 font-mono">FatMax®, PowerLock®, Classic 99®</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Compliance</span>
+                  <span class="text-slate-900 font-semibold">ANSI &bull; Federal GSA Spec</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="px-6 sm:px-7 pb-6 sm:pb-7 pt-2">
+            <a href="products.html?brand=stanley" class="w-full py-3 px-5 rounded-2xl bg-slate-50 hover:bg-slate-950 border border-slate-200/90 hover:border-slate-950 flex items-center justify-between transition-all duration-300 group-hover:bg-slate-950 text-slate-900 group-hover:text-white font-black text-xs uppercase tracking-wider">
+              <span>Explore 1,600+ Stanley Products &rarr;</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 text-brand-yellow"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. DeWalt -->
+        <div class="brand-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between"
+             data-name="DeWalt" data-categories="power measuring" data-keywords="dewalt laser levels rotary lasers cross line digital levels distance measurer tough">
+          <div>
+            <div class="h-60 sm:h-64 w-full overflow-hidden bg-slate-950 relative">
+              <img src="images/hobby-woodwork-feature.webp" alt="DeWalt" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+              
+              <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                <span class="backdrop-blur-xl bg-black/60 border border-white/20 text-[#FEB827] text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-[#FEB827]"></span>
+                  <span>Est. 1924 • Tough</span>
+                </span>
+                <span class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </span>
+              </div>
+
+              <div class="absolute bottom-5 left-5 right-5">
+                <span class="text-[#FEB827] text-[11px] font-black uppercase tracking-widest block mb-1">Guaranteed Tough&reg;</span>
+                <h3 class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                  DEWALT<span class="text-xs align-super ml-1 font-bold text-[#FEB827]">&reg;</span>
+                </h3>
+              </div>
+            </div>
+
+            <div class="p-6 sm:p-7">
+              <div class="flex flex-wrap gap-1.5 sm:gap-2 mb-4">
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Rotary Lasers</span>
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Green Beam</span>
+                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Digital Levels</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Heavy-duty commercial grade lasers, optical transits, digital spirit levels, and rugged laser distance measures built to withstand drops and extreme site conditions.
+              </p>
+              <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 text-xs text-slate-600 space-y-1.5">
+                <div class="flex items-center justify-between font-bold">
+                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Key Series</span>
+                  <span class="text-slate-900 font-mono">DW088, DW089LG, DW096</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Protection</span>
+                  <span class="text-slate-900 font-semibold">IP54 / IP65 Dust &amp; Water</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="px-6 sm:px-7 pb-6 sm:pb-7 pt-2">
+            <a href="products.html?brand=dewalt" class="w-full py-3 px-5 rounded-2xl bg-slate-50 hover:bg-slate-950 border border-slate-200/90 hover:border-slate-950 flex items-center justify-between transition-all duration-300 group-hover:bg-slate-950 text-slate-900 group-hover:text-white font-black text-xs uppercase tracking-wider">
+              <span>Explore 280+ DeWalt Products &rarr;</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 text-brand-yellow"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- GENERAL TOOLS® OFFICIAL PRODUCT CATALOG (27 PRODUCTS)     -->
+      <!-- ======================================================== -->
+      <section id="general-tools-catalog-section" class="mt-20 pt-16 border-t border-slate-200 scroll-mt-24">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
+          <div>
+            <div class="inline-flex items-center gap-2 bg-amber-50 border border-brand-yellow/40 text-amber-900 text-[11px] font-black uppercase tracking-widest px-3.5 py-1 rounded-full mb-3 shadow-xs">
+              <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow animate-ping"></span>
+              <span>General Tools® Master Inventory • 27 Products</span>
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-black text-slate-950 uppercase tracking-tight">
+              General Tools® Catalog
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl font-normal leading-relaxed">
+              Browse all 27 uploaded General Tools instruments. Click any product name or image to open full technical specifications &amp; features popup, or add items directly to your cart.
+            </p>
+          </div>
+
+          <!-- Quick Search & GT Actions -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+            <div class="relative min-w-[260px]">
+              <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+              <input type="text" id="gt-product-search" placeholder="Search 27 General Tools..."
+                class="w-full bg-slate-50 border border-slate-200/90 rounded-full pl-10 pr-4 py-2.5 text-xs text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
+            </div>
+            <button onclick="window.openCartDrawer()" class="bg-slate-900 hover:bg-slate-800 text-white text-xs font-black uppercase px-5 py-2.5 rounded-full transition flex items-center justify-center gap-2 shadow-sm whitespace-nowrap active:scale-95">
+              <i data-lucide="file-text" class="w-3.5 h-3.5 text-brand-yellow"></i>
+              <span>View Quote</span><span class="cart-count-badge hidden ml-1 bg-black text-white text-[10px] font-black px-1.5 py-0.5 rounded-full">0</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none" id="gt-category-tabs">
+          <button onclick="filterGTProducts('all', this)" class="gt-tab active px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider border border-slate-900 bg-slate-900 text-white transition whitespace-nowrap">
+            All Products (27)
+          </button>
+          <button onclick="filterGTProducts('Moisture Detection', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            Moisture Detection (5)
+          </button>
+          <button onclick="filterGTProducts('Angle & Layout', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            Angle &amp; Layout (4)
+          </button>
+          <button onclick="filterGTProducts('Environmental & Gas', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            Environmental &amp; Gas (3)
+          </button>
+          <button onclick="filterGTProducts('Woodworking & Joinery', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            Woodworking &amp; Joinery (4)
+          </button>
+          <button onclick="filterGTProducts('Punches & Grommets', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            Punches &amp; Grommets (5)
+          </button>
+          <button onclick="filterGTProducts('Precision & Marking', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            Precision &amp; Marking (3)
+          </button>
+          <button onclick="filterGTProducts('Inspection & Optics', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
+            Inspection &amp; Optics (3)
+          </button>
+        </div>
+
+        <!-- Products Grid (27 Cards) -->
+        <div id="gt-products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <!-- Empty Products Result -->
+        <div id="gt-empty-products" class="hidden text-center py-12">
+          <p class="text-sm text-slate-500 font-medium">No tools match your search criteria. Try a different term or reset filters.</p>
+        </div>
+      </section>
+
+      <!-- EMPTY STATE (When search finds 0 matches) -->
+      <div id="no-brands-found" class="hidden text-center py-16">
+        <div class="w-16 h-16 bg-slate-100 border border-slate-200 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-400">
+          <i data-lucide="search-x" class="w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-black text-slate-900 uppercase tracking-tight mb-2">No Matching Results</h3>
+        <p class="text-slate-600 text-sm max-w-md mx-auto mb-6">
+          Showing authorized product catalogs for General Tools, DeWalt, and Stanley. Try adjusting your search query.
+        </p>
+        <button onclick="clearSearch()" class="inline-flex items-center gap-2 bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-6 py-3 rounded-full text-xs transition shadow-sm">
+          <span>Reset Search Filters</span>
+        </button>
+      </div>
+
+      <!-- TRUST & DISTRIBUTION STANDARDS SECTION -->
+      <div class="mt-20 pt-16 border-t border-slate-200">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-900 text-xs font-black uppercase tracking-widest mb-3">
+            <i data-lucide="shield-check" class="w-4 h-4 text-brand-yellow"></i>
+            <span>Authorized Commercial Supply</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-black text-slate-950 uppercase tracking-tight">
+            Certified Distribution Standards
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Every product supplied across our brand portfolio adheres to strict technical calibration, direct warranty backing, and traceable manufacturing standards.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-slate-50 border border-slate-200/90 rounded-2xl p-6 transition-all hover:bg-white hover:shadow-lg">
+            <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-4">
+              <i data-lucide="check-circle-2" class="w-6 h-6 text-brand-yellow"></i>
+            </div>
+            <h3 class="font-black text-slate-900 text-base uppercase tracking-tight mb-1">100% Genuine Guarantee</h3>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Direct factory procurement with verified manufacturer serials, original documentation, and zero counterfeit risk.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 border border-slate-200/90 rounded-2xl p-6 transition-all hover:bg-white hover:shadow-lg">
+            <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-4">
+              <i data-lucide="award" class="w-6 h-6 text-brand-yellow"></i>
+            </div>
+            <h3 class="font-black text-slate-900 text-base uppercase tracking-tight mb-1">Full Factory Warranty</h3>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Every tool and instrument includes complete official manufacturer warranty coverage and direct authorized service.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 border border-slate-200/90 rounded-2xl p-6 transition-all hover:bg-white hover:shadow-lg">
+            <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-4">
+              <i data-lucide="scale" class="w-6 h-6 text-brand-yellow"></i>
+            </div>
+            <h3 class="font-black text-slate-900 text-base uppercase tracking-tight mb-1">NIST Traceable</h3>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Precision metrology, moisture meters, calipers, and infrared detectors are batch-tested and NIST certifiable.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 border border-slate-200/90 rounded-2xl p-6 transition-all hover:bg-white hover:shadow-lg">
+            <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-4">
+              <i data-lucide="truck" class="w-6 h-6 text-brand-yellow"></i>
+            </div>
+            <h3 class="font-black text-slate-900 text-base uppercase tracking-tight mb-1">Rapid Global Dispatch</h3>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Expedited commercial dispatch for contractor job sites, manufacturing facilities, and institutional procurement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- MODERN MINIMAL FOOTER -->
+  <footer class="backdrop-blur-xl bg-white/50 dark:bg-brand-dark/90 border-t border-black/[0.06] dark:border-white/[0.08] py-12 text-slate-600 dark:text-slate-400 text-xs mt-auto transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+
+        <div class="flex items-center space-x-2.5">
+          <img src="images/gt-logo.svg" alt="General" class="h-5 sm:h-6 w-auto opacity-95">
+          <span class="text-brand-yellow font-black text-lg sm:text-xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[9px] align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+          <span class="text-slate-400 opacity-40 ml-1">|</span>
+          <span class="text-slate-500 dark:text-slate-400 font-medium tracking-wide">Precision Instruments</span>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-6 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider text-xs">
+          <a href="index.html" class="hover:text-brand-yellow transition-colors">Home</a>
+          <a href="products.html" class="hover:text-brand-yellow transition-colors">Products</a>
+          <a href="brands.html" class="hover:text-brand-yellow transition-colors text-brand-yellow font-black">Brands</a>
+          <a href="parts.html" class="hover:text-brand-yellow transition-colors">Part No. Lookup</a>
+          <a href="contact.html" class="hover:text-brand-yellow transition-colors">Contact Us</a>
+        </div>
+
+        <p class="text-slate-400 dark:text-slate-500 font-medium">&copy; 2026 General Tools &amp; Instruments. All rights reserved.</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Mobile menu toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    // Client-side Brand Filtering & Search
+    let currentCategory = 'all';
+
+    function filterCategory(category, btnElement) {
+      currentCategory = category;
+      
+      // Update UI buttons
+      document.querySelectorAll('.brand-filter-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-slate-900', 'text-white');
+        btn.classList.add('bg-slate-50', 'text-slate-700');
+      });
+      if (btnElement) {
+        btnElement.classList.add('active', 'bg-slate-900', 'text-white');
+        btnElement.classList.remove('bg-slate-50', 'text-slate-700');
+      }
+
+      applyFilters();
+
+      // If user clicked General Tools, scroll gently to products
+      if (category === 'general-tools') {
+        const sec = document.getElementById('general-tools-catalog-section');
+        if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function applyFilters() {
+      const searchTerm = document.getElementById('brand-search-input').value.trim().toLowerCase();
+      const cards = document.querySelectorAll('.brand-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const name = card.dataset.name.toLowerCase();
+        const categories = card.dataset.categories.toLowerCase();
+        const keywords = card.dataset.keywords.toLowerCase();
+
+        const matchesCategory = (currentCategory === 'all') || categories.includes(currentCategory);
+        const matchesSearch = !searchTerm || name.includes(searchTerm) || keywords.includes(searchTerm);
+
+        if (matchesCategory && matchesSearch) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      const emptyState = document.getElementById('no-brands-found');
+      if (visibleCount === 0) {
+        emptyState.classList.remove('hidden');
+      } else {
+        emptyState.classList.add('hidden');
+      }
+    }
+
+    function clearSearch() {
+      document.getElementById('brand-search-input').value = '';
+      const allBtn = document.querySelector('.brand-filter-btn');
+      filterCategory('all', allBtn);
+    }
+
+    document.getElementById('brand-search-input').addEventListener('input', applyFilters);
+
+    // --- General Tools 27-Product Catalog Logic ---
+    let currentGTTab = 'all';
+
+    function renderGTProducts() {
+      const container = document.getElementById('gt-products-grid');
+      if (!container || !window.GENERAL_TOOLS_PRODUCTS) return;
+
+      const search = (document.getElementById('gt-product-search')?.value || '').trim().toLowerCase();
+      
+      const filtered = window.GENERAL_TOOLS_PRODUCTS.filter(p => {
+        const matchesTab = currentGTTab === 'all' || p.category === currentGTTab;
+        const matchesSearch = !search || 
+          p.name.toLowerCase().includes(search) || 
+          p.model.toLowerCase().includes(search) || 
+          p.features.some(f => f.toLowerCase().includes(search));
+        return matchesTab && matchesSearch;
+      });
+
+      const emptyEl = document.getElementById('gt-empty-products');
+      if (emptyEl) {
+        if (filtered.length === 0) emptyEl.classList.remove('hidden');
+        else emptyEl.classList.add('hidden');
+      }
+
+      container.innerHTML = filtered.map(p => `
+        <div class="product-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-3xl overflow-hidden transition-all duration-300 hover:-translate-y-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_45px_rgba(0,0,0,0.12)] flex flex-col justify-between">
+          <!-- Card Image Area (Clickable to open popup) -->
+          <div class="h-56 w-full bg-slate-50 relative p-4 flex items-center justify-center cursor-pointer overflow-hidden border-b border-slate-100" onclick="window.openProductModal(${p.id})">
+            <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute top-3 left-3 flex items-center gap-1.5">
+              <span class="bg-brand-yellow text-black text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-xs">
+                Part: ${p.model}
+              </span>
+            </div>
+            <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+              <span class="w-8 h-8 rounded-full bg-black/80 text-white flex items-center justify-center shadow-md">
+                <i data-lucide="expand" class="w-4 h-4"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Card Body -->
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-[10px] font-black uppercase tracking-widest text-amber-600 mb-1">
+                ${p.category}
+              </div>
+              <!-- Clickable Product Name -->
+              <h3 class="text-sm font-black text-slate-950 hover:text-amber-600 transition cursor-pointer leading-snug line-clamp-2 mb-2" onclick="window.openProductModal(${p.id})" title="Click to view full specs & features">
+                ${p.name}
+              </h3>
+              <!-- Quick Specs snippet -->
+              <div class="text-[11px] text-slate-500 space-y-1 mb-4 line-clamp-2">
+                ${p.specifications[0] ? `<span class="font-medium">${p.specifications[0].label}: ${p.specifications[0].value}</span>` : ''}
+              </div>
+            </div>
+
+            <!-- Action Controls: Specs & Add to Quote -->
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+              <button onclick="window.openProductModal(${p.id})" class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-slate-900 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition active:scale-95" title="View Specifications & Features">
+                <i data-lucide="info" class="w-3.5 h-3.5 text-amber-500"></i>
+                <span>Specs</span>
+              </button>
+              <button onclick="window.addToCart(${p.id}, 1)" class="bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-3.5 py-2 rounded-xl transition shadow-sm active:scale-95 flex items-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+                <span>Add to Quote</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function filterGTProducts(category, btnElement) {
+      currentGTTab = category;
+      document.querySelectorAll('.gt-tab').forEach(b => {
+        b.classList.remove('active', 'bg-slate-900', 'text-white');
+        b.classList.add('bg-slate-50', 'text-slate-700');
+      });
+      if (btnElement) {
+        btnElement.classList.add('active', 'bg-slate-900', 'text-white');
+        btnElement.classList.remove('bg-slate-50', 'text-slate-700');
+      }
+      renderGTProducts();
+    }
+
+    const gtSearchInput = document.getElementById('gt-product-search');
+    if (gtSearchInput) {
+      gtSearchInput.addEventListener('input', renderGTProducts);
+    }
+
+    // Initial render
+    document.addEventListener('DOMContentLoaded', () => {
+      renderGTProducts();
+    });
+    // In case DOM is already loaded:
+    if (document.readyState !== 'loading') {
+      renderGTProducts();
+    }
+  </script>
+</body>
+
+</html>

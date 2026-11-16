@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part No. Lookup | General Tools</title>
+
+  <!-- Immediate theme check to prevent flickering -->
+  <script src="js/theme.js"></script>
+  <!-- Multi-Brand Product Catalogs & Cart Engine -->
+  <script src="js/products-data.js"></script>
+  <script src="js/stanley-data.js"></script>
+  <script src="js/dewalt-data.js"></script>
+  <script src="js/cart-modal.js"></script>
+
+  <!-- Premium Modern Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            tech: ['"Space Grotesk"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              yellow: '#FFDE00',
+              yellowHover: '#E6C800',
+              dark: '#11161E',
+              darker: '#090D14',
+              surface: '#161E29',
+              glassLight: 'rgba(255, 255, 255, 0.70)',
+              glassDark: 'rgba(22, 30, 41, 0.72)',
+              borderLight: 'rgba(255, 255, 255, 0.60)',
+              borderDark: 'rgba(255, 255, 255, 0.08)'
+            }
+          },
+          boxShadow: {
+            'glass': '0 20px 40px -15px rgba(0, 0, 0, 0.05)',
+            'glass-dark': '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
+            'glow-yellow': '0 0 25px -5px rgba(255, 222, 0, 0.35)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Premium Modern Typography & Glassmorphism */
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      letter-spacing: -0.012em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      letter-spacing: -0.03em;
+    }
+
+    .font-tech {
+      font-family: 'Space Grotesk', monospace;
+    }
+
+    .glass-specular {
+      position: relative;
+    }
+
+    .glass-specular::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+      border-radius: 9999px;
+      pointer-events-none;
+    }
+
+    /* Ultra-Modern Apple Glassmorphic Header & Navigation */
+    .glass-header {
+      background: rgba(12, 17, 26, 0.60) !important;
+      backdrop-filter: blur(28px) saturate(190%);
+      -webkit-backdrop-filter: blur(28px) saturate(190%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .glass-capsule {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.22);
+    }
+
+    .glass-cta-btn {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 222, 0, 0.45);
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+    }
+
+    .glass-cta-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: #FFDE00;
+      box-shadow: 0 0 25px rgba(255, 222, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+
+<body
+  class="bg-slate-50 dark:bg-brand-darker text-slate-800 dark:text-slate-100 min-h-screen flex flex-col antialiased selection:bg-brand-yellow selection:text-black transition-colors duration-300">
+
+  <!-- SIGNATURE YELLOW TOP BAR -->
+  <div
+    class="bg-brand-yellow text-black text-[11px] font-black py-1 sm:py-1.5 px-4 sm:px-6 lg:px-8 uppercase tracking-wider shadow-sm z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <a href="mailto:enquiry@general.tools"
+          class="inline-flex items-center gap-1.5 hover:opacity-80 transition font-bold lowercase tracking-normal">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+          <span>enquiry@general.tools</span>
+        </a>
+      </div>
+      <div>
+        <a href="contact.html"
+          class="hover:opacity-80 transition font-black tracking-widest text-[11px] bg-black/10 hover:bg-black/15 px-3 py-0.5 sm:py-1 rounded-full">
+          CONTACT US &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODERN FROSTED GLASS HEADER (Apple Glassmorphic Style) -->
+  <header class="sticky top-0 z-40 glass-header transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+
+        <!-- Official Logo -->
+        <a href="index.html"
+          class="flex items-center space-x-2.5 group active:scale-95 transition-transform duration-200">
+          <img src="images/gt-logo.svg" alt="General" class="h-6 sm:h-7 w-auto">
+          <span
+            class="text-brand-yellow font-black text-xl sm:text-2xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[10px] sm:text-xs align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+        </a>
+
+        <!-- Desktop Navigation (iOS Segmented Glass Capsule) -->
+        <nav class="hidden lg:flex items-center gap-1 glass-capsule p-1 rounded-full text-xs font-bold tracking-wider">
+          <a href="index.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Home</a>
+          <a href="products.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Products</a>
+          <a href="brands.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Brands</a>
+          <a href="parts.html"
+            class="bg-brand-yellow text-black px-5 py-2 rounded-full font-black shadow-[0_2px_12px_rgba(255,222,0,0.45)] transition-all inline-flex items-center justify-center leading-none">Part
+            No. Lookup</a>
+          <a href="contact.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Contact
+            Us</a>
+        </nav>
+
+        <!-- Right Controls (iOS Glass Icon Buttons) -->
+        <div class="flex items-center space-x-3">
+          <!-- Contact Sales CTA -->
+          <a href="contact.html"
+            class="hidden sm:inline-flex items-center justify-center bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-4 py-2 rounded-full transition-all shadow-[0_2px_12px_rgba(255,222,0,0.4)] active:scale-95 leading-none">
+            Contact Sales
+          </a>
+
+          <!-- Quote Request Drawer Button with Live Counter Badge -->
+          <button onclick="window.openCartDrawer()"
+            class="relative p-2.5 rounded-full glass-capsule text-brand-yellow hover:bg-brand-yellow/15 transition-all duration-300 active:scale-90 flex items-center justify-center"
+            aria-label="Quote Request">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            <span
+              class="cart-count-badge hidden absolute -top-1 -right-1 bg-brand-yellow text-black text-[10px] font-black w-4 h-4 rounded-full flex items-center justify-center shadow-md">0</span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobile-menu-btn"
+            class="lg:hidden p-2 rounded-full glass-capsule text-slate-200 hover:text-white focus:outline-none active:scale-90 transition-transform"
+            aria-label="Toggle menu">
+            <i data-lucide="menu" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation (Frosted Glass Sheet) -->
+    <div id="mobile-menu"
+      class="hidden lg:hidden glass-header border-b border-white/[0.12] px-4 pt-3 pb-6 space-y-2 shadow-2xl transition-all">
+      <a href="index.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Home</a>
+      <a href="products.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Products</a>
+      <a href="brands.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Brands</a>
+      <a href="parts.html"
+        class="block px-4 py-3 text-xs font-black text-black bg-brand-yellow rounded-2xl shadow-sm uppercase tracking-wider">Part
+        No. Lookup</a>
+      <a href="contact.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Contact
+        Us</a>
+    </div>
+  </header>
+
+  <!-- SEARCH HERO STAGE (Apple-Style Frosted Glass Search) -->
+  <div
+    class="relative overflow-hidden py-16 sm:py-20 px-4 sm:px-6 lg:px-8 border-b border-black/[0.06] dark:border-white/[0.08] bg-slate-100/60 dark:bg-brand-dark/70 backdrop-blur-xl">
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+
+      <div
+        class="inline-flex items-center gap-2 backdrop-blur-md bg-brand-yellow/15 border border-brand-yellow/30 text-black dark:text-brand-yellow text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 shadow-sm">
+        <i data-lucide="file-search" class="w-3.5 h-3.5"></i>
+        <span>Direct Technical Specifications</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl font-black text-slate-950 dark:text-white uppercase tracking-tight mb-4">
+        Part Number Directory
+      </h1>
+
+      <p
+        class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed mb-8 max-w-2xl mx-auto font-normal">
+        Quickly check exact General Tools part numbers, instrument specifications, ASME tolerances, and calibration
+        documentation.
+      </p>
+
+      <!-- iOS Frosted Glass Search Bar -->
+      <div class="max-w-xl mx-auto">
+        <div class="relative flex items-center">
+          <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-4 pointer-events-none"></i>
+          <input type="text" id="part-input" placeholder="Enter Part No. (e.g. MMD4E, DCS660, 147, 822)..."
+            class="w-full backdrop-blur-2xl bg-white/80 dark:bg-white/[0.06] border border-black/[0.1] dark:border-white/10 rounded-full pl-12 pr-32 py-4 text-sm text-slate-950 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow shadow-glass transition-all">
+          <button onclick="handlePartLookup()"
+            class="absolute right-1.5 bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-6 py-2.5 rounded-full text-xs transition shadow-sm active:scale-95">
+            Lookup
+          </button>
+        </div>
+
+        <!-- Quick suggestion chips -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mt-4 text-xs">
+          <span class="text-slate-400 font-bold uppercase tracking-wider text-[10px]">Popular:</span>
+          <button onclick="quickSearch('MMD4E')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">MMD4E</button>
+          <button onclick="quickSearch('DCS660')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">DCS660</button>
+          <button onclick="quickSearch('GT-147')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">GT-147</button>
+          <button onclick="quickSearch('822')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">822</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- SIGNATURE WHITE SECTION: Main Parts Content     -->
+  <!-- ============================================== -->
+  <div class="bg-white text-slate-900 flex-1 flex flex-col justify-center border-b border-slate-200/80">
+    <!-- MAIN PART CONTENT -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 flex-1 w-full bg-white">
+
+      <!-- Part Response / Dynamic Sheet -->
+      <div id="part-display"
+        class="glass-specular backdrop-blur-xl bg-white border border-slate-200/90 rounded-3xl p-8 sm:p-14 text-center max-w-3xl mx-auto shadow-xl shadow-slate-200/60 mb-12 transition-colors">
+        <div
+          class="w-16 h-16 sm:w-20 sm:h-20 bg-amber-50 border border-brand-yellow/40 text-black rounded-2xl flex items-center justify-center mx-auto mb-5 sm:mb-6 shadow-sm">
+          <i data-lucide="package-search" class="w-8 h-8 sm:w-10 sm:h-10 text-amber-500"></i>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-950 uppercase tracking-tight mb-3" id="display-title">
+          Part Directory In Preparation
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-8 max-w-lg mx-auto font-normal"
+          id="display-desc">
+          We are currently updating our master part inventory. If you need immediate technical specifications,
+          replacement
+          parts, or calibration certificates, enter a part number above or contact our team directly.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 sm:gap-4">
+          <a href="contact.html" id="inquire-btn"
+            class="w-full sm:w-auto bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-7 sm:px-8 py-3.5 sm:py-4 rounded-full text-xs sm:text-sm transition-all duration-300 shadow-glow-yellow flex items-center justify-center gap-2 active:scale-95 leading-none">
+            <i data-lucide="mail" class="w-4 h-4 shrink-0"></i>
+            <span>Inquire About a Part Number</span>
+          </a>
+          <a href="products.html"
+            class="w-full sm:w-auto bg-slate-50 hover:bg-slate-100 text-slate-900 border border-slate-200/90 font-bold uppercase tracking-wider px-7 sm:px-8 py-3.5 sm:py-4 rounded-full text-xs sm:text-sm transition-all shadow-sm flex items-center justify-center gap-2 active:scale-95 leading-none">
+            <i data-lucide="arrow-left" class="w-4 h-4 shrink-0"></i>
+            <span>Back to Catalog</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Master Part Directory Specifications Notice -->
+      <div class="max-w-4xl mx-auto">
+        <div class="flex items-center justify-between mb-6">
+          <div>
+            <h2 class="text-xl font-black text-slate-950 uppercase tracking-tight">Master Parts Standards
+            </h2>
+            <p class="text-xs text-slate-500 mt-0.5">Metrology specifications and certified
+              traceability information.</p>
+          </div>
+        </div>
+
+        <div
+          class="glass-specular backdrop-blur-xl bg-white border border-slate-200/90 rounded-3xl p-8 sm:p-10 shadow-xl shadow-slate-200/60">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center shrink-0">
+                <i data-lucide="award" class="w-6 h-6 text-amber-500"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-black text-slate-950 uppercase tracking-wide">NIST Traceable</h3>
+                <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                  Calibration certificates available upon order for precision aerospace and commercial applications.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center shrink-0">
+                <i data-lucide="sliders" class="w-6 h-6 text-amber-500"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-black text-slate-950 uppercase tracking-wide">ASME Compliant</h3>
+                <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                  Machined to rigorous dimensional standards and micro-inch mechanical tolerances.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center shrink-0">
+                <i data-lucide="mail" class="w-6 h-6 text-amber-500"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-black text-slate-950 uppercase tracking-wide">Direct Support Desk
+                </h3>
+                <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                  Email directly with an application engineer: <a href="mailto:enquiry@general.tools"
+                    class="text-amber-600 font-bold hover:underline lowercase">enquiry@general.tools</a> (Mon–Fri 8:30
+                  AM–5:00 PM EST).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- FOOTER (Apple-Style Minimalist Frosted Glass Footer) -->
+  <footer
+    class="backdrop-blur-xl bg-white/50 dark:bg-brand-dark/90 border-t border-black/[0.06] dark:border-white/[0.08] py-12 text-slate-600 dark:text-slate-400 text-xs mt-auto transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+
+        <div class="flex items-center space-x-2.5">
+          <img src="images/gt-logo.svg" alt="General" class="h-5 sm:h-6 w-auto opacity-95">
+          <span
+            class="text-brand-yellow font-black text-lg sm:text-xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[9px] align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+          <span class="text-slate-400 opacity-40 ml-1">|</span>
+          <span class="text-slate-500 dark:text-slate-400 font-medium tracking-wide">Precision Instruments</span>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-center gap-6 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider text-xs">
+          <a href="index.html" class="hover:text-brand-yellow transition-colors">Home</a>
+          <a href="products.html" class="hover:text-brand-yellow transition-colors">Products</a>
+          <a href="brands.html" class="hover:text-brand-yellow transition-colors">Brands</a>
+          <a href="parts.html" class="hover:text-brand-yellow transition-colors">Part No. Lookup</a>
+          <a href="contact.html" class="hover:text-brand-yellow transition-colors">Contact Us</a>
+        </div>
+
+        <p class="text-slate-400 dark:text-slate-500 font-medium">&copy; 2026 General Tools & Instruments. All rights
+          reserved.</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Known tool technical directory for instant live lookup
+    const PART_DATABASE = {
+      'MMD4E': {
+        name: 'Digital Pin-Type Moisture Meter',
+        division: 'Detection & Inspection',
+        range: '5% to 50% (wood), 1.5% to 33% (building materials)',
+        accuracy: '±3%',
+        resolution: '0.1%',
+        power: '9V Alkaline Battery (included)',
+        warranty: '1-Year Limited Warranty'
+      },
+      'DCS660': {
+        name: 'HD Video Borescope Inspection Camera',
+        division: 'Detection & Inspection',
+        range: '1m flexible probe with 6 adjustable LEDs',
+        accuracy: '1080p full HD resolution',
+        resolution: '3.5" high-contrast color LCD',
+        power: 'Rechargeable Li-Ion battery',
+        warranty: '1-Year Limited Warranty'
+      },
+      'GT-147': {
+        name: '6" Digital Stainless Steel Caliper',
+        division: 'Precision Measuring & Layout',
+        range: '0 - 6 in (0 - 150 mm)',
+        accuracy: '±0.001 in (±0.02 mm)',
+        resolution: '0.0005 in (0.01 mm)',
+        power: 'LR44 1.5V button cell',
+        warranty: '1-Year Limited Warranty'
+      },
+      '822': {
+        name: 'Digital Angle Finder Ruler (10-inch)',
+        division: 'Precision Measuring & Layout',
+        range: '0 to 360 degrees',
+        accuracy: '±0.3 degrees',
+        resolution: '0.1 degree',
+        power: 'CR2032 3V lithium battery',
+        warranty: '1-Year Limited Warranty'
+      },
+      '837': {
+        name: 'Contour Gauge Profile Tool (10-inch)',
+        division: 'Precision Measuring & Layout',
+        range: '10-inch extra wide profile tracing',
+        accuracy: 'Tight-tolerance brass pins with lock',
+        resolution: 'Fine contour tracing',
+        power: 'Mechanical / No battery required',
+        warranty: 'Lifetime Warranty on pins'
+      }
+    };
+
+    function quickSearch(part) {
+      document.getElementById('part-input').value = part;
+      handlePartLookup();
+    }
+
+    function handlePartLookup() {
+      const input = document.getElementById('part-input');
+      const val = input.value.trim().toUpperCase();
+      const display = document.getElementById('part-display');
+
+      if (!val) {
+        alert('Please enter a part number to search.');
+        return;
+      }
+
+      // Check multi-brand catalog (General Tools, Stanley, DeWalt)
+      const allProducts = window.getAllProducts ? window.getAllProducts() : [
+        ...(window.GENERAL_TOOLS_PRODUCTS || []),
+        ...(window.STANLEY_PRODUCTS || []),
+        ...(window.DEWALT_PRODUCTS || [])
+      ];
+
+      const matchedProduct = allProducts.find(p =>
+        (p.model && p.model.toUpperCase() === val) ||
+        (p.model && val.includes(p.model.toUpperCase())) ||
+        (p.model && p.model.toUpperCase().includes(val)) ||
+        (p.name && p.name.toUpperCase().includes(val))
+      );
+
+      if (matchedProduct) {
+        display.innerHTML = `
+          <div class="text-left bg-white">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-200">
+              <div class="flex items-start gap-4">
+                <img src="${matchedProduct.image}" alt="${matchedProduct.name}" class="w-20 h-20 object-contain rounded-2xl bg-slate-50 border border-slate-200 p-2 shrink-0">
+                <div>
+                  <div class="flex items-center gap-2 mb-1.5">
+                    <span class="inline-block bg-brand-yellow text-black text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
+                      Part No: ${matchedProduct.model}
+                    </span>
+                    <span class="text-[11px] font-bold text-slate-800 uppercase tracking-wider bg-slate-100 px-2.5 py-0.5 rounded-full">
+                      ${matchedProduct.brand}® &bull; ${matchedProduct.category}
+                    </span>
+                  </div>
+                  <h2 class="text-xl sm:text-2xl font-black text-slate-950 uppercase tracking-tight">${matchedProduct.name}</h2>
+                  <p class="text-xs text-emerald-600 font-bold mt-1 flex items-center gap-1">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    Verified Product &bull; Authorized Commercial Supply
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-2 shrink-0">
+                <button onclick="window.openProductModal(${matchedProduct.id})" class="bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold text-xs uppercase tracking-wider px-4 py-3 rounded-full transition active:scale-95">
+                  Full Specs
+                </button>
+                <button onclick="window.addToCart(${matchedProduct.id}, 1)" class="bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-5 py-3 rounded-full text-xs transition shadow-glow-yellow active:scale-95 flex items-center gap-1.5 whitespace-nowrap">
+                  <i data-lucide="file-text" class="w-4 h-4"></i>
+                  <span>Add to Quote</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="py-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              ${(matchedProduct.specifications || []).map(s => `
+                <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200/80">
+                  <span class="text-slate-400 uppercase tracking-wider font-bold text-[10px] block mb-0.5">${s.label}</span>
+                  <span class="text-slate-900 font-semibold text-xs">${s.value}</span>
+                </div>
+              `).join('')}
+            </div>
+
+            <div class="pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+              <span class="inline-flex items-center gap-1.5 font-bold uppercase tracking-wider text-slate-700">
+                <i data-lucide="check-circle" class="w-4 h-4 text-amber-500"></i>
+                <span>Official ${matchedProduct.brand}® Authorized Supply</span>
+              </span>
+              <a href="contact.html?part=${encodeURIComponent(matchedProduct.model)}&name=${encodeURIComponent(matchedProduct.name)}&brand=${encodeURIComponent(matchedProduct.brand)}" class="text-slate-900 font-black uppercase tracking-wider hover:underline flex items-center gap-1">
+                <span>Inquire With Commercial Desk &rarr;</span>
+              </a>
+            </div>
+          </div>
+        `;
+        if (window.lucide) lucide.createIcons();
+        return;
+      }
+
+      // Check legacy part database
+      const foundKey = Object.keys(PART_DATABASE).find(k => k.toUpperCase() === val || val.includes(k.toUpperCase()));
+
+      if (foundKey) {
+        const item = PART_DATABASE[foundKey];
+        display.innerHTML = `
+          <div class="text-left">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-black/[0.06] dark:border-white/[0.08]">
+              <div>
+                <span class="inline-block bg-brand-yellow text-black text-xs font-black uppercase tracking-wider px-3 py-1 rounded-full mb-2">
+                  Part No: ${foundKey}
+                </span>
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-950 dark:text-white uppercase tracking-tight">${item.name}</h2>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1 uppercase tracking-wider font-bold">${item.division}</p>
+              </div>
+              <a href="contact.html?part=${encodeURIComponent(foundKey)}" class="bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-6 py-3 rounded-full text-xs transition shadow-glow-yellow active:scale-95 whitespace-nowrap text-center">
+                Request Commercial Quote
+              </a>
+            </div>
+
+            <div class="py-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+              <div class="backdrop-blur-xl bg-black/[0.02] dark:bg-white/[0.03] p-4 rounded-2xl border border-black/[0.04] dark:border-white/[0.06]">
+                <span class="text-slate-400 uppercase tracking-wider font-bold text-[10px] block mb-1">Measurement Range</span>
+                <span class="text-slate-900 dark:text-slate-100 font-semibold text-sm">${item.range}</span>
+              </div>
+              <div class="backdrop-blur-xl bg-black/[0.02] dark:bg-white/[0.03] p-4 rounded-2xl border border-black/[0.04] dark:border-white/[0.06]">
+                <span class="text-slate-400 uppercase tracking-wider font-bold text-[10px] block mb-1">Accuracy Tolerance</span>
+                <span class="text-slate-900 dark:text-slate-100 font-semibold text-sm">${item.accuracy}</span>
+              </div>
+              <div class="backdrop-blur-xl bg-black/[0.02] dark:bg-white/[0.03] p-4 rounded-2xl border border-black/[0.04] dark:border-white/[0.06]">
+                <span class="text-slate-400 uppercase tracking-wider font-bold text-[10px] block mb-1">Resolution</span>
+                <span class="text-slate-900 dark:text-slate-100 font-semibold text-sm">${item.resolution}</span>
+              </div>
+              <div class="backdrop-blur-xl bg-black/[0.02] dark:bg-white/[0.03] p-4 rounded-2xl border border-black/[0.04] dark:border-white/[0.06]">
+                <span class="text-slate-400 uppercase tracking-wider font-bold text-[10px] block mb-1">Power Source / Warranty</span>
+                <span class="text-slate-900 dark:text-slate-100 font-semibold text-sm">${item.power} • ${item.warranty}</span>
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-black/[0.06] dark:border-white/[0.08] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+              <span class="inline-flex items-center gap-1.5 font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
+                <i data-lucide="check-circle" class="w-4 h-4 text-brand-yellow"></i>
+                <span>NIST Traceable Certificate Available</span>
+              </span>
+              <a href="contact.html?part=${encodeURIComponent(foundKey)}" class="text-brand-yellow font-black uppercase tracking-wider hover:underline flex items-center gap-1">
+                <span>Inquire With Engineering Desk &rarr;</span>
+              </a>
+            </div>
+          </div>
+        `;
+      } else {
+        // Generic Part Inquiry Card
+        display.innerHTML = `
+          <div class="text-center">
+            <div class="w-16 h-16 bg-brand-yellow/15 border border-brand-yellow/30 text-black dark:text-brand-yellow rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <i data-lucide="file-check" class="w-8 h-8"></i>
+            </div>
+            <span class="inline-block bg-brand-yellow text-black text-xs font-mono font-black uppercase tracking-widest px-3 py-1 rounded-full mb-3">
+              Part No: ${val}
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-black text-slate-950 dark:text-white uppercase tracking-tight mb-3">
+              Inquire About Part "${val}"
+            </h2>
+            <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed mb-6 max-w-lg mx-auto font-normal">
+              Direct technical specifications and pricing for part <strong>"${val}"</strong> can be retrieved directly by our application engineering team. Click below to submit an inquiry.
+            </p>
+            <a href="contact.html?part=${encodeURIComponent(val)}" class="inline-flex items-center justify-center gap-2 bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-8 py-4 rounded-full text-sm transition-all duration-300 shadow-glow-yellow active:scale-95">
+              <i data-lucide="mail" class="w-4 h-4"></i>
+              <span>Inquire About Part "${val}"</span>
+            </a>
+          </div>
+        `;
+      }
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // Auto-lookup if ?part= is in URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const partParam = urlParams.get('part');
+    if (partParam) {
+      document.getElementById('part-input').value = partParam;
+      handlePartLookup();
+    }
+
+    // Enter key handler
+    document.getElementById('part-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        handlePartLookup();
+      }
+    });
+
+    // Mobile menu toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Tools | Precision Tools Trusted For Over 100 Years</title>
+
+  <!-- Immediate theme check to prevent flickering -->
+  <script src="js/theme.js"></script>
+  <!-- Multi-Brand Product Catalogs & Cart Engine -->
+  <script src="js/products-data.js"></script>
+  <script src="js/stanley-data.js"></script>
+  <script src="js/dewalt-data.js"></script>
+  <script src="js/cart-modal.js"></script>
+
+  <!-- Premium Modern Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            tech: ['"Space Grotesk"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              yellow: '#FFDE00',
+              yellowHover: '#E6C800',
+              dark: '#11161E',
+              darker: '#090D14',
+              surface: '#161E29',
+              glassLight: 'rgba(255, 255, 255, 0.70)',
+              glassDark: 'rgba(22, 30, 41, 0.72)',
+              borderLight: 'rgba(255, 255, 255, 0.60)',
+              borderDark: 'rgba(255, 255, 255, 0.08)'
+            }
+          },
+          boxShadow: {
+            'glass': '0 20px 40px -15px rgba(0, 0, 0, 0.05)',
+            'glass-dark': '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
+            'glow-yellow': '0 0 25px -5px rgba(255, 222, 0, 0.35)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Premium Modern Typography & Glassmorphism */
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      letter-spacing: -0.012em;
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+
+      letter-spacing: -0.03em;
+    }
+
+    .font-tech {
+      font-family: 'Space Grotesk', monospace;
+    }
+
+    /* Authentic General Tools Hero Banner */
+    .hero-real-bg {
+      background-color: #090d14;
+    }
+
+    .glass-specular {
+      position: relative;
+    }
+
+    .glass-specular::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+      border-radius: 9999px;
+      pointer-events-none;
+    }
+
+    /* Ultra-Modern Apple Glassmorphic Header & Navigation */
+    .glass-header {
+      background: rgba(12, 17, 26, 0.60) !important;
+      backdrop-filter: blur(28px) saturate(190%);
+      -webkit-backdrop-filter: blur(28px) saturate(190%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .glass-capsule {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.22);
+    }
+
+    .glass-cta-btn {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 222, 0, 0.45);
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+    }
+
+    .glass-cta-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: #FFDE00;
+      box-shadow: 0 0 25px rgba(255, 222, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+
+<body
+  class="bg-slate-50 dark:bg-brand-darker text-slate-800 dark:text-slate-100 min-h-screen flex flex-col antialiased selection:bg-brand-yellow selection:text-black transition-colors duration-300">
+
+  <!-- SIGNATURE YELLOW TOP BAR (Official General Tools Style) -->
+  <div
+    class="bg-brand-yellow text-black text-[11px] font-black py-1 sm:py-1.5 px-4 sm:px-6 lg:px-8 uppercase tracking-wider shadow-sm z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <a href="mailto:enquiry@general.tools"
+          class="inline-flex items-center gap-1.5 hover:opacity-80 transition font-bold lowercase tracking-normal">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+          <span>enquiry@general.tools</span>
+        </a>
+      </div>
+      <div>
+        <a href="contact.html"
+          class="hover:opacity-80 transition font-black tracking-widest text-[11px] bg-black/10 hover:bg-black/15 px-3 py-0.5 sm:py-1 rounded-full">
+          CONTACT US &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODERN FROSTED GLASS HEADER (Apple Glassmorphic Style with Official General Tools Branding) -->
+  <header class="sticky top-0 z-40 glass-header transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+
+        <!-- Official Logo -->
+        <a href="index.html"
+          class="flex items-center space-x-2.5 group active:scale-95 transition-transform duration-200">
+          <img src="images/gt-logo.svg" alt="General" class="h-6 sm:h-7 w-auto">
+          <span
+            class="text-brand-yellow font-black text-xl sm:text-2xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[10px] sm:text-xs align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+        </a>
+
+        <!-- Desktop Navigation (iOS Segmented Glass Capsule) -->
+        <nav class="hidden lg:flex items-center gap-1 glass-capsule p-1 rounded-full text-xs font-bold tracking-wider">
+          <a href="index.html"
+            class="bg-brand-yellow text-black px-5 py-2 rounded-full font-black shadow-[0_2px_12px_rgba(255,222,0,0.45)] transition-all inline-flex items-center justify-center leading-none">Home</a>
+          <a href="products.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Products</a>
+          <a href="brands.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Brands</a>
+          <a href="parts.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Part
+            No. Lookup</a>
+          <a href="contact.html"
+            class="text-slate-300 hover:text-white hover:bg-white/[0.12] px-4 py-2 rounded-full transition-all inline-flex items-center justify-center leading-none">Contact
+            Us</a>
+        </nav>
+
+        <!-- Right Controls (iOS Glass Icon Buttons) -->
+        <div class="flex items-center space-x-3">
+          <!-- Part Lookup CTA -->
+          <a href="parts.html"
+            class="hidden sm:inline-flex items-center justify-center gap-2 glass-cta-btn text-brand-yellow text-xs font-black px-4 py-2 rounded-full transition-all duration-300 active:scale-95 uppercase tracking-wider leading-none">
+            <i data-lucide="search" class="w-3.5 h-3.5 shrink-0"></i>
+            <span>Part Lookup</span>
+          </a>
+
+          <!-- Quote Request Drawer Button with Live Counter Badge -->
+          <button onclick="window.openCartDrawer()"
+            class="relative p-2.5 rounded-full glass-capsule text-brand-yellow hover:bg-brand-yellow/15 transition-all duration-300 active:scale-90 flex items-center justify-center"
+            aria-label="Quote Request">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            <span
+              class="cart-count-badge hidden absolute -top-1 -right-1 bg-brand-yellow text-black text-[10px] font-black w-4 h-4 rounded-full flex items-center justify-center shadow-md">0</span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobile-menu-btn"
+            class="lg:hidden p-2 rounded-full glass-capsule text-slate-200 hover:text-white focus:outline-none active:scale-90 transition-transform"
+            aria-label="Toggle menu">
+            <i data-lucide="menu" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation (Frosted Glass Sheet) -->
+    <div id="mobile-menu"
+      class="hidden lg:hidden glass-header border-b border-white/[0.12] px-4 pt-3 pb-6 space-y-2 shadow-2xl transition-all">
+      <a href="index.html"
+        class="block px-4 py-3 text-xs font-black text-black bg-brand-yellow rounded-2xl shadow-sm uppercase tracking-wider">Home</a>
+      <a href="products.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Products</a>
+      <a href="brands.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Brands</a>
+      <a href="parts.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Part
+        No. Lookup</a>
+      <a href="contact.html"
+        class="block px-4 py-3 text-xs font-bold text-slate-200 hover:bg-white/[0.08] rounded-2xl uppercase tracking-wider transition">Contact
+        Us</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (Two-Column Flagship Stage) -->
+  <section
+    class="border-b border-black/[0.06] dark:border-white/[0.08] pt-4 sm:pt-6 lg:pt-8 pb-4 sm:pb-6 lg:pb-6 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-[#090d14]">
+
+    <!-- Ambient Depth Background Glows -->
+    <div class="absolute top-1/4 -left-20 w-96 h-96 bg-brand-yellow/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div
+      class="absolute bottom-10 right-1/4 w-[500px] h-[500px] bg-brand-yellow/5 rounded-full blur-3xl pointer-events-none">
+    </div>
+    <div
+      class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(255,222,0,0.08),rgba(255,255,255,0))] pointer-events-none">
+    </div>
+
+    <div class="max-w-7xl mx-auto relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+
+        <!-- Left Column: Copy & Actions (6 cols) -->
+        <div class="lg:col-span-6 space-y-4 sm:space-y-5">
+
+          <!-- Badge -->
+          <div
+            class="inline-flex items-center gap-2.5 backdrop-blur-md bg-white/[0.06] border border-white/[0.12] text-brand-yellow text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-brand-yellow animate-pulse"></span>
+            <span>Flagship Precision Instruments</span>
+          </div>
+
+          <!-- Headline -->
+          <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.06]">
+            Precision Tools<br>
+            Trusted For Over<br>
+            <span class="text-brand-yellow drop-shadow-glow-yellow">100 Years</span>
+          </h1>
+
+          <!-- Subheading -->
+          <p class="text-slate-300 text-base sm:text-lg lg:text-xl leading-relaxed max-w-xl font-normal">
+            Trusted craftsmanship. Modern precision. Explore the newest infrared thermometers, digital inspection tools,
+            and mechanical standards built on 100 years of quality.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="products.html"
+              class="bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-8 py-4 rounded-full text-sm transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-glow-yellow flex items-center gap-2.5">
+              <span>Shop All Products</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+            <a href="parts.html"
+              class="backdrop-blur-xl bg-white/[0.08] hover:bg-white/[0.15] text-white border border-white/[0.18] font-bold uppercase tracking-wider px-7 py-4 rounded-full text-sm transition-all duration-300 hover:scale-105 active:scale-95 shadow-glass-dark flex items-center gap-2">
+              <i data-lucide="file-search" class="w-4 h-4 text-brand-yellow"></i>
+              <span>Part No. Directory</span>
+            </a>
+          </div>
+
+          <!-- Quick Trust Badges -->
+          <div
+            class="pt-3 flex flex-wrap items-center gap-6 text-xs text-slate-400 font-bold uppercase tracking-wider border-t border-white/[0.08]">
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-4 h-4 text-brand-yellow"></i>
+              <span>General Tools® IRT215</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="shield-check" class="w-4 h-4 text-brand-yellow"></i>
+              <span>NIST Traceable</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="award" class="w-4 h-4 text-brand-yellow"></i>
+              <span>Since 1922</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Hero Machine Showcase (6 cols) -->
+        <div class="lg:col-span-6 relative">
+          <!-- Glass Stage Container -->
+          <div
+            class="relative rounded-3xl overflow-hidden border border-white/[0.16] shadow-2xl bg-gradient-to-b from-white/[0.08] to-black/40 backdrop-blur-2xl p-2 sm:p-3 group">
+
+            <div class="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[16/10] cursor-pointer"
+              onclick="window.openProductModal(14)">
+              <img src="images/homepage-banner-hd.jpg" alt="General Tools IRT215 Infrared Thermometer"
+                class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+
+              <!-- Subtle Inner Vignette -->
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none">
+              </div>
+
+              <!-- Product Floating Pill Tag -->
+              <div
+                class="absolute bottom-4 left-4 right-4 flex items-center justify-between backdrop-blur-xl bg-[#090d14]/85 hover:bg-[#090d14] border border-white/[0.15] hover:border-brand-yellow/50 rounded-xl px-4 py-2.5 shadow-lg transition-all">
+                <div>
+                  <div
+                    class="text-[10px] font-black text-brand-yellow tracking-widest uppercase flex items-center gap-1.5">
+                    <span>Featured Instrument</span>
+                    <i data-lucide="sparkles" class="w-3 h-3 text-brand-yellow"></i>
+                  </div>
+                  <div class="text-xs font-bold text-white">General Tools® IRT215 12:1 IR Thermometer</div>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="text-xs font-mono font-black text-brand-yellow">63.4 °F</span>
+                  <span
+                    class="text-[10px] font-black uppercase bg-brand-yellow text-black px-2.5 py-0.5 rounded-full shadow-xs">Specs
+                    &rarr;</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Decorative Ambient Shadow behind card -->
+          <div class="absolute -inset-4 bg-brand-yellow/10 rounded-3xl blur-2xl -z-10 pointer-events-none"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- SIGNATURE WHITE SECTION: Category Showcase & Pillars      -->
+  <!-- ======================================================== -->
+  <div class="bg-white text-slate-900 border-y border-slate-200/80">
+
+    <!-- "OUR BRANDS / BRANDS YOU LIKE" SECTION -->
+    <section class="pt-4 sm:pt-6 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+
+      <!-- Section Header with Modern Apple-Style Split Layout -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 sm:mb-10">
+        <div class="max-w-2xl">
+          <div
+            class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-900/5 border border-slate-900/10 text-slate-900 text-xs font-black uppercase tracking-widest mb-4 backdrop-blur-md">
+            <span class="w-2 h-2 rounded-full bg-brand-yellow ring-4 ring-brand-yellow/30 animate-pulse"></span>
+            <span>Our Brands</span>
+          </div>
+          <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-950 tracking-tighter leading-[1.05]">
+            Brands You Like
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg mt-3 font-normal max-w-xl leading-relaxed">
+            Industry-standard precision tools and equipment from the world's most trusted manufacturers.
+          </p>
+        </div>
+
+        <!-- Quick Info / Status Pill & View All Link -->
+        <div class="flex items-center gap-3">
+          <div
+            class="hidden sm:flex items-center gap-2.5 text-xs font-bold text-slate-600 bg-slate-50 border border-slate-200/90 rounded-2xl px-4 py-3 shadow-xs">
+            <i data-lucide="shield-check" class="w-4 h-4 text-brand-yellow"></i>
+            <span>Commercial Supply</span>
+          </div>
+          <a href="brands.html"
+            class="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-black bg-brand-yellow hover:bg-brand-yellowHover rounded-2xl px-5 py-3 transition shadow-xs active:scale-95 leading-none">
+            <span>Explore All Brands &rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 3 Ultra-Modern Brand Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-7 sm:gap-8">
+
+        <!-- Card 1: General Tools -->
+        <a href="brands.html"
+          class="group relative bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+          <div>
+            <!-- Image Hero Stage -->
+            <div class="h-64 sm:h-72 w-full overflow-hidden bg-slate-950 relative">
+              <img src="images/detection-feature.webp" alt="General Tools"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+              <!-- Top Header Bar inside Image -->
+              <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                <span
+                  class="backdrop-blur-xl bg-black/60 border border-white/20 text-brand-yellow text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow"></span>
+                  <span>Est. 1922</span>
+                </span>
+                <span
+                  class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
+                  <i data-lucide="arrow-up-right"
+                    class="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+                </span>
+              </div>
+
+              <!-- Brand Name Overlay -->
+              <div class="absolute bottom-5 left-5 right-5">
+                <span class="text-brand-yellow text-[11px] font-black uppercase tracking-widest block mb-1">Precision
+                  Instruments</span>
+                <h3
+                  class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                  GENERAL TOOLS<span class="text-xs align-super ml-1 font-bold text-brand-yellow">&reg;</span>
+                </h3>
+              </div>
+            </div>
+
+            <!-- Card Body -->
+            <div class="p-7">
+              <!-- Feature Badges -->
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="bg-slate-100 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Measuring
+                  Tools</span>
+                <span
+                  class="bg-slate-100 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Diagnostics</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Precision measuring instruments, specialized diagnostic borescopes, digital calipers, and inspection
+                equipment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Action -->
+          <div class="px-7 pb-7 pt-2">
+            <div
+              class="w-full py-3.5 px-5 rounded-2xl bg-slate-50 group-hover:bg-slate-950 border border-slate-200/90 group-hover:border-slate-950 flex items-center justify-between transition-all duration-300">
+              <span
+                class="text-xs font-black uppercase tracking-wider text-slate-900 group-hover:text-white transition-colors">Explore
+                General Tools</span>
+              <i data-lucide="arrow-right"
+                class="w-4 h-4 text-brand-yellow group-hover:translate-x-1.5 transition-transform"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 2: Stanley -->
+        <a href="brands.html"
+          class="group relative bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+          <div>
+            <!-- Image Hero Stage -->
+            <div class="h-64 sm:h-72 w-full overflow-hidden bg-slate-950 relative">
+              <img src="images/precision-measuring-feature.webp" alt="Stanley"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+              <!-- Top Header Bar inside Image -->
+              <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                <span
+                  class="backdrop-blur-xl bg-black/60 border border-white/20 text-[#FFE000] text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-[#FFE000]"></span>
+                  <span>Est. 1843</span>
+                </span>
+                <span
+                  class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-[#FFE000] group-hover:text-black group-hover:border-[#FFE000] transition-all duration-300">
+                  <i data-lucide="arrow-up-right"
+                    class="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+                </span>
+              </div>
+
+              <!-- Brand Name Overlay -->
+              <div class="absolute bottom-5 left-5 right-5">
+                <span class="text-[#FFE000] text-[11px] font-black uppercase tracking-widest block mb-1">Contractor
+                  Heritage</span>
+                <h3
+                  class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                  STANLEY<span class="text-xs align-super ml-1 font-bold text-[#FFE000]">&reg;</span>
+                </h3>
+              </div>
+            </div>
+
+            <!-- Card Body -->
+            <div class="p-7">
+              <!-- Feature Badges -->
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="bg-slate-100 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Hand
+                  Tools</span>
+                <span
+                  class="bg-slate-100 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Measuring
+                  Tapes</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Legendary tape measures, layout rules, utility knives, and durable hand tools built for tradesmen and
+                demanding jobsites.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Action -->
+          <div class="px-7 pb-7 pt-2">
+            <div
+              class="w-full py-3.5 px-5 rounded-2xl bg-slate-50 group-hover:bg-slate-950 border border-slate-200/90 group-hover:border-slate-950 flex items-center justify-between transition-all duration-300">
+              <span
+                class="text-xs font-black uppercase tracking-wider text-slate-900 group-hover:text-white transition-colors">Explore
+                Stanley</span>
+              <i data-lucide="arrow-right"
+                class="w-4 h-4 text-brand-yellow group-hover:translate-x-1.5 transition-transform"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 3: DeWalt -->
+        <a href="brands.html"
+          class="group relative bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+          <div>
+            <!-- Image Hero Stage -->
+            <div class="h-64 sm:h-72 w-full overflow-hidden bg-slate-950 relative">
+              <img src="images/hobby-woodwork-feature.webp" alt="DeWalt"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+              <!-- Top Header Bar inside Image -->
+              <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                <span
+                  class="backdrop-blur-xl bg-black/60 border border-white/20 text-[#FEB81C] text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-[#FEB81C]"></span>
+                  <span>Guaranteed Tough</span>
+                </span>
+                <span
+                  class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-[#FEB81C] group-hover:text-black group-hover:border-[#FEB81C] transition-all duration-300">
+                  <i data-lucide="arrow-up-right"
+                    class="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+                </span>
+              </div>
+
+              <!-- Brand Name Overlay -->
+              <div class="absolute bottom-5 left-5 right-5">
+                <span class="text-[#FEB81C] text-[11px] font-black uppercase tracking-widest block mb-1">Industrial
+                  Equipment</span>
+                <h3
+                  class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
+                  DEWALT<span class="text-xs align-super ml-1 font-bold text-[#FEB81C]">&reg;</span>
+                </h3>
+              </div>
+            </div>
+
+            <!-- Card Body -->
+            <div class="p-7">
+              <!-- Feature Badges -->
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="bg-slate-100 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Industrial
+                  Power</span>
+                <span
+                  class="bg-slate-100 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Heavy
+                  Duty</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Guaranteed tough industrial equipment, heavy-duty mechanics tool sets, impact drive accessories, and
+                rugged workshop gear.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Action -->
+          <div class="px-7 pb-7 pt-2">
+            <div
+              class="w-full py-3.5 px-5 rounded-2xl bg-slate-50 group-hover:bg-slate-950 border border-slate-200/90 group-hover:border-slate-950 flex items-center justify-between transition-all duration-300">
+              <span
+                class="text-xs font-black uppercase tracking-wider text-slate-900 group-hover:text-white transition-colors">Explore
+                DeWalt</span>
+              <i data-lucide="arrow-right"
+                class="w-4 h-4 text-brand-yellow group-hover:translate-x-1.5 transition-transform"></i>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- 3 FEATURE PILLARS -->
+    <section class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full border-t border-slate-100">
+
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div
+          class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/5 border border-slate-900/10 text-slate-900 text-xs font-black uppercase tracking-widest mb-3 backdrop-blur-md">
+          <span class="w-2 h-2 rounded-full bg-brand-yellow"></span>
+          <span>The Standard of Excellence</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight mt-1">
+          Engineered for Perfection
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2 font-normal max-w-lg mx-auto leading-relaxed">
+          Uncompromising tolerances, verified calibration, and immediate technical documentation.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-7 sm:gap-8">
+
+        <!-- Pillar 1 -->
+        <div
+          class="group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] p-8 sm:p-9 transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+          <div>
+            <div
+              class="w-14 h-14 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-6 group-hover:bg-brand-yellow group-hover:scale-105 transition-all duration-300 shadow-sm">
+              <i data-lucide="target" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-slate-950 font-black text-xl tracking-tight mb-3">Uncompromising Precision</h3>
+            <p class="text-slate-600 text-sm leading-relaxed font-normal">
+              Every measuring instrument is engineered to tight ASME tolerances and multi-point NIST traceable standards
+              for trade professionals.
+            </p>
+          </div>
+          <div
+            class="mt-8 pt-5 border-t border-slate-100 flex items-center justify-between text-xs font-black uppercase tracking-wider text-slate-900">
+            <span>0.0005" Micro-Tolerances</span>
+            <i data-lucide="chevron-right"
+              class="w-4 h-4 text-brand-yellow group-hover:translate-x-1.5 transition-transform"></i>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div
+          class="group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] p-8 sm:p-9 transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+          <div>
+            <div
+              class="w-14 h-14 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-6 group-hover:bg-brand-yellow group-hover:scale-105 transition-all duration-300 shadow-sm">
+              <i data-lucide="shield-check" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-slate-950 font-black text-xl tracking-tight mb-3">American Quality Legacy</h3>
+            <p class="text-slate-600 text-sm leading-relaxed font-normal">
+              Founded in Manhattan, NYC, General Tools has stood beside generations of aerospace mechanics, fabricators,
+              and craftsmen.
+            </p>
+          </div>
+          <div
+            class="mt-8 pt-5 border-t border-slate-100 flex items-center justify-between text-xs font-black uppercase tracking-wider text-slate-900">
+            <span>Heritage Craftsmanship</span>
+            <i data-lucide="chevron-right"
+              class="w-4 h-4 text-brand-yellow group-hover:translate-x-1.5 transition-transform"></i>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div
+          class="group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] p-8 sm:p-9 transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
+          <div>
+            <div
+              class="w-14 h-14 rounded-2xl bg-amber-50 border border-brand-yellow/40 text-black flex items-center justify-center mb-6 group-hover:bg-brand-yellow group-hover:scale-105 transition-all duration-300 shadow-sm">
+              <i data-lucide="file-search" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-slate-950 font-black text-xl tracking-tight mb-3">Dedicated Part Lookup</h3>
+            <p class="text-slate-600 text-sm leading-relaxed font-normal">
+              Quickly check exact tool part numbers, calibration documentation, and submit quote requests anytime.
+            </p>
+          </div>
+          <div
+            class="mt-8 pt-5 border-t border-slate-100 flex items-center justify-between text-xs font-black uppercase tracking-wider text-slate-900">
+            <a href="parts.html" class="hover:underline flex items-center gap-1">
+              <span>Lookup Part Specifications</span>
+            </a>
+            <i data-lucide="chevron-right"
+              class="w-4 h-4 text-brand-yellow group-hover:translate-x-1.5 transition-transform"></i>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+  <!-- END WHITE CONTENT SECTION -->
+
+  <!-- COMMERCIAL & B2B CALLOUT (iOS Glass Banner Card) -->
+  <section class="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+    <div
+      class="glass-specular backdrop-blur-2xl bg-gradient-to-r from-brand-surface/90 to-brand-dark/95 border border-white/10 rounded-3xl p-8 sm:p-14 flex flex-col md:flex-row items-center justify-between gap-8 shadow-glass-dark">
+      <div class="max-w-xl text-center md:text-left">
+        <span
+          class="text-brand-yellow text-xs font-black uppercase tracking-widest inline-block bg-white/10 px-3 py-1 rounded-full">Commercial
+          & Wholesale</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white mt-3 tracking-tight">Need Commercial Quotes or
+          Calibration?</h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-2.5 font-normal leading-relaxed">
+          Contact our specialized US application desk for volume discounts, distributor accounts, and calibration
+          paperwork.
+        </p>
+      </div>
+      <a href="contact.html"
+        class="bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-9 py-4 rounded-full text-sm transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-glow-yellow whitespace-nowrap">
+        Contact Our Specialists
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER (Apple-Style Minimalist Frosted Glass Footer) -->
+  <footer
+    class="backdrop-blur-xl bg-white/50 dark:bg-brand-dark/90 border-t border-black/[0.06] dark:border-white/[0.08] py-12 text-slate-600 dark:text-slate-400 text-xs mt-auto transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+
+        <div class="flex items-center space-x-2.5">
+          <img src="images/gt-logo.svg" alt="General" class="h-5 sm:h-6 w-auto opacity-95">
+          <span
+            class="text-brand-yellow font-black text-lg sm:text-xl uppercase tracking-tighter font-display flex items-baseline">
+            TOOLS<span class="text-[9px] align-super ml-0.5 font-bold">&reg;</span>
+          </span>
+          <span class="text-slate-400 opacity-40 ml-1">|</span>
+          <span class="text-slate-500 dark:text-slate-400 font-medium tracking-wide">Precision Instruments</span>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-center gap-6 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider text-xs">
+          <a href="index.html" class="hover:text-brand-yellow transition-colors">Home</a>
+          <a href="products.html" class="hover:text-brand-yellow transition-colors">Products</a>
+          <a href="brands.html" class="hover:text-brand-yellow transition-colors">Brands</a>
+          <a href="parts.html" class="hover:text-brand-yellow transition-colors">Part No. Lookup</a>
+          <a href="contact.html" class="hover:text-brand-yellow transition-colors">Contact Us</a>
+        </div>
+
+        <p class="text-slate-400 dark:text-slate-500 font-medium">&copy; 2026 General Tools & Instruments. All rights
+          reserved.</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  </script>
+</body>
+
+</html>
