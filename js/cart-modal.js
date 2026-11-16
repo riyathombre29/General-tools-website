@@ -376,7 +376,7 @@
     const product = getProductById(productId);
     if (!product) return;
 
-    const warrantyDisplay = product.brand === 'DeWalt' 
+    const warrantyDisplay = product.brand === 'DeWalt'
       ? '3-Year Limited Commercial Warranty'
       : (product.brand === 'Stanley' ? 'Lifetime / Limited Commercial Warranty' : '1-Year Limited Warranty');
 
