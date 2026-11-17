@@ -1,0 +1,10 @@
+{
+  "name": "general-tools-website",
+  "version": "1.0.0",
+  "description": "General Tools Commercial Tools Catalog & RFQ System",
+  "scripts": {
+    "start": "node server.js",
+    "login": "npx firebase-tools login",
+    "deploy": "npx firebase-tools deploy --only hosting"
+  }
+}
