@@ -273,72 +273,10 @@
           </p>
         </div>
 
-        <!-- 3 Brand Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 sm:gap-8">
+        <!-- 2 Brand Cards Grid (Stanley & DeWalt) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 sm:gap-8 max-w-4xl mx-auto">
 
-          <!-- 1. General Tools Brand Card -->
-          <div id="brand-card-general-tools" onclick="selectBrand('general-tools')"
-            class="brand-select-card cursor-pointer group bg-white border-2 border-slate-200/90 hover:border-brand-yellow rounded-[2rem] overflow-hidden transition-all duration-300 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(255,222,0,0.22)] flex flex-col justify-between">
-            <div>
-              <div class="h-56 sm:h-60 w-full overflow-hidden bg-slate-950 relative">
-                <img src="images/detection-feature.webp" alt="General Tools"
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
-
-                <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
-                  <span
-                    class="backdrop-blur-xl bg-black/60 border border-white/20 text-brand-yellow text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
-                    <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow animate-pulse"></span>
-                    <span>27 Products Ready</span>
-                  </span>
-                  <span
-                    class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
-                    <i data-lucide="arrow-down-right" class="w-4 h-4"></i>
-                  </span>
-                </div>
-
-                <div class="absolute bottom-5 left-5 right-5">
-                  <span class="text-brand-yellow text-[11px] font-black uppercase tracking-widest block mb-1">Flagship
-                    Metrology</span>
-                  <h3
-                    class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
-                    GENERAL TOOLS<span class="text-xs align-super ml-1 font-bold text-brand-yellow">&reg;</span>
-                  </h3>
-                </div>
-              </div>
-
-              <div class="p-6">
-                <div class="flex flex-wrap gap-1.5 mb-3">
-                  <span
-                    class="bg-amber-50 text-amber-900 border border-brand-yellow/30 text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">Moisture
-                    Meters</span>
-                  <span
-                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Borescopes</span>
-                  <span
-                    class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Calipers</span>
-                </div>
-                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
-                  Pioneering precision instruments for over a century. Industry-standard pin moisture meters, infrared
-                  thermometers, video borescopes, and machinists' calipers.
-                </p>
-                <div
-                  class="bg-amber-50/70 border border-brand-yellow/40 rounded-xl p-3 text-xs text-slate-800 flex items-center justify-between">
-                  <span class="font-bold text-slate-700 uppercase tracking-wider text-[10px]">Catalog Inventory</span>
-                  <span class="font-black text-black">27 Complete Tools</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="p-6 pt-0">
-              <button type="button"
-                class="w-full py-3.5 px-5 rounded-2xl bg-brand-yellow hover:bg-brand-yellowHover text-black flex items-center justify-between transition-all duration-300 font-black text-xs uppercase tracking-wider shadow-glow-yellow">
-                <span>View General Tools (27) &darr;</span>
-                <i data-lucide="arrow-down" class="w-4 h-4"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- 2. Stanley Brand Card -->
+          <!-- 1. Stanley Brand Card -->
           <div id="brand-card-stanley" onclick="selectBrand('stanley')"
             class="brand-select-card cursor-pointer group bg-white border-2 border-slate-200/90 hover:border-slate-900 rounded-[2rem] overflow-hidden transition-all duration-300 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between">
             <div>
@@ -522,9 +460,6 @@
           <!-- Quick Brand Switcher Buttons -->
           <div class="flex items-center gap-2 text-xs">
             <span class="text-slate-400 font-bold uppercase tracking-wider">Switch Brand:</span>
-            <button onclick="selectBrand('general-tools')" id="quick-btn-gt"
-              class="px-3 py-1 rounded-full border border-slate-200 text-slate-700 font-bold hover:bg-slate-100 transition">General
-              Tools (27)</button>
             <button onclick="selectBrand('stanley')" id="quick-btn-stanley"
               class="px-3 py-1 rounded-full border border-slate-200 text-slate-700 font-bold hover:bg-slate-100 transition">Stanley
               (1,639)</button>
@@ -630,7 +565,6 @@
     const PAGE_SIZE = 36; // 36 items per page for silky smooth rendering
 
     function getBrandDataset(brandId) {
-      if (brandId === 'general-tools') return window.GENERAL_TOOLS_PRODUCTS || [];
       if (brandId === 'stanley') return window.STANLEY_PRODUCTS || [];
       if (brandId === 'dewalt') return window.DEWALT_PRODUCTS || [];
       return [];
@@ -648,7 +582,6 @@
 
       // Update quick switch buttons
       const quickBtns = {
-        'general-tools': document.getElementById('quick-btn-gt'),
         'stanley': document.getElementById('quick-btn-stanley'),
         'dewalt': document.getElementById('quick-btn-dewalt')
       };
@@ -670,11 +603,7 @@
       const mainHead = document.getElementById('catalog-main-heading');
       const subHead = document.getElementById('catalog-sub-heading');
 
-      if (brandId === 'general-tools') {
-        badgeText.textContent = 'Active Brand: General Tools® (27 Items)';
-        mainHead.textContent = 'General Tools® Precision Instruments';
-        subHead.textContent = 'Explore all 27 authentic precision instruments, electronic inspection meters, and woodworking jigs.';
-      } else if (brandId === 'stanley') {
+      if (brandId === 'stanley') {
         badgeText.textContent = 'Active Brand: Stanley® (1,639 Items)';
         mainHead.textContent = 'Stanley® Tools & Hardware Catalog';
         subHead.textContent = 'Browse 1,600+ contractor hand tools, tool sets, spanners, sockets, storage units, and commercial hardware.';

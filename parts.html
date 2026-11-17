@@ -244,15 +244,15 @@
 
       <p
         class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed mb-8 max-w-2xl mx-auto font-normal">
-        Quickly check exact General Tools part numbers, instrument specifications, ASME tolerances, and calibration
-        documentation.
+        Search or browse 1,925 verified manufacturer part numbers across Stanley&reg; and DeWalt&reg; with instant technical specifications and quote requests.
       </p>
 
       <!-- iOS Frosted Glass Search Bar -->
       <div class="max-w-xl mx-auto">
         <div class="relative flex items-center">
           <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-4 pointer-events-none"></i>
-          <input type="text" id="part-input" placeholder="Enter Part No. (e.g. MMD4E, DCS660, 147, 822)..."
+          <input type="text" id="part-input" placeholder="Search by Part No. (e.g. MMD4E, STMT98109-1, DWMT81534-1, 822)..."
+            oninput="handleLiveSearch(this.value)"
             class="w-full backdrop-blur-2xl bg-white/80 dark:bg-white/[0.06] border border-black/[0.1] dark:border-white/10 rounded-full pl-12 pr-32 py-4 text-sm text-slate-950 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow shadow-glass transition-all">
           <button onclick="handlePartLookup()"
             class="absolute right-1.5 bg-brand-yellow hover:bg-brand-yellowHover text-black font-black uppercase tracking-wider px-6 py-2.5 rounded-full text-xs transition shadow-sm active:scale-95">
@@ -262,15 +262,15 @@
 
         <!-- Quick suggestion chips -->
         <div class="flex flex-wrap items-center justify-center gap-2 mt-4 text-xs">
-          <span class="text-slate-400 font-bold uppercase tracking-wider text-[10px]">Popular:</span>
-          <button onclick="quickSearch('MMD4E')"
-            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">MMD4E</button>
-          <button onclick="quickSearch('DCS660')"
-            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">DCS660</button>
-          <button onclick="quickSearch('GT-147')"
-            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">GT-147</button>
-          <button onclick="quickSearch('822')"
-            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">822</button>
+          <span class="text-slate-400 font-bold uppercase tracking-wider text-[10px]">Popular Part Numbers:</span>
+          <button onclick="quickSearch('STMT98109-1')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">STMT98109-1</button>
+          <button onclick="quickSearch('94-181')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">94-181</button>
+          <button onclick="quickSearch('DWMT81534-1')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">DWMT81534-1</button>
+          <button onclick="quickSearch('DWHT0-70263')"
+            class="backdrop-blur-md bg-white/60 dark:bg-white/[0.04] hover:bg-brand-yellow hover:text-black dark:hover:bg-brand-yellow dark:hover:text-black border border-black/[0.06] dark:border-white/10 px-3 py-1 rounded-full font-mono text-[11px] font-bold text-slate-700 dark:text-slate-300 transition active:scale-95">DWHT0-70263</button>
         </div>
       </div>
 

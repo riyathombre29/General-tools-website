@@ -207,15 +207,15 @@
           Brands You Like
         </h1>
         <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base mt-2 max-w-2xl font-normal leading-relaxed">
-          Industry-standard precision tools, measurement metrology, and diagnostic equipment from General Tools, DeWalt, and Stanley.
+          Industry-standard precision tools, measurement metrology, and diagnostic equipment from DeWalt and Stanley.
         </p>
       </div>
 
       <div class="flex flex-wrap items-center gap-3">
-        <a href="#general-tools-catalog-section"
+        <a href="products.html"
           class="backdrop-blur-xl bg-white/80 dark:bg-white/[0.08] hover:bg-white dark:hover:bg-white/[0.15] text-slate-900 dark:text-brand-yellow border border-black/[0.08] dark:border-brand-yellow/30 text-xs font-black uppercase tracking-wider px-5 py-3 rounded-full transition shadow-sm active:scale-95 flex items-center gap-2 leading-none">
           <i data-lucide="package" class="w-4 h-4 shrink-0"></i>
-          <span>27 GT Products</span>
+          <span>View All Products</span>
         </a>
         <button onclick="window.openCartDrawer()"
           class="bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-5 py-3 rounded-full transition shadow-sm active:scale-95 flex items-center gap-2 leading-none">
@@ -238,7 +238,7 @@
         <!-- Search Input -->
         <div class="relative w-full lg:max-w-md">
           <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
-          <input type="text" id="brand-search-input" placeholder="Search General Tools, DeWalt, or Stanley..."
+          <input type="text" id="brand-search-input" placeholder="Search Stanley or DeWalt..."
             class="w-full bg-slate-50 border border-slate-200/90 rounded-2xl pl-12 pr-4 py-3.5 text-sm text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
         </div>
 
@@ -246,84 +246,24 @@
         <div class="flex items-center gap-2 overflow-x-auto pb-2 lg:pb-0 scrollbar-none" id="category-filters">
           <button onclick="filterCategory('all', this)"
             class="brand-filter-btn active px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider border border-slate-900 bg-slate-900 text-white transition-all whitespace-nowrap">
-            All (3 Brands)
-          </button>
-          <button onclick="filterCategory('general-tools', this)"
-            class="brand-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition-all whitespace-nowrap">
-            General Tools®
-          </button>
-          <button onclick="filterCategory('dewalt', this)"
-            class="brand-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition-all whitespace-nowrap">
-            DeWalt®
+            All (2 Brands)
           </button>
           <button onclick="filterCategory('stanley', this)"
             class="brand-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition-all whitespace-nowrap">
             Stanley®
           </button>
+          <button onclick="filterCategory('dewalt', this)"
+            class="brand-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition-all whitespace-nowrap">
+            DeWalt®
+          </button>
         </div>
 
       </div>
 
-      <!-- BRANDS GRID (3 Selected Premium Brands) -->
-      <div id="brands-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 sm:gap-8">
+      <!-- BRANDS GRID (Stanley & DeWalt) -->
+      <div id="brands-grid" class="grid grid-cols-1 md:grid-cols-2 gap-7 sm:gap-8 max-w-4xl mx-auto">
 
-        <!-- 1. General Tools -->
-        <div class="brand-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between"
-             data-name="General Tools" data-categories="general-tools measuring inspection" data-keywords="general tools precision instruments calipers borescopes moisture meters thermometers angles wood gauges">
-          <div>
-            <div class="h-60 sm:h-64 w-full overflow-hidden bg-slate-950 relative">
-              <img src="images/detection-feature.webp" alt="General Tools" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100">
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
-              
-              <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
-                <span class="backdrop-blur-xl bg-black/60 border border-white/20 text-brand-yellow text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
-                  <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow"></span>
-                  <span>Est. 1922 • Flagship</span>
-                </span>
-                <span class="w-9 h-9 rounded-full backdrop-blur-xl bg-white/20 border border-white/30 text-white flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-black group-hover:border-brand-yellow transition-all duration-300">
-                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
-                </span>
-              </div>
-
-              <div class="absolute bottom-5 left-5 right-5">
-                <span class="text-brand-yellow text-[11px] font-black uppercase tracking-widest block mb-1">Precision Instruments</span>
-                <h3 class="text-white font-black text-2xl sm:text-3xl tracking-tight uppercase font-display flex items-baseline">
-                  GENERAL TOOLS<span class="text-xs align-super ml-1 font-bold text-brand-yellow">&reg;</span>
-                </h3>
-              </div>
-            </div>
-
-            <div class="p-6 sm:p-7">
-              <div class="flex flex-wrap gap-1.5 sm:gap-2 mb-4">
-                <span class="bg-amber-50 text-amber-900 border border-brand-yellow/30 text-[10px] sm:text-[11px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">Moisture Meters</span>
-                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Borescopes</span>
-                <span class="bg-slate-100 text-slate-700 text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Calipers</span>
-              </div>
-              <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                Pioneering precision instruments for over a century. Industry-standard pin-type moisture meters, infrared thermometers, flexible video borescopes, and machinists' calipers.
-              </p>
-              <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 text-xs text-slate-600 space-y-1.5">
-                <div class="flex items-center justify-between font-bold">
-                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Key Series</span>
-                  <span class="text-slate-900 font-mono">MMD4E, IRT215, 147, 822</span>
-                </div>
-                <div class="flex items-center justify-between">
-                  <span class="text-slate-500 uppercase tracking-wider text-[10px]">Compliance</span>
-                  <span class="text-slate-900 font-semibold">ASME &bull; NIST Traceable</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="px-6 sm:px-7 pb-6 sm:pb-7 pt-2">
-            <a href="#general-tools-catalog-section" class="w-full py-3 px-5 rounded-2xl bg-slate-950 hover:bg-brand-yellow text-white hover:text-black border border-slate-950 hover:border-brand-yellow flex items-center justify-between transition-all duration-300 font-black text-xs uppercase tracking-wider">
-              <span>Explore 27 Products Below &darr;</span>
-              <i data-lucide="arrow-down" class="w-4 h-4"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- 2. Stanley -->
+        <!-- 1. Stanley -->
         <div class="brand-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-[2rem] overflow-hidden transition-all duration-500 hover:-translate-y-2 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)] flex flex-col justify-between"
              data-name="Stanley" data-categories="stanley measuring handtools" data-keywords="stanley fatmax tape measure hand tools utility knife chisels layout square levels">
           <div>
@@ -437,76 +377,7 @@
 
       </div>
 
-      <!-- ======================================================== -->
-      <!-- GENERAL TOOLS® OFFICIAL PRODUCT CATALOG (27 PRODUCTS)     -->
-      <!-- ======================================================== -->
-      <section id="general-tools-catalog-section" class="mt-20 pt-16 border-t border-slate-200 scroll-mt-24">
-        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
-          <div>
-            <div class="inline-flex items-center gap-2 bg-amber-50 border border-brand-yellow/40 text-amber-900 text-[11px] font-black uppercase tracking-widest px-3.5 py-1 rounded-full mb-3 shadow-xs">
-              <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow animate-ping"></span>
-              <span>General Tools® Master Inventory • 27 Products</span>
-            </div>
-            <h2 class="text-3xl sm:text-4xl font-black text-slate-950 uppercase tracking-tight">
-              General Tools® Catalog
-            </h2>
-            <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl font-normal leading-relaxed">
-              Browse all 27 uploaded General Tools instruments. Click any product name or image to open full technical specifications &amp; features popup, or add items directly to your cart.
-            </p>
-          </div>
 
-          <!-- Quick Search & GT Actions -->
-          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            <div class="relative min-w-[260px]">
-              <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
-              <input type="text" id="gt-product-search" placeholder="Search 27 General Tools..."
-                class="w-full bg-slate-50 border border-slate-200/90 rounded-full pl-10 pr-4 py-2.5 text-xs text-slate-950 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:bg-white transition">
-            </div>
-            <button onclick="window.openCartDrawer()" class="bg-slate-900 hover:bg-slate-800 text-white text-xs font-black uppercase px-5 py-2.5 rounded-full transition flex items-center justify-center gap-2 shadow-sm whitespace-nowrap active:scale-95">
-              <i data-lucide="file-text" class="w-3.5 h-3.5 text-brand-yellow"></i>
-              <span>View Quote</span><span class="cart-count-badge hidden ml-1 bg-black text-white text-[10px] font-black px-1.5 py-0.5 rounded-full">0</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Category Filter Tabs -->
-        <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none" id="gt-category-tabs">
-          <button onclick="filterGTProducts('all', this)" class="gt-tab active px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider border border-slate-900 bg-slate-900 text-white transition whitespace-nowrap">
-            All Products (27)
-          </button>
-          <button onclick="filterGTProducts('Moisture Detection', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
-            Moisture Detection (5)
-          </button>
-          <button onclick="filterGTProducts('Angle & Layout', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
-            Angle &amp; Layout (4)
-          </button>
-          <button onclick="filterGTProducts('Environmental & Gas', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
-            Environmental &amp; Gas (3)
-          </button>
-          <button onclick="filterGTProducts('Woodworking & Joinery', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
-            Woodworking &amp; Joinery (4)
-          </button>
-          <button onclick="filterGTProducts('Punches & Grommets', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
-            Punches &amp; Grommets (5)
-          </button>
-          <button onclick="filterGTProducts('Precision & Marking', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
-            Precision &amp; Marking (3)
-          </button>
-          <button onclick="filterGTProducts('Inspection & Optics', this)" class="gt-tab px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition whitespace-nowrap">
-            Inspection &amp; Optics (3)
-          </button>
-        </div>
-
-        <!-- Products Grid (27 Cards) -->
-        <div id="gt-products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          <!-- Populated by JavaScript -->
-        </div>
-
-        <!-- Empty Products Result -->
-        <div id="gt-empty-products" class="hidden text-center py-12">
-          <p class="text-sm text-slate-500 font-medium">No tools match your search criteria. Try a different term or reset filters.</p>
-        </div>
-      </section>
 
       <!-- EMPTY STATE (When search finds 0 matches) -->
       <div id="no-brands-found" class="hidden text-center py-16">
@@ -641,12 +512,6 @@
       }
 
       applyFilters();
-
-      // If user clicked General Tools, scroll gently to products
-      if (category === 'general-tools') {
-        const sec = document.getElementById('general-tools-catalog-section');
-        if (sec) sec.scrollIntoView({ behavior: 'smooth' });
-      }
     }
 
     function applyFilters() {
@@ -685,108 +550,6 @@
     }
 
     document.getElementById('brand-search-input').addEventListener('input', applyFilters);
-
-    // --- General Tools 27-Product Catalog Logic ---
-    let currentGTTab = 'all';
-
-    function renderGTProducts() {
-      const container = document.getElementById('gt-products-grid');
-      if (!container || !window.GENERAL_TOOLS_PRODUCTS) return;
-
-      const search = (document.getElementById('gt-product-search')?.value || '').trim().toLowerCase();
-      
-      const filtered = window.GENERAL_TOOLS_PRODUCTS.filter(p => {
-        const matchesTab = currentGTTab === 'all' || p.category === currentGTTab;
-        const matchesSearch = !search || 
-          p.name.toLowerCase().includes(search) || 
-          p.model.toLowerCase().includes(search) || 
-          p.features.some(f => f.toLowerCase().includes(search));
-        return matchesTab && matchesSearch;
-      });
-
-      const emptyEl = document.getElementById('gt-empty-products');
-      if (emptyEl) {
-        if (filtered.length === 0) emptyEl.classList.remove('hidden');
-        else emptyEl.classList.add('hidden');
-      }
-
-      container.innerHTML = filtered.map(p => `
-        <div class="product-card group bg-white border border-slate-200/90 hover:border-slate-900/80 rounded-3xl overflow-hidden transition-all duration-300 hover:-translate-y-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_45px_rgba(0,0,0,0.12)] flex flex-col justify-between">
-          <!-- Card Image Area (Clickable to open popup) -->
-          <div class="h-56 w-full bg-slate-50 relative p-4 flex items-center justify-center cursor-pointer overflow-hidden border-b border-slate-100" onclick="window.openProductModal(${p.id})">
-            <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy">
-            <div class="absolute top-3 left-3 flex items-center gap-1.5">
-              <span class="bg-brand-yellow text-black text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-xs">
-                Part: ${p.model}
-              </span>
-            </div>
-            <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
-              <span class="w-8 h-8 rounded-full bg-black/80 text-white flex items-center justify-center shadow-md">
-                <i data-lucide="expand" class="w-4 h-4"></i>
-              </span>
-            </div>
-          </div>
-
-          <!-- Card Body -->
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <div class="text-[10px] font-black uppercase tracking-widest text-amber-600 mb-1">
-                ${p.category}
-              </div>
-              <!-- Clickable Product Name -->
-              <h3 class="text-sm font-black text-slate-950 hover:text-amber-600 transition cursor-pointer leading-snug line-clamp-2 mb-2" onclick="window.openProductModal(${p.id})" title="Click to view full specs & features">
-                ${p.name}
-              </h3>
-              <!-- Quick Specs snippet -->
-              <div class="text-[11px] text-slate-500 space-y-1 mb-4 line-clamp-2">
-                ${p.specifications[0] ? `<span class="font-medium">${p.specifications[0].label}: ${p.specifications[0].value}</span>` : ''}
-              </div>
-            </div>
-
-            <!-- Action Controls: Specs & Add to Quote -->
-            <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
-              <button onclick="window.openProductModal(${p.id})" class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-slate-900 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition active:scale-95" title="View Specifications & Features">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-amber-500"></i>
-                <span>Specs</span>
-              </button>
-              <button onclick="window.addToCart(${p.id}, 1)" class="bg-brand-yellow hover:bg-brand-yellowHover text-black text-xs font-black uppercase tracking-wider px-3.5 py-2 rounded-xl transition shadow-sm active:scale-95 flex items-center gap-1.5 whitespace-nowrap">
-                <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
-                <span>Add to Quote</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      `).join('');
-
-      if (window.lucide) lucide.createIcons();
-    }
-
-    function filterGTProducts(category, btnElement) {
-      currentGTTab = category;
-      document.querySelectorAll('.gt-tab').forEach(b => {
-        b.classList.remove('active', 'bg-slate-900', 'text-white');
-        b.classList.add('bg-slate-50', 'text-slate-700');
-      });
-      if (btnElement) {
-        btnElement.classList.add('active', 'bg-slate-900', 'text-white');
-        btnElement.classList.remove('bg-slate-50', 'text-slate-700');
-      }
-      renderGTProducts();
-    }
-
-    const gtSearchInput = document.getElementById('gt-product-search');
-    if (gtSearchInput) {
-      gtSearchInput.addEventListener('input', renderGTProducts);
-    }
-
-    // Initial render
-    document.addEventListener('DOMContentLoaded', () => {
-      renderGTProducts();
-    });
-    // In case DOM is already loaded:
-    if (document.readyState !== 'loading') {
-      renderGTProducts();
-    }
   </script>
 </body>
 

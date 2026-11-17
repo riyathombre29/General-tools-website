@@ -18,7 +18,6 @@
 
   function getAllProducts() {
     return [
-      ...(window.GENERAL_TOOLS_PRODUCTS || []),
       ...(window.STANLEY_PRODUCTS || []),
       ...(window.DEWALT_PRODUCTS || [])
     ];
@@ -257,7 +256,7 @@
             <i data-lucide="file-text" class="w-8 h-8"></i>
           </div>
           <h3 class="text-base font-black text-slate-900 uppercase tracking-tight mb-1">Your Quote List is Empty</h3>
-          <p class="text-xs text-slate-500 max-w-xs mx-auto mb-6">Explore the General Tools, Stanley, and DeWalt catalogs to add precision tools and hardware to your quote request.</p>
+          <p class="text-xs text-slate-500 max-w-xs mx-auto mb-6">Explore the Stanley and DeWalt catalogs to add precision tools and hardware to your quote request.</p>
           <a href="products.html" onclick="window.closeCartDrawer()" class="inline-flex items-center gap-2 bg-brand-yellow hover:bg-brand-yellowHover text-black font-black text-xs uppercase tracking-wider px-6 py-2.5 rounded-full transition shadow-sm">
             <span>Browse Products</span>
           </a>
