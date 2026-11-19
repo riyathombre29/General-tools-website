@@ -1,5 +1,6 @@
 /**
- * DeWalt® Commercial Products Catalog (286 Items)
+ * Official DeWalt® Guaranteed Tough® Product Catalog (286 Items)
+ * Auto-generated with full specifications, features, and image assets.
  */
 window.DEWALT_PRODUCTS = [
   {
@@ -61,7 +62,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1425,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p018_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -107,7 +108,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 4314,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p026_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -153,7 +154,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 7505,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p028_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -199,7 +200,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 3746,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p032_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -245,7 +246,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 4111,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p041_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -291,7 +292,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 4639,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p042_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -379,7 +380,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2253,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p045_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -425,7 +426,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2413,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p045_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -471,7 +472,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 4702,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p045_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -517,7 +518,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 6122,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p045_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -563,7 +564,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 8526,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p045_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -609,7 +610,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1126,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p046_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -655,7 +656,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1067,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p046_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -701,7 +702,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2162,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p046_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -747,7 +748,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 238,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p048_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -793,7 +794,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1579,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p048_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -839,7 +840,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 279,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p048_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -885,7 +886,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1641,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p048_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -931,7 +932,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 561,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -977,7 +978,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1305,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1023,7 +1024,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2212,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g12.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1069,7 +1070,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 4954,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p057_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1115,7 +1116,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 2747,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p057_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1161,7 +1162,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 3233,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p057_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1207,7 +1208,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 2418,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p059_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1253,7 +1254,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 3027,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p059_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1299,7 +1300,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 2789,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p059_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1345,7 +1346,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 571,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p059_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1391,7 +1392,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1296,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p059_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1437,7 +1438,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1343,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p059_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1483,7 +1484,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1774,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p059_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1529,7 +1530,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2907,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p062_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1575,7 +1576,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 3850,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p063_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1620,7 +1621,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 4261,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p063_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1665,7 +1666,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 14122,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1710,7 +1711,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 6579,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1755,7 +1756,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 1013,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1800,7 +1801,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 6342,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1845,7 +1846,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 1251,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1890,7 +1891,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 7182,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1935,7 +1936,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 3207,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1980,7 +1981,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 10510,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2025,7 +2026,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 8388,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p066_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2070,7 +2071,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 4027,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2115,7 +2116,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 1611,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2160,7 +2161,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 11530,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2205,7 +2206,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 17493,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2250,7 +2251,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 4880,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2295,7 +2296,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 23868,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2340,7 +2341,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 5907,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2385,7 +2386,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 30747,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2430,7 +2431,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 4109,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2475,7 +2476,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 5252,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2516,7 +2517,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 13202,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2561,7 +2562,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 4880,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p067_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2606,7 +2607,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 4880,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2651,7 +2652,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 3018,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2696,7 +2697,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 5392,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2741,7 +2742,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 17330,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2786,7 +2787,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 4494,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2831,7 +2832,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 6603,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2876,7 +2877,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 8217,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2921,7 +2922,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 2383,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p068_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2966,7 +2967,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 8720,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p072_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3011,7 +3012,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 2482,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p074_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3056,7 +3057,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Storage",
     "price": 2471,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p074_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3741,7 +3742,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 330,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt087_05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3781,7 +3782,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 358,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt087_05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3821,7 +3822,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 402,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt087_05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4741,7 +4742,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 0,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4781,7 +4782,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 0,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4821,7 +4822,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 0,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4861,7 +4862,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 0,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4901,7 +4902,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 0,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4941,7 +4942,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 0,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4981,7 +4982,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 0,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7269,7 +7270,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 1955,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7309,7 +7310,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 2290,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7349,7 +7350,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 2409,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7389,7 +7390,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 3393,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7429,7 +7430,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 3090,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7469,7 +7470,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 3290,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7509,7 +7510,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 3949,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7549,7 +7550,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 4829,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7589,7 +7590,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 4499,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7629,7 +7630,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5269,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7669,7 +7670,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 6555,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7709,7 +7710,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 4609,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7749,7 +7750,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 4939,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7789,7 +7790,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 4098,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7829,7 +7830,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5709,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7869,7 +7870,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 4490,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7909,7 +7910,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5040,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7949,7 +7950,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 6039,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7989,7 +7990,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 6479,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8029,7 +8030,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5750,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8069,7 +8070,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5463,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8109,7 +8110,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5265,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8149,7 +8150,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 8415,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8189,7 +8190,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 9000,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8229,7 +8230,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5690,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8269,7 +8270,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 6490,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8309,7 +8310,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 7968,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8349,7 +8350,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 11319,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8389,7 +8390,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 11353,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8429,7 +8430,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 2079,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8469,7 +8470,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 2299,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8509,7 +8510,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 8789,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8549,7 +8550,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 9449,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8589,7 +8590,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 15829,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10269,7 +10270,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 319,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11392,7 +11393,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 765,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11434,7 +11435,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 1089,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11476,7 +11477,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 4829,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11518,7 +11519,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 979,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11560,7 +11561,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 979,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11602,7 +11603,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 3509,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11644,7 +11645,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 6589,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11686,7 +11687,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 2079,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11728,7 +11729,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 5819,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11770,7 +11771,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 9449,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11812,7 +11813,7 @@ window.DEWALT_PRODUCTS = [
     "category": "Accessories",
     "price": 319,
     "currency": "INR",
-    "image": "images/hobby-woodwork-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11847,3 +11848,7 @@ window.DEWALT_PRODUCTS = [
     "status": "Active"
   }
 ];
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = window.DEWALT_PRODUCTS;
+}

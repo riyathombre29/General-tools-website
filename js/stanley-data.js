@@ -1,5 +1,6 @@
 /**
- * Stanley® Tools & Hardware Catalog (1639 Items)
+ * Official Stanley® Product Catalog (1,639 Items)
+ * Auto-generated with full specifications, features, and image assets.
  */
 window.STANLEY_PRODUCTS = [
   {
@@ -10,7 +11,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 27850,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p006_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61,7 +62,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 25289,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p006_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -112,7 +113,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 22207,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p006_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -214,7 +215,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 21327,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p007_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -265,7 +266,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 18440,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p007_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -316,7 +317,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 29343,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p007_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -367,7 +368,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 16615,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p008_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -418,7 +419,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 12872,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p008_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -469,7 +470,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Tool Sets",
     "price": 3685,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p009_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -515,7 +516,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 47,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -561,7 +562,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 47,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -607,7 +608,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 47,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -653,7 +654,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 47,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -699,7 +700,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 50,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -745,7 +746,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 50,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -791,7 +792,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 51,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -837,7 +838,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 59,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -883,7 +884,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 68,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -929,7 +930,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 72,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -975,7 +976,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 82,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1021,7 +1022,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 83,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1067,7 +1068,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 101,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1113,7 +1114,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 106,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1159,7 +1160,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 133,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1205,7 +1206,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 140,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1251,7 +1252,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 163,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1297,7 +1298,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 180,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1343,7 +1344,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1389,7 +1390,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 222,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1435,7 +1436,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 241,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1481,7 +1482,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 288,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1527,7 +1528,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 444,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1573,7 +1574,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 36,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1619,7 +1620,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 37,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1665,7 +1666,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 43,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1711,7 +1712,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 49,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1757,7 +1758,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 51,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1803,7 +1804,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 67,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1849,7 +1850,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 83,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1895,7 +1896,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 97,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1941,7 +1942,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 131,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -1987,7 +1988,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 162,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2033,7 +2034,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 192,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2079,7 +2080,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 208,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2125,7 +2126,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 125,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2171,7 +2172,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 148,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2217,7 +2218,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 568,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2263,7 +2264,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 568,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2309,7 +2310,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 765,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2355,7 +2356,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1492,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2401,7 +2402,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2463,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2447,7 +2448,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 3914,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2493,7 +2494,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 492,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2534,7 +2535,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 778,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2575,7 +2576,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 3330,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2616,7 +2617,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 444,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2657,7 +2658,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1039,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2698,7 +2699,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 6200,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2748,7 +2749,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 912,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2794,7 +2795,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 938,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2840,7 +2841,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 996,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2886,7 +2887,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1049,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2932,7 +2933,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1060,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -2978,7 +2979,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1119,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3024,7 +3025,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1168,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3070,7 +3071,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1219,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3116,7 +3117,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1273,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3162,7 +3163,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1356,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3208,7 +3209,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1290,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3254,7 +3255,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1502,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3300,7 +3301,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 8116,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3345,7 +3346,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 7556,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3390,7 +3391,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 73,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3436,7 +3437,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 85,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3482,7 +3483,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 102,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3528,7 +3529,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 106,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3574,7 +3575,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 118,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3620,7 +3621,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 141,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3666,7 +3667,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 178,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3712,7 +3713,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 210,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3758,7 +3759,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 254,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3804,7 +3805,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 307,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3850,7 +3851,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 364,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3896,7 +3897,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 467,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3942,7 +3943,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 207,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -3988,7 +3989,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 248,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4034,7 +4035,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 724,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4080,7 +4081,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 729,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4126,7 +4127,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 730,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4172,7 +4173,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 756,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4218,7 +4219,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 756,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4264,7 +4265,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 811,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4310,7 +4311,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 847,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4356,7 +4357,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 892,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4402,7 +4403,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 979,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4448,7 +4449,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1002,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4494,7 +4495,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1064,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4540,7 +4541,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1087,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p010_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4586,7 +4587,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 994,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4632,7 +4633,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1390,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4678,7 +4679,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 4077,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4724,7 +4725,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 4583,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4770,7 +4771,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 7703,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4816,7 +4817,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 8383,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4862,7 +4863,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2462,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4907,7 +4908,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2565,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4952,7 +4953,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 990,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -4997,7 +4998,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2340,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p011_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5042,7 +5043,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 668,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5088,7 +5089,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 685,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5134,7 +5135,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 720,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5180,7 +5181,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 787,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5226,7 +5227,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 784,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5272,7 +5273,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 894,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5318,7 +5319,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 931,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5364,7 +5365,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 962,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5410,7 +5411,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1180,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5456,7 +5457,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1213,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5502,7 +5503,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1229,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5548,7 +5549,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1339,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5594,7 +5595,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1319,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5640,7 +5641,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1422,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5686,7 +5687,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1496,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5732,7 +5733,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1857,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5778,7 +5779,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 204,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5823,7 +5824,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 207,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5868,7 +5869,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 210,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5913,7 +5914,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 215,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -5958,7 +5959,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 218,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6003,7 +6004,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 219,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6048,7 +6049,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 221,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6093,7 +6094,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 505,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6139,7 +6140,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 505,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6185,7 +6186,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 505,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6231,7 +6232,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 505,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6277,7 +6278,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 527,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6323,7 +6324,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 527,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6369,7 +6370,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 651,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6415,7 +6416,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 275,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6456,7 +6457,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 359,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6497,7 +6498,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 491,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6538,7 +6539,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 657,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6628,7 +6629,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 312,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6669,7 +6670,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 407,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6710,7 +6711,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 543,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6751,7 +6752,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 711,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6792,7 +6793,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 45,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6837,7 +6838,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 48,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6882,7 +6883,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 55,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6927,7 +6928,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 66,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -6972,7 +6973,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 75,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7017,7 +7018,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 83,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7062,7 +7063,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 98,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7107,7 +7108,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 123,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7152,7 +7153,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 132,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7197,7 +7198,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7242,7 +7243,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7287,7 +7288,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 220,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7332,7 +7333,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 269,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7377,7 +7378,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 375,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7422,7 +7423,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 477,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7467,7 +7468,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 608,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7512,7 +7513,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 839,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p012_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7557,7 +7558,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 395,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7602,7 +7603,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 514,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7647,7 +7648,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 630,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7692,7 +7693,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1044,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7737,7 +7738,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1913,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7782,7 +7783,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 626,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7827,7 +7828,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 675,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7872,7 +7873,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 706,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7917,7 +7918,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 768,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -7962,7 +7963,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 888,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8007,7 +8008,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 971,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8052,7 +8053,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1364,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8097,7 +8098,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1479,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8142,7 +8143,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2013,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8187,7 +8188,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2079,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8232,7 +8233,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2608,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8277,7 +8278,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 5744,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8322,7 +8323,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 5957,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8367,7 +8368,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 8673,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8412,7 +8413,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 9186,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8457,7 +8458,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 9606,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8502,7 +8503,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 11379,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8547,7 +8548,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 12328,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8592,7 +8593,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 13910,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8637,7 +8638,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 17313,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8682,7 +8683,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 20373,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8727,7 +8728,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 24164,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8772,7 +8773,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 626,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8817,7 +8818,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 713,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8862,7 +8863,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 780,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8907,7 +8908,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 870,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8952,7 +8953,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 977,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -8997,7 +8998,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1053,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9042,7 +9043,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1370,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9087,7 +9088,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1653,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9132,7 +9133,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2477,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9177,7 +9178,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2924,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9222,7 +9223,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 4026,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9267,7 +9268,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 4920,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9312,7 +9313,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 5815,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9357,7 +9358,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 6917,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9402,7 +9403,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 7855,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9447,7 +9448,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 10604,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9492,7 +9493,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 13408,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9537,7 +9538,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 16097,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9582,7 +9583,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 18546,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9627,7 +9628,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 27317,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9672,7 +9673,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 28997,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9717,7 +9718,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 33328,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9762,7 +9763,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 125,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9807,7 +9808,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 172,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9852,7 +9853,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 196,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9897,7 +9898,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 276,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9942,7 +9943,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 372,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -9987,7 +9988,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 405,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10032,7 +10033,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 593,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10077,7 +10078,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 857,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10122,7 +10123,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1135,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10167,7 +10168,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1555,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10212,7 +10213,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 1997,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10257,7 +10258,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 2722,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10302,7 +10303,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 3551,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10347,7 +10348,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 5940,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10392,7 +10393,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 7468,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10437,7 +10438,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 10620,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10482,7 +10483,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 11886,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10527,7 +10528,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Spanners & Sets",
     "price": 15715,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p013_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10572,7 +10573,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1253,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10617,7 +10618,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1424,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10662,7 +10663,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 4651,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10707,7 +10708,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 912,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10752,7 +10753,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 3059,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10797,7 +10798,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 734,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10842,7 +10843,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 2377,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10887,7 +10888,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 481,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10932,7 +10933,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1823,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -10977,7 +10978,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 590,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11022,7 +11023,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1637,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11067,7 +11068,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 349,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11112,7 +11113,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 297,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11157,7 +11158,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1994,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11202,7 +11203,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 2721,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11247,7 +11248,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 2004,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11292,7 +11293,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 423,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11337,7 +11338,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 295,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11382,7 +11383,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 908,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11423,7 +11424,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 333,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11468,7 +11469,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 314,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11513,7 +11514,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 353,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11558,7 +11559,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 422,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11603,7 +11604,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 433,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11648,7 +11649,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 435,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11693,7 +11694,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 443,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11738,7 +11739,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 448,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11783,7 +11784,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 524,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11828,7 +11829,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 842,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11873,7 +11874,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 983,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11918,7 +11919,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1259,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -11963,7 +11964,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 659,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12008,7 +12009,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 812,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12053,7 +12054,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1160,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12098,7 +12099,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 114,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12144,7 +12145,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 114,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12190,7 +12191,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 115,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12236,7 +12237,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 121,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12282,7 +12283,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 142,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12328,7 +12329,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 134,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12374,7 +12375,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 155,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12420,7 +12421,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 162,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12466,7 +12467,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 142,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12512,7 +12513,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 159,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12558,7 +12559,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 164,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12604,7 +12605,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 165,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12650,7 +12651,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 176,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12696,7 +12697,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 191,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12742,7 +12743,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 207,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12788,7 +12789,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 221,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12834,7 +12835,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 231,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12880,7 +12881,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 134,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12926,7 +12927,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 143,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -12972,7 +12973,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 163,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13018,7 +13019,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 397,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13059,7 +13060,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 420,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13100,7 +13101,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 440,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13141,7 +13142,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 419,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13182,7 +13183,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 499,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13223,7 +13224,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 617,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13264,7 +13265,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 959,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13305,7 +13306,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 492,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13346,7 +13347,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 775,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13387,7 +13388,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 111,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13433,7 +13434,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 111,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13479,7 +13480,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 115,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13525,7 +13526,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 116,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13571,7 +13572,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 132,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13617,7 +13618,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 142,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13663,7 +13664,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 144,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13709,7 +13710,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 152,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13755,7 +13756,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 139,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13801,7 +13802,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 153,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13847,7 +13848,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 159,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13893,7 +13894,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 161,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13939,7 +13940,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 170,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -13985,7 +13986,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 187,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14031,7 +14032,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14077,7 +14078,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 224,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14123,7 +14124,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 377,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14168,7 +14169,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 393,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14213,7 +14214,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 401,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14258,7 +14259,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 414,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14303,7 +14304,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 469,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14348,7 +14349,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 563,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14393,7 +14394,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 466,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14438,7 +14439,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 736,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14688,7 +14689,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 113,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14734,7 +14735,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 119,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14780,7 +14781,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 130,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14826,7 +14827,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 130,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14872,7 +14873,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 130,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14918,7 +14919,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 160,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -14964,7 +14965,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 174,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15010,7 +15011,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 196,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15056,7 +15057,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 186,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p014_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15102,7 +15103,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1196,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p016_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15147,7 +15148,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 49,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15193,7 +15194,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 57,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15239,7 +15240,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 65,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15285,7 +15286,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 67,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15331,7 +15332,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 70,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15377,7 +15378,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 76,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15423,7 +15424,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 81,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15469,7 +15470,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 105,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15515,7 +15516,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 108,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15561,7 +15562,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 113,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15607,7 +15608,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 115,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15653,7 +15654,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 122,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15699,7 +15700,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 145,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15745,7 +15746,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 149,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15791,7 +15792,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 162,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15837,7 +15838,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 172,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15883,7 +15884,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 38,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15929,7 +15930,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 39,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -15975,7 +15976,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 53,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16021,7 +16022,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 60,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16067,7 +16068,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 62,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16113,7 +16114,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 63,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16159,7 +16160,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 65,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16205,7 +16206,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 73,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16251,7 +16252,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 68,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16297,7 +16298,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 68,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16343,7 +16344,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16389,7 +16390,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 83,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16435,7 +16436,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16481,7 +16482,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 94,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16527,7 +16528,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 114,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16573,7 +16574,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 116,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16619,7 +16620,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 124,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16665,7 +16666,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 126,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16711,7 +16712,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 138,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16757,7 +16758,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 143,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16803,7 +16804,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 210,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16849,7 +16850,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 218,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16895,7 +16896,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 238,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16941,7 +16942,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 261,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -16987,7 +16988,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 275,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17033,7 +17034,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 99,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17079,7 +17080,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 85,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17125,7 +17126,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 105,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17171,7 +17172,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 133,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17217,7 +17218,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 97,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17263,7 +17264,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 120,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17309,7 +17310,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 101,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17355,7 +17356,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 104,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17401,7 +17402,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 68,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17447,7 +17448,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 189,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17493,7 +17494,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 167,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17539,7 +17540,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 113,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17585,7 +17586,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 92,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17631,7 +17632,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 96,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17769,7 +17770,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 188,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17814,7 +17815,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 71,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17860,7 +17861,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 68,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17906,7 +17907,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17952,7 +17953,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 70,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -17998,7 +17999,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 78,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18044,7 +18045,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18090,7 +18091,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 89,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18136,7 +18137,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 90,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18182,7 +18183,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18228,7 +18229,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 92,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18274,7 +18275,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 104,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18320,7 +18321,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 143,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18366,7 +18367,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 167,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18412,7 +18413,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 242,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p017_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18458,7 +18459,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18503,7 +18504,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 91,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18638,7 +18639,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 247,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18683,7 +18684,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 257,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18728,7 +18729,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 830,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18773,7 +18774,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 601,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18814,7 +18815,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 335,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18859,7 +18860,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 344,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18904,7 +18905,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 422,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18949,7 +18950,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1020,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -18994,7 +18995,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1147,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19039,7 +19040,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 512,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19084,7 +19085,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 512,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19174,7 +19175,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 108,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19216,7 +19217,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 118,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19258,7 +19259,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 108,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19300,7 +19301,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 136,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19342,7 +19343,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 162,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19384,7 +19385,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 209,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19426,7 +19427,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 268,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19468,7 +19469,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 411,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19551,7 +19552,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1489,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19734,7 +19735,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1015,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p019_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -19779,7 +19780,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Screwdrivers & Keys",
     "price": 1466,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p018_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20049,7 +20050,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1295,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20094,7 +20095,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 2722,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20139,7 +20140,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 295,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20180,7 +20181,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 309,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20221,7 +20222,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 343,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20262,7 +20263,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 349,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20303,7 +20304,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1622,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20487,7 +20488,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1423,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20532,7 +20533,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 248,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20577,7 +20578,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 304,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20622,7 +20623,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 304,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20667,7 +20668,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 325,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20712,7 +20713,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 618,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20757,7 +20758,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 753,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20806,7 +20807,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 279,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20851,7 +20852,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 359,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -20990,7 +20991,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 658,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21035,7 +21036,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 585,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21080,7 +21081,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 764,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21121,7 +21122,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 881,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21166,7 +21167,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 955,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21211,7 +21212,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 2112,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21256,7 +21257,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 258,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21301,7 +21302,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 285,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21346,7 +21347,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 356,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21391,7 +21392,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 447,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21436,7 +21437,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 485,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21481,7 +21482,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 446,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21526,7 +21527,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 519,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21571,7 +21572,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 413,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p021_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21616,7 +21617,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 387,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21661,7 +21662,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1603,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21702,7 +21703,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 2887,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21743,7 +21744,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 3380,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21784,7 +21785,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 990,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21829,7 +21830,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 265,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21874,7 +21875,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 265,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21919,7 +21920,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 265,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -21964,7 +21965,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 265,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22009,7 +22010,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 265,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22054,7 +22055,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 265,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22144,7 +22145,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 396,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22189,7 +22190,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 478,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22234,7 +22235,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 772,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22279,7 +22280,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 577,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22324,7 +22325,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 478,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22369,7 +22370,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 555,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22414,7 +22415,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 78,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p022_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22459,7 +22460,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 835,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22504,7 +22505,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 973,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22549,7 +22550,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1208,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22594,7 +22595,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1365,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22639,7 +22640,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1523,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22684,7 +22685,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 756,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22729,7 +22730,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 448,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22774,7 +22775,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 590,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22819,7 +22820,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 694,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22864,7 +22865,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 448,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22909,7 +22910,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 590,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -22954,7 +22955,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 694,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23003,7 +23004,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 423,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23048,7 +23049,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 588,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23093,7 +23094,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1111,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23343,7 +23344,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 448,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23388,7 +23389,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 590,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23433,7 +23434,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 694,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23478,7 +23479,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 448,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23523,7 +23524,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 590,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23568,7 +23569,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 694,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23617,7 +23618,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 683,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23822,7 +23823,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Pliers",
     "price": 1314,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p023_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23867,7 +23868,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 877,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p024_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23912,7 +23913,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 2094,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p024_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -23957,7 +23958,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 1832,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p024_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24002,7 +24003,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 857,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p024_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24047,7 +24048,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 903,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p024_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24092,7 +24093,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 1190,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p024_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24137,7 +24138,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 136,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24182,7 +24183,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 154,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24227,7 +24228,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 162,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24272,7 +24273,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 161,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24317,7 +24318,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 168,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24362,7 +24363,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 1623,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24407,7 +24408,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 1831,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24452,7 +24453,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 152,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24497,7 +24498,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 156,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24542,7 +24543,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 159,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24587,7 +24588,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 167,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24632,7 +24633,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 176,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24677,7 +24678,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 4021,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24722,7 +24723,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 249,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24763,7 +24764,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 292,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24804,7 +24805,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 305,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24845,7 +24846,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 3819,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24890,7 +24891,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 102,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24935,7 +24936,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Fastening Tools",
     "price": 119,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p025_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -24980,7 +24981,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 598,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25025,7 +25026,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 658,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25070,7 +25071,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 682,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25115,7 +25116,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1226,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25160,7 +25161,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 3312,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25205,7 +25206,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 695,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25250,7 +25251,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 765,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25295,7 +25296,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 831,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25340,7 +25341,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1778,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25385,7 +25386,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 805,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25434,7 +25435,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 2400,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25479,7 +25480,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 49,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25525,7 +25526,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 49,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25571,7 +25572,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 49,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25617,7 +25618,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 49,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25663,7 +25664,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 50,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25709,7 +25710,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 50,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25755,7 +25756,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 51,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25801,7 +25802,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 58,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25847,7 +25848,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 62,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25893,7 +25894,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 70,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25939,7 +25940,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 72,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -25985,7 +25986,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 82,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26035,7 +26036,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 5487,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26080,7 +26081,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 46,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26122,7 +26123,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 46,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26164,7 +26165,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 46,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26206,7 +26207,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 46,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26248,7 +26249,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 47,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26290,7 +26291,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 47,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26332,7 +26333,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 48,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26374,7 +26375,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 51,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26416,7 +26417,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 48,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26458,7 +26459,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 53,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26500,7 +26501,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 57,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26542,7 +26543,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 63,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26584,7 +26585,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 4576,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26629,7 +26630,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 3639,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26670,7 +26671,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 96,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26715,7 +26716,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 117,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26760,7 +26761,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 338,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26805,7 +26806,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 233,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26850,7 +26851,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 189,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p027_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26895,7 +26896,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26941,7 +26942,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -26987,7 +26988,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27033,7 +27034,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27079,7 +27080,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27125,7 +27126,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27171,7 +27172,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 74,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27217,7 +27218,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 74,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27263,7 +27264,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 74,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27309,7 +27310,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 87,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27355,7 +27356,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 102,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27401,7 +27402,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 110,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -27447,7 +27448,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 124,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28088,7 +28089,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 192,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28133,7 +28134,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 269,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28178,7 +28179,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 681,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28223,7 +28224,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 410,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28268,7 +28269,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 105,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28313,7 +28314,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 135,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28358,7 +28359,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 221,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28403,7 +28404,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 7331,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p028_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28448,7 +28449,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 7583,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p029_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28493,7 +28494,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 5762,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p029_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28538,7 +28539,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 6864,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p029_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28583,7 +28584,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 2748,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p029_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28628,7 +28629,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 4320,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p029_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28669,7 +28670,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 7038,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p029_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28714,7 +28715,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 2376,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28755,7 +28756,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1043,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28800,7 +28801,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 85,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28846,7 +28847,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 85,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28892,7 +28893,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 85,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28938,7 +28939,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 85,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -28984,7 +28985,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29030,7 +29031,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29076,7 +29077,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29122,7 +29123,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29168,7 +29169,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 88,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29214,7 +29215,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 95,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29260,7 +29261,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 95,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29306,7 +29307,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 95,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29352,7 +29353,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 110,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29398,7 +29399,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 110,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29444,7 +29445,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 124,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29490,7 +29491,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 124,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29536,7 +29537,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 142,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29582,7 +29583,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 154,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29628,7 +29629,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 160,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29674,7 +29675,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 185,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29720,7 +29721,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 195,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29766,7 +29767,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 201,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29812,7 +29813,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 221,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29858,7 +29859,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 247,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29904,7 +29905,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 286,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -29950,7 +29951,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 515,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30000,7 +30001,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 902,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30045,7 +30046,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 982,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30090,7 +30091,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1931,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30135,7 +30136,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1099,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30180,7 +30181,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1158,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30229,7 +30230,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 76,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30271,7 +30272,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 76,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30313,7 +30314,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 76,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30355,7 +30356,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 76,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30397,7 +30398,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 78,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30439,7 +30440,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 78,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30481,7 +30482,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 78,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30523,7 +30524,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 78,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30565,7 +30566,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 78,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30607,7 +30608,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 86,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30649,7 +30650,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 86,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30691,7 +30692,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 86,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30733,7 +30734,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 98,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30775,7 +30776,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 98,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30817,7 +30818,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 111,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30859,7 +30860,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 111,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30901,7 +30902,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 125,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30943,7 +30944,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 159,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -30985,7 +30986,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 156,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -31027,7 +31028,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 165,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -31069,7 +31070,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 201,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -31111,7 +31112,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 206,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -31153,7 +31154,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 213,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -31195,7 +31196,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 225,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p030_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32245,7 +32246,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 171,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32291,7 +32292,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 171,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32337,7 +32338,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 171,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32383,7 +32384,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 171,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32429,7 +32430,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 171,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32475,7 +32476,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 179,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32521,7 +32522,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 179,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32567,7 +32568,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 221,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32613,7 +32614,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 216,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32659,7 +32660,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 184,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32705,7 +32706,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 184,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32751,7 +32752,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 184,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32797,7 +32798,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 184,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32843,7 +32844,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 184,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32889,7 +32890,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 191,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32935,7 +32936,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 191,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -32981,7 +32982,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 191,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33027,7 +33028,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 204,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33073,7 +33074,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 213,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33119,7 +33120,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 225,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33165,7 +33166,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 258,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33211,7 +33212,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 267,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33257,7 +33258,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 280,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33303,7 +33304,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 356,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33349,7 +33350,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 451,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33395,7 +33396,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 478,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33441,7 +33442,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 809,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33486,7 +33487,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 205,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33531,7 +33532,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 260,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33576,7 +33577,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 396,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33621,7 +33622,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 551,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33666,7 +33667,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 147,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33711,7 +33712,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 272,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33756,7 +33757,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 338,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33801,7 +33802,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1738,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33846,7 +33847,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 150,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33892,7 +33893,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 150,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33938,7 +33939,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 150,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -33984,7 +33985,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 150,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34030,7 +34031,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 150,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34076,7 +34077,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 158,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34122,7 +34123,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 165,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34168,7 +34169,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 185,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34214,7 +34215,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 238,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34260,7 +34261,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 273,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34306,7 +34307,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 342,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34352,7 +34353,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 165,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34397,7 +34398,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 207,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34442,7 +34443,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 3372,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34487,7 +34488,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1908,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p031_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34532,7 +34533,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 3404,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34577,7 +34578,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34623,7 +34624,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 189,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34669,7 +34670,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34715,7 +34716,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34761,7 +34762,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34807,7 +34808,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34853,7 +34854,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 189,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34899,7 +34900,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 189,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34945,7 +34946,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -34991,7 +34992,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 189,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35037,7 +35038,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35083,7 +35084,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 213,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35129,7 +35130,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 240,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35175,7 +35176,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 240,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35221,7 +35222,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 281,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35267,7 +35268,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 314,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35313,7 +35314,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 314,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35359,7 +35360,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 342,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35405,7 +35406,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 342,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35451,7 +35452,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 383,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35497,7 +35498,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 431,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35543,7 +35544,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 465,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35589,7 +35590,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 474,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35635,7 +35636,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 479,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35681,7 +35682,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 479,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35727,7 +35728,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 479,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35773,7 +35774,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 496,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35819,7 +35820,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 516,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35865,7 +35866,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 523,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35911,7 +35912,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 565,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -35957,7 +35958,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 640,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36003,7 +36004,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 655,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36049,7 +36050,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 655,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36095,7 +36096,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 813,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36141,7 +36142,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 869,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36187,7 +36188,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 961,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36233,7 +36234,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1039,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36279,7 +36280,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1178,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36325,7 +36326,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 456,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36371,7 +36372,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 456,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36417,7 +36418,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 491,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36463,7 +36464,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 523,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36509,7 +36510,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 565,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36555,7 +36556,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 813,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36601,7 +36602,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 827,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36647,7 +36648,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1178,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36693,7 +36694,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1495,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36739,7 +36740,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 364,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36785,7 +36786,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 376,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36831,7 +36832,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 440,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36877,7 +36878,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 432,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36923,7 +36924,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 599,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -36969,7 +36970,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 2722,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37014,7 +37015,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1226,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37059,7 +37060,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 2014,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37104,7 +37105,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 1893,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37149,7 +37150,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 342,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37194,7 +37195,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 2178,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p032_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37239,7 +37240,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Sockets & Ratchets",
     "price": 16722,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p015_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37284,7 +37285,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 12353,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37324,7 +37325,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 9865,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37364,7 +37365,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 12739,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37404,7 +37405,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 10474,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37444,7 +37445,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 13305,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37484,7 +37485,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 10770,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37524,7 +37525,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 13806,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37564,7 +37565,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 11985,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37604,7 +37605,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 14952,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37644,7 +37645,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 14240,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37684,7 +37685,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 47625,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37728,7 +37729,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 43062,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p033_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37772,7 +37773,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 15275,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37816,7 +37817,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 15515,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37860,7 +37861,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 16244,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37904,7 +37905,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 17250,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37948,7 +37949,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 17995,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -37992,7 +37993,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 20448,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38036,7 +38037,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 49731,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38080,7 +38081,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 50826,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38124,7 +38125,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 136305,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p034_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38168,7 +38169,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 26093,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38213,7 +38214,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 26880,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38258,7 +38259,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 31275,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38303,7 +38304,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 32031,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38348,7 +38349,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 957,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38394,7 +38395,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 513,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38439,7 +38440,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 658,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38484,7 +38485,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 978,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38529,7 +38530,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 1416,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38574,7 +38575,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 622,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38620,7 +38621,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 5378,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38665,7 +38666,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 10857,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38710,7 +38711,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 16176,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38759,7 +38760,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 4494,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38804,7 +38805,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 7446,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38849,7 +38850,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 18614,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38894,7 +38895,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 26959,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38939,7 +38940,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 848,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -38984,7 +38985,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 8955,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p035_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39029,7 +39030,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 4424,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39075,7 +39076,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 595,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39121,7 +39122,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 1472,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39167,7 +39168,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 1375,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39213,7 +39214,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 695,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39255,7 +39256,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 1375,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39300,7 +39301,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 752,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39346,7 +39347,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 1155,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39391,7 +39392,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Specialty Tools",
     "price": 447,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p036_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39437,7 +39438,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1216,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39482,7 +39483,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1299,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39527,7 +39528,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1455,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39572,7 +39573,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1455,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39617,7 +39618,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1479,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39662,7 +39663,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1479,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39707,7 +39708,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1631,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39752,7 +39753,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1694,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39797,7 +39798,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1873,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39842,7 +39843,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1873,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39887,7 +39888,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2124,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39932,7 +39933,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2124,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -39977,7 +39978,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2356,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40022,7 +40023,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 604,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40067,7 +40068,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 560,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40112,7 +40113,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 564,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40157,7 +40158,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 698,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40202,7 +40203,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 521,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40247,7 +40248,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 656,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40292,7 +40293,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 592,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40337,7 +40338,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 329,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40382,7 +40383,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1573,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40427,7 +40428,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1662,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40472,7 +40473,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1738,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40517,7 +40518,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1814,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40562,7 +40563,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2119,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40607,7 +40608,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2119,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40652,7 +40653,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2160,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40697,7 +40698,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2160,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40742,7 +40743,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2357,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40787,7 +40788,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2357,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40832,7 +40833,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2754,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40877,7 +40878,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2754,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40922,7 +40923,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3099,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -40967,7 +40968,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 6234,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41012,7 +41013,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 6821,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41057,7 +41058,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 10725,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p038_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41102,7 +41103,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1535,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41147,7 +41148,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1535,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41192,7 +41193,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1535,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41237,7 +41238,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1569,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41282,7 +41283,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1569,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41327,7 +41328,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1666,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41372,7 +41373,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1822,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41417,7 +41418,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1822,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41462,7 +41463,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1576,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41507,7 +41508,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1586,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41552,7 +41553,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1586,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41597,7 +41598,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1586,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41642,7 +41643,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1586,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41687,7 +41688,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1768,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41732,7 +41733,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1683,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41777,7 +41778,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1783,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41822,7 +41823,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1804,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41867,7 +41868,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2067,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41912,7 +41913,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2101,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -41957,7 +41958,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3730,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42002,7 +42003,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 4089,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42047,7 +42048,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3753,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42088,7 +42089,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 4074,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42129,7 +42130,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 4686,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42170,7 +42171,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3037,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42211,7 +42212,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3037,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42252,7 +42253,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3037,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42293,7 +42294,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3037,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42334,7 +42335,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 3037,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p039_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42375,7 +42376,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1976,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42419,7 +42420,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2593,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p020_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42545,7 +42546,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2853,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42589,7 +42590,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2853,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42630,7 +42631,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1704,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42674,7 +42675,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1704,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42715,7 +42716,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 4995,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42760,7 +42761,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1788,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42804,7 +42805,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1788,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42845,7 +42846,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1947,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42889,7 +42890,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 1947,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42929,7 +42930,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2268,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -42973,7 +42974,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Insulated Tools",
     "price": 2268,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p040_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43014,7 +43015,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 3933,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p041_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43059,7 +43060,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 4424,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p041_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43100,7 +43101,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 4364,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p041_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43141,7 +43142,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 5056,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p041_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43182,7 +43183,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 5439,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p041_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43227,7 +43228,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 3089,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p041_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43409,7 +43410,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 118,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43455,7 +43456,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 179,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43501,7 +43502,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 89,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43542,7 +43543,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 131,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43587,7 +43588,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 4553,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43628,7 +43629,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2886,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43673,7 +43674,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 391,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43718,7 +43719,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 93,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43763,7 +43764,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 137,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43808,7 +43809,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 210,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43853,7 +43854,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 259,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43898,7 +43899,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 411,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43943,7 +43944,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 223,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p044_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -43988,7 +43989,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2760,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44032,7 +44033,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 532,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44077,7 +44078,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 10498,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44122,7 +44123,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2938,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44167,7 +44168,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 3533,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44212,7 +44213,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 3971,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44257,7 +44258,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2828,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44302,7 +44303,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 3219,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44347,7 +44348,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 3543,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44392,7 +44393,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 4393,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44437,7 +44438,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1002,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44483,7 +44484,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1361,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44529,7 +44530,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1991,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44575,7 +44576,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2408,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44621,7 +44622,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 742,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44666,7 +44667,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 399,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44711,7 +44712,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 6772,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44756,7 +44757,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 7471,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44801,7 +44802,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 10038,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p045_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44846,7 +44847,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 791,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44891,7 +44892,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 924,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -44936,7 +44937,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1102,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45071,7 +45072,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 608,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45116,7 +45117,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 824,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45161,7 +45162,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 792,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45206,7 +45207,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 532,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45255,7 +45256,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1603,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p046_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45296,7 +45297,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1547,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p047_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45341,7 +45342,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 2254,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p047_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45386,7 +45387,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 1654,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p047_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45431,7 +45432,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 497,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p047_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45472,7 +45473,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 470,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p047_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45517,7 +45518,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Measuring & Layout Tools",
     "price": 445,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p047_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45562,7 +45563,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1797,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p048_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45607,7 +45608,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1661,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p048_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45652,7 +45653,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1410,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p048_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45697,7 +45698,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 927,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p048_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45742,7 +45743,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 898,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p048_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45787,7 +45788,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1090,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45832,7 +45833,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 887,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45877,7 +45878,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 485,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45922,7 +45923,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 944,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -45967,7 +45968,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 603,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46012,7 +46013,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 910,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46057,7 +46058,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 571,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46102,7 +46103,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 891,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46147,7 +46148,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 145,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46192,7 +46193,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 532,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p049_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46237,7 +46238,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 648,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46282,7 +46283,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 363,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46327,7 +46328,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2075,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46372,7 +46373,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 3714,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46417,7 +46418,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 207,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46462,7 +46463,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 92,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46507,7 +46508,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 69,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46552,7 +46553,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1557,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46597,7 +46598,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1486,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46642,7 +46643,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 46,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46687,7 +46688,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 71,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46732,7 +46733,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 826,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46777,7 +46778,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1133,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46822,7 +46823,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1354,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46867,7 +46868,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 485,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46912,7 +46913,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 706,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -46957,7 +46958,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 854,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47002,7 +47003,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 214,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47043,7 +47044,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 207,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47084,7 +47085,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2204,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47125,7 +47126,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 709,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47166,7 +47167,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 216,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p050_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47211,7 +47212,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 331,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47257,7 +47258,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1227,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47302,7 +47303,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 423,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47347,7 +47348,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 244,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47392,7 +47393,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1149,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47437,7 +47438,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1850,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47483,7 +47484,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1235,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47529,7 +47530,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 584,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47575,7 +47576,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 874,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47620,7 +47621,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 214,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p051_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47664,7 +47665,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 356,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47709,7 +47710,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 700,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47754,7 +47755,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1510,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47799,7 +47800,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1645,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47844,7 +47845,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 779,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47889,7 +47890,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 287,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47934,7 +47935,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 637,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -47979,7 +47980,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1209,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48024,7 +48025,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1301,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48069,7 +48070,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1634,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48114,7 +48115,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2319,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48159,7 +48160,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 3022,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48204,7 +48205,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 4419,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48249,7 +48250,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 731,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48294,7 +48295,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 861,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48339,7 +48340,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 960,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48384,7 +48385,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 10657,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48429,7 +48430,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1456,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48474,7 +48475,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1197,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48519,7 +48520,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1323,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48564,7 +48565,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1260,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48609,7 +48610,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1777,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48655,7 +48656,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1076,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48700,7 +48701,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1211,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48745,7 +48746,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1428,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48791,7 +48792,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1203,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48836,7 +48837,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1381,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48881,7 +48882,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1770,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48926,7 +48927,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2363,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -48971,7 +48972,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 964,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49016,7 +49017,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2855,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p053_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49061,7 +49062,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 603,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49106,7 +49107,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 618,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49151,7 +49152,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 667,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49196,7 +49197,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 549,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49237,7 +49238,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 537,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49282,7 +49283,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 550,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49327,7 +49328,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 1279,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49372,7 +49373,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 747,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49417,7 +49418,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 725,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49462,7 +49463,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 321,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49507,7 +49508,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 591,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49552,7 +49553,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 584,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49597,7 +49598,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 308,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49642,7 +49643,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2097,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49687,7 +49688,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 373,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p054_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49732,7 +49733,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 653,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49777,7 +49778,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 691,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49822,7 +49823,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 497,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49867,7 +49868,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 783,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49912,7 +49913,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 834,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -49957,7 +49958,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 495,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50002,7 +50003,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 527,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50047,7 +50048,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2168,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50092,7 +50093,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 2389,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50137,7 +50138,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 464,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p055_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50182,7 +50183,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 540,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50227,7 +50228,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 834,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50272,7 +50273,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 686,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50317,7 +50318,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 969,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50362,7 +50363,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 775,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50407,7 +50408,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 796,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50452,7 +50453,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 640,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50497,7 +50498,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 860,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50542,7 +50543,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 394,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50587,7 +50588,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 725,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50632,7 +50633,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 362,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50677,7 +50678,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 417,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50722,7 +50723,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 365,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50767,7 +50768,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 294,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50812,7 +50813,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 395,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50857,7 +50858,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 261,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50902,7 +50903,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Cutting Tools",
     "price": 809,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p056_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50947,7 +50948,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 712,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -50992,7 +50993,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 796,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51037,7 +51038,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1145,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51082,7 +51083,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 378,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51127,7 +51128,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 443,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51172,7 +51173,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 574,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51217,7 +51218,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 743,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51262,7 +51263,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 868,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51307,7 +51308,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 4610,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51352,7 +51353,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 6254,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51397,7 +51398,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 3030,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51442,7 +51443,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 5971,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51487,7 +51488,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 6155,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51532,7 +51533,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 541,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51577,7 +51578,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 567,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51622,7 +51623,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 689,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51667,7 +51668,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 348,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51712,7 +51713,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 648,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p057_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51757,7 +51758,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1125,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51802,7 +51803,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1165,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51847,7 +51848,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1325,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51892,7 +51893,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1713,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51937,7 +51938,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1881,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -51982,7 +51983,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1680,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52027,7 +52028,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1833,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52072,7 +52073,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1964,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52117,7 +52118,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 654,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52163,7 +52164,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 805,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52208,7 +52209,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 280,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52254,7 +52255,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 350,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52300,7 +52301,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 568,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52346,7 +52347,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 804,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52392,7 +52393,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1245,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52437,7 +52438,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1550,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52482,7 +52483,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 67,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52528,7 +52529,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 93,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52574,7 +52575,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 151,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52620,7 +52621,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 244,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52666,7 +52667,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1010,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52711,7 +52712,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1676,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52756,7 +52757,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 2825,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52801,7 +52802,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 3918,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52846,7 +52847,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1381,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52892,7 +52893,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1862,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52938,7 +52939,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 3185,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p058_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -52984,7 +52985,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1363,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p059_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53029,7 +53030,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 2376,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p059_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53074,7 +53075,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 2664,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p059_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53119,7 +53120,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 3398,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p059_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53164,7 +53165,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 4276,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p059_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53209,7 +53210,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 5067,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p059_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53344,7 +53345,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 16337,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p059_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53390,7 +53391,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 210,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53435,7 +53436,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 387,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53480,7 +53481,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1433,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53525,7 +53526,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1363,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53570,7 +53571,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1211,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53614,7 +53615,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 3246,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53658,7 +53659,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1428,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53703,7 +53704,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 823,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53748,7 +53749,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1335,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53793,7 +53794,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 1201,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53838,7 +53839,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 217,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53883,7 +53884,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 252,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53928,7 +53929,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 355,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -53973,7 +53974,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 473,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54018,7 +54019,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 952,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54063,7 +54064,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 790,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54108,7 +54109,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 827,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g10.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54153,7 +54154,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Striking Tools",
     "price": 872,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p060_g11.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54198,7 +54199,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 777,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54243,7 +54244,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 698,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54288,7 +54289,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 842,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54333,7 +54334,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 1412,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54378,7 +54379,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 401,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54423,7 +54424,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 401,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54468,7 +54469,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 405,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54513,7 +54514,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 416,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54558,7 +54559,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 475,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54603,7 +54604,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 438,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54648,7 +54649,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 475,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54693,7 +54694,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 654,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54738,7 +54739,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 3420,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54779,7 +54780,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 8688,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54824,7 +54825,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2536,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54865,7 +54866,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 3751,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54906,7 +54907,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 6408,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54947,7 +54948,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 8247,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -54988,7 +54989,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 12491,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55029,7 +55030,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 4324,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p061_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55070,7 +55071,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 7949,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55115,7 +55116,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 11306,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55160,7 +55161,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 14308,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55205,7 +55206,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 3180,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55250,7 +55251,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 3308,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55295,7 +55296,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 3560,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55340,7 +55341,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 189,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55385,7 +55386,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 306,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55430,7 +55431,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 728,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55475,7 +55476,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 1136,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55520,7 +55521,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 1175,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55565,7 +55566,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 1718,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55606,7 +55607,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2005,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55647,7 +55648,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2087,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55688,7 +55689,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2278,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55729,7 +55730,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2045,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55774,7 +55775,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2295,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55819,7 +55820,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2861,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55864,7 +55865,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 3101,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p062_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55909,7 +55910,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 1478,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p063_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55954,7 +55955,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 2823,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p063_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -55999,7 +56000,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 1129,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p063_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56044,7 +56045,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 8414,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p063_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56089,7 +56090,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p063_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56134,7 +56135,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p063_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56179,7 +56180,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Work Holding & Clamps",
     "price": 4445,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p063_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56220,7 +56221,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 49284,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56266,7 +56267,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 68722,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56310,7 +56311,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 55142,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56356,7 +56357,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 31500,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56401,7 +56402,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 39784,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56446,7 +56447,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 53893,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56492,7 +56493,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 54000,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56537,7 +56538,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 49000,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56582,7 +56583,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 53822,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56627,7 +56628,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 85867,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p064_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56672,7 +56673,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 26818,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p065_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56717,7 +56718,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 29500,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p065_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56897,7 +56898,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 39003,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p065_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56947,7 +56948,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 44201,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p065_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -56993,7 +56994,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 59984,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p065_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57038,7 +57039,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 18487,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p065_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57083,7 +57084,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 33224,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p065_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57129,7 +57130,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 10476,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p066_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57174,7 +57175,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3748,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p069_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57219,7 +57220,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 23083,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p069_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57260,7 +57261,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 7184,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p069_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57305,7 +57306,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 6206,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p069_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57346,7 +57347,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 13516,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p069_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57391,7 +57392,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 15100,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p069_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57432,7 +57433,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 4199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57477,7 +57478,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 11515,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57518,7 +57519,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 849,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57563,7 +57564,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 953,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57608,7 +57609,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1665,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57653,7 +57654,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 5585,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57698,7 +57699,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 4858,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57743,7 +57744,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 5158,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57788,7 +57789,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 5574,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57833,7 +57834,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 5778,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57878,7 +57879,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1844,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57923,7 +57924,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2751,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -57968,7 +57969,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3742,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58013,7 +58014,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2144,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58058,7 +58059,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2739,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p070_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58103,7 +58104,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 780,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58148,7 +58149,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1246,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58193,7 +58194,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1861,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58238,7 +58239,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3081,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58283,7 +58284,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 700,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58329,7 +58330,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 928,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58375,7 +58376,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1319,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58421,7 +58422,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 518,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58462,7 +58463,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1015,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58503,7 +58504,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1496,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58544,7 +58545,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1499,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58589,7 +58590,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2711,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58634,7 +58635,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 4352,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58679,7 +58680,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2875,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58720,7 +58721,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 4617,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p071_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58765,7 +58766,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2363,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58810,7 +58811,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3396,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58855,7 +58856,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3174,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58900,7 +58901,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2687,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58946,7 +58947,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1061,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -58992,7 +58993,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 6245,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59033,7 +59034,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3665,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59078,7 +59079,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 805,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59124,7 +59125,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2478,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59170,7 +59171,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2810,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59216,7 +59217,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3982,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59262,7 +59263,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 8367,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p072_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59303,7 +59304,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 4593,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59348,7 +59349,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 10574,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59389,7 +59390,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 6613,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59430,7 +59431,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 5625,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59471,7 +59472,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 10140,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59516,7 +59517,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 5351,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59565,7 +59566,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 8332,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59610,7 +59611,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1497,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p073_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59655,7 +59656,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 2277,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p074_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59700,7 +59701,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 731,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p074_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59741,7 +59742,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1995,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p074_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59786,7 +59787,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 1146,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p074_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59827,7 +59828,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Storage",
     "price": 3909,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p074_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59872,7 +59873,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 138220,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59917,7 +59918,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 38182,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59958,7 +59959,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 41819,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -59999,7 +60000,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 43637,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60040,7 +60041,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 46364,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60081,7 +60082,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 145131,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60122,7 +60123,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 201571,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60163,7 +60164,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 225760,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60204,7 +60205,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 43637,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60245,7 +60246,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 47273,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60286,7 +60287,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 90910,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60327,7 +60328,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 110576,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60372,7 +60373,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 51603,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60417,7 +60418,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 72566,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60462,7 +60463,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 80629,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60507,7 +60508,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 88692,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60552,7 +60553,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 153194,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60597,7 +60598,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 253403,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60646,7 +60647,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 11436,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60691,7 +60692,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 14353,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p075_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60736,7 +60737,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 9356,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60781,7 +60782,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 10692,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60826,7 +60827,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 4728,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60871,7 +60872,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 4915,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60916,7 +60917,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 7446,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -60961,7 +60962,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 12287,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61006,7 +61007,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 11265,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61051,7 +61052,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 6683,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61096,7 +61097,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 7446,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61141,7 +61142,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 8783,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61186,7 +61187,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 12182,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61235,7 +61236,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 5806,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61280,7 +61281,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 6128,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61325,7 +61326,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 5990,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61374,7 +61375,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 8592,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61419,7 +61420,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 8592,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p076_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61468,7 +61469,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 12983,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61513,7 +61514,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 7065,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61558,7 +61559,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 9184,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61603,7 +61604,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 10644,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61652,7 +61653,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 10500,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61693,7 +61694,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 31310,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61734,7 +61735,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 19658,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61779,7 +61780,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 23182,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61828,7 +61829,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 10024,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61873,7 +61874,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 15083,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61918,7 +61919,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 11450,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -61963,7 +61964,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 12901,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62012,7 +62013,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 17756,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62057,7 +62058,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 22146,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62102,7 +62103,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 24724,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62147,7 +62148,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 7580,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62192,7 +62193,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 6110,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p077_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62237,7 +62238,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 11646,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62282,7 +62283,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 4000,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62327,7 +62328,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 5376,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62372,7 +62373,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 6728,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62421,7 +62422,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 2674,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62466,7 +62467,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 3548,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62511,7 +62512,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 5000,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62556,7 +62557,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 8870,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g03.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62605,7 +62606,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 2528,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g04.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62654,7 +62655,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 8908,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62699,7 +62700,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 10967,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62744,7 +62745,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 11672,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62789,7 +62790,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 12901,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g05.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62838,7 +62839,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 5819,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62883,7 +62884,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 6364,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62928,7 +62929,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 8140,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g06.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -62977,7 +62978,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 3628,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -63022,7 +63023,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 4199,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g07.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -63071,7 +63072,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 11826,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -63116,7 +63117,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 5819,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g08.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -63165,7 +63166,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Hand Trucks",
     "price": 4728,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p078_g09.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65330,7 +65331,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1023,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65370,7 +65371,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1419,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65410,7 +65411,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1859,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65450,7 +65451,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 2490,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65490,7 +65491,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 99,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65530,7 +65531,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 99,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65570,7 +65571,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 135,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65610,7 +65611,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 135,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65650,7 +65651,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 121,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65690,7 +65691,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 145,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65730,7 +65731,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 120,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65770,7 +65771,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 130,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65810,7 +65811,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 150,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65850,7 +65851,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 160,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65890,7 +65891,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 185,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65930,7 +65931,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 210,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -65970,7 +65971,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 475,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66010,7 +66011,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 230,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66050,7 +66051,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 350,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66090,7 +66091,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 330,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66130,7 +66131,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 465,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66170,7 +66171,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 750,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66210,7 +66211,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 650,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66250,7 +66251,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 725,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66290,7 +66291,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 515,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66330,7 +66331,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 950,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66370,7 +66371,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 76,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66410,7 +66411,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 86,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66450,7 +66451,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 82,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66490,7 +66491,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 96,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66530,7 +66531,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 96,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66570,7 +66571,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 104,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66610,7 +66611,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 107,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66650,7 +66651,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 116,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66690,7 +66691,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 132,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66730,7 +66731,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 159,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66770,7 +66771,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 131,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66810,7 +66811,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 148,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66850,7 +66851,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 159,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66890,7 +66891,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 183,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66930,7 +66931,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 160,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -66970,7 +66971,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 410,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67010,7 +67011,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 410,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67050,7 +67051,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 262,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67090,7 +67091,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 311,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67130,7 +67131,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 343,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67170,7 +67171,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 324,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67210,7 +67211,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 464,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67250,7 +67251,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 514,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67290,7 +67291,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1050,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -67330,7 +67331,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1050,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p026_g02.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68410,7 +68411,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1455,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68450,7 +68451,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 750,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68490,7 +68491,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 759,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68530,7 +68531,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1859,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68570,7 +68571,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 2850,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68610,7 +68611,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 245,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68650,7 +68651,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 288,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68690,7 +68691,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 313,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68730,7 +68731,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 298,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68770,7 +68771,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 323,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68810,7 +68811,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 350,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p052_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68850,7 +68851,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1309,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68892,7 +68893,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 869,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68934,7 +68935,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1089,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -68976,7 +68977,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1540,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69018,7 +69019,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1419,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69060,7 +69061,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 2739,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69102,7 +69103,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 3289,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69144,7 +69145,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 4059,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69186,7 +69187,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 9300,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69228,7 +69229,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 1309,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69270,7 +69271,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 2519,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69312,7 +69313,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Accessories",
     "price": 979,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/p110_g01.jpg",
     "specifications": [
       {
         "label": "Part Number",
@@ -69354,7 +69355,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -69415,7 +69416,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt080_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -69476,7 +69477,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt081_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -69563,7 +69564,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt081_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -69592,7 +69593,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt081_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -69645,7 +69646,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt081_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -69674,7 +69675,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt081_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70022,7 +70023,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt083_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70112,7 +70113,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt084_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70165,7 +70166,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt084_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70226,7 +70227,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt084_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70287,7 +70288,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt084_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70320,7 +70321,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt084_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70381,7 +70382,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt084_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70416,7 +70417,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt085_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70477,7 +70478,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt085_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70538,7 +70539,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt085_06.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70591,7 +70592,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt085_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70652,7 +70653,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt085_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70701,7 +70702,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt085_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70762,7 +70763,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt086_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70823,7 +70824,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt086_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70876,7 +70877,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt086_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70937,7 +70938,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt086_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -70998,7 +70999,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt086_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71051,7 +71052,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt086_06.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71104,7 +71105,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt087_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71157,7 +71158,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt087_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71214,7 +71215,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt087_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71275,7 +71276,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt087_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71328,7 +71329,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt087_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71381,7 +71382,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt088_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71438,7 +71439,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt088_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71499,7 +71500,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt088_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71560,7 +71561,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt088_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71621,7 +71622,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt088_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71682,7 +71683,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt088_06.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71727,7 +71728,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt089_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71788,7 +71789,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt089_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71849,7 +71850,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt089_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71910,7 +71911,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt089_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -71971,7 +71972,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt089_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72032,7 +72033,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt090_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72126,7 +72127,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt090_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72171,7 +72172,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt090_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72220,7 +72221,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt092_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72281,7 +72282,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt092_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72397,7 +72398,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt095_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72454,7 +72455,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt095_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72503,7 +72504,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt095_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72552,7 +72553,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt095_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72605,7 +72606,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_01.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72658,7 +72659,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_03.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72707,7 +72708,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72756,7 +72757,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_05.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72805,7 +72806,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_02.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72858,7 +72859,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72919,7 +72920,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_04.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -72964,7 +72965,7 @@ window.STANLEY_PRODUCTS = [
     "category": "Power Tools",
     "price": 0,
     "currency": "INR",
-    "image": "images/precision-measuring-feature.webp",
+    "image": "catalog_images/pt096_06.jpg",
     "specifications": [
       {
         "label": "Model Number",
@@ -73010,3 +73011,7 @@ window.STANLEY_PRODUCTS = [
     "status": "Commercial Supply"
   }
 ];
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = window.STANLEY_PRODUCTS;
+}
