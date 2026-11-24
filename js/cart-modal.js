@@ -265,7 +265,7 @@
     } else {
       container.innerHTML = cart.map(item => `
         <div class="flex items-center gap-4 p-3 bg-white border border-slate-200/90 rounded-2xl shadow-sm hover:border-slate-300 transition">
-          <img src="${item.image}" alt="${item.name}" class="w-16 h-16 object-contain bg-slate-50 rounded-xl p-1 border border-slate-100 shrink-0">
+          <img src="${item.image}" alt="${item.name}" class="w-20 h-20 object-contain bg-gradient-to-b from-slate-50 to-white rounded-xl p-1.5 border border-slate-100 shrink-0 drop-shadow-sm filter contrast-[1.03]">
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2 mb-0.5">
               <span class="text-[10px] font-black uppercase tracking-wider bg-brand-yellow/20 text-black px-2 py-0.5 rounded-full">
@@ -398,8 +398,8 @@
           </div>
 
           <!-- Product Image Container -->
-          <div class="rounded-2xl overflow-hidden bg-white border border-slate-200/80 p-4 shadow-sm relative group aspect-square flex items-center justify-center">
-            <img src="${product.image}" alt="${product.name}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500">
+          <div class="rounded-2xl overflow-hidden bg-gradient-to-b from-slate-50/80 via-white to-slate-50/40 border border-slate-200/80 p-3 shadow-sm relative group aspect-square flex items-center justify-center">
+            <img src="${product.image}" alt="${product.name}" class="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500 drop-shadow-[0_10px_25px_rgba(0,0,0,0.1)] filter contrast-[1.04]">
             <div class="absolute bottom-3 left-3 bg-black/60 backdrop-blur-md text-white text-[10px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1">
               <i data-lucide="shield-check" class="w-3 h-3 text-brand-yellow"></i>
               <span>${brandNote}</span>

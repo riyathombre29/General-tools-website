@@ -6,5 +6,8 @@
     "start": "node server.js",
     "login": "npx firebase-tools login",
     "deploy": "npx firebase-tools deploy --only hosting"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
   }
 }
